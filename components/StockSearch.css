@@ -1,0 +1,67 @@
+/* 搜尋介面 */
+.search-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* 搜尋輸入框 */
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-row input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.results-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  z-index: 999; /* 確保在最前方 */
+  list-style: none;
+  padding: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.search-list li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* 內容向左右展開 */
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  /* 給每一筆資料加個底線，#eee是#eeeeee的縮寫，一種非常淺的灰色 */
+}
+
+.search-list li:hover {
+  background-color: #f0f0f0;
+}
+/* 讓列表的最後一個資料沒有底線 */
+.search-list li:last-child {
+  border-bottom: none;
+}
+
+.results-dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.results-dropdown li:hover {
+  background-color: #f0f7ff;
+}
+
+.stock-id { font-weight: bold; color: #333; }
+.stock-name { color: #666; }
+.stock-price { color: #e74c3c; font-size: 0.9rem; }

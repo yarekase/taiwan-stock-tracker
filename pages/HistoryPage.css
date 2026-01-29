@@ -1,0 +1,82 @@
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.record-table th, .record-table td {
+  border-bottom: 1px solid #eee;
+  padding: 12px;
+  text-align: left;
+}
+
+/* 買入藍字，賣出黑字 */
+.text-blue {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.text-black {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.filter-bar input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profit-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.profit-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+}
+
+.profit-card label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profit-card .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.value.buy { color: #e74c3c; } /* 投入是負出，用紅色 */
+.value.sell { color: #2ecc71; } /* 回收用綠色 */
+.value.net { color: #34495e; }
+
+.record-table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.btn-delete {
+  background-color: transparent;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #e74c3c;
+  color: white;
+}

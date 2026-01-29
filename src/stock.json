@@ -1,0 +1,6692 @@
+[
+  {
+    "id": "0050",
+    "name": "元大台灣50",
+    "currentPrice": "73.05"
+  },
+  {
+    "id": "0051",
+    "name": "元大中型100",
+    "currentPrice": "105.65"
+  },
+  {
+    "id": "0052",
+    "name": "富邦科技",
+    "currentPrice": "43.42"
+  },
+  {
+    "id": "0053",
+    "name": "元大電子",
+    "currentPrice": "161.25"
+  },
+  {
+    "id": "0055",
+    "name": "元大MSCI金融",
+    "currentPrice": "32.26"
+  },
+  {
+    "id": "0056",
+    "name": "元大高股息",
+    "currentPrice": "38.51"
+  },
+  {
+    "id": "0057",
+    "name": "富邦摩台",
+    "currentPrice": "216.00"
+  },
+  {
+    "id": "0061",
+    "name": "元大寶滬深",
+    "currentPrice": "23.61"
+  },
+  {
+    "id": "006203",
+    "name": "元大MSCI台灣",
+    "currentPrice": "131.80"
+  },
+  {
+    "id": "006204",
+    "name": "永豐臺灣加權",
+    "currentPrice": "165.05"
+  },
+  {
+    "id": "006205",
+    "name": "富邦上証",
+    "currentPrice": "40.99"
+  },
+  {
+    "id": "006206",
+    "name": "元大上證50",
+    "currentPrice": "37.84"
+  },
+  {
+    "id": "006207",
+    "name": "復華滬深",
+    "currentPrice": "31.58"
+  },
+  {
+    "id": "006208",
+    "name": "富邦台50",
+    "currentPrice": "169.00"
+  },
+  {
+    "id": "00625K",
+    "name": "富邦上証+R",
+    "currentPrice": ""
+  },
+  {
+    "id": "00631L",
+    "name": "元大台灣50正2",
+    "currentPrice": "451.10"
+  },
+  {
+    "id": "00632R",
+    "name": "元大台灣50反1",
+    "currentPrice": "14.71"
+  },
+  {
+    "id": "00633L",
+    "name": "富邦上証正2",
+    "currentPrice": "48.15"
+  },
+  {
+    "id": "00634R",
+    "name": "富邦上証反1",
+    "currentPrice": "3.26"
+  },
+  {
+    "id": "00635U",
+    "name": "期元大S&P黃金",
+    "currentPrice": "54.05"
+  },
+  {
+    "id": "00636",
+    "name": "國泰中國A50",
+    "currentPrice": "26.64"
+  },
+  {
+    "id": "00636K",
+    "name": "國泰中國A50+U",
+    "currentPrice": "8.52"
+  },
+  {
+    "id": "00637L",
+    "name": "元大滬深300正2",
+    "currentPrice": "19.80"
+  },
+  {
+    "id": "00638R",
+    "name": "元大滬深300反1",
+    "currentPrice": "6.98"
+  },
+  {
+    "id": "00639",
+    "name": "富邦深100",
+    "currentPrice": "15.40"
+  },
+  {
+    "id": "00640L",
+    "name": "富邦日本正2",
+    "currentPrice": "84.25"
+  },
+  {
+    "id": "00641R",
+    "name": "富邦日本反1",
+    "currentPrice": "4.37"
+  },
+  {
+    "id": "00642U",
+    "name": "期元大S&P石油",
+    "currentPrice": "15.85"
+  },
+  {
+    "id": "00643",
+    "name": "群益深証中小",
+    "currentPrice": "18.00"
+  },
+  {
+    "id": "00643K",
+    "name": "群益深証中小+R",
+    "currentPrice": "3.99"
+  },
+  {
+    "id": "00645",
+    "name": "富邦日本",
+    "currentPrice": "49.84"
+  },
+  {
+    "id": "00646",
+    "name": "元大S&P500",
+    "currentPrice": "68.80"
+  },
+  {
+    "id": "00647L",
+    "name": "元大S&P500正2",
+    "currentPrice": "119.70"
+  },
+  {
+    "id": "00648R",
+    "name": "元大S&P500反1",
+    "currentPrice": "4.29"
+  },
+  {
+    "id": "00650L",
+    "name": "復華香港正2",
+    "currentPrice": "19.33"
+  },
+  {
+    "id": "00651R",
+    "name": "復華香港反1",
+    "currentPrice": "5.06"
+  },
+  {
+    "id": "00652",
+    "name": "富邦印度",
+    "currentPrice": "35.67"
+  },
+  {
+    "id": "00653L",
+    "name": "富邦印度正2",
+    "currentPrice": "53.50"
+  },
+  {
+    "id": "00654R",
+    "name": "富邦印度反1",
+    "currentPrice": "6.54"
+  },
+  {
+    "id": "00655L",
+    "name": "國泰中國A50正2",
+    "currentPrice": "33.30"
+  },
+  {
+    "id": "00656R",
+    "name": "國泰中國A50反1",
+    "currentPrice": "6.17"
+  },
+  {
+    "id": "00657",
+    "name": "國泰日經225",
+    "currentPrice": "62.85"
+  },
+  {
+    "id": "00657K",
+    "name": "國泰日經225+U",
+    "currentPrice": "20.03"
+  },
+  {
+    "id": "00660",
+    "name": "元大歐洲50",
+    "currentPrice": "43.91"
+  },
+  {
+    "id": "00661",
+    "name": "元大日經225",
+    "currentPrice": "68.70"
+  },
+  {
+    "id": "00662",
+    "name": "富邦NASDAQ",
+    "currentPrice": "104.50"
+  },
+  {
+    "id": "00663L",
+    "name": "國泰臺灣加權正2",
+    "currentPrice": "58.95"
+  },
+  {
+    "id": "00664R",
+    "name": "國泰臺灣加權反1",
+    "currentPrice": "2.38"
+  },
+  {
+    "id": "00665L",
+    "name": "富邦恒生國企正2",
+    "currentPrice": "11.40"
+  },
+  {
+    "id": "00666R",
+    "name": "富邦恒生國企反1",
+    "currentPrice": "8.57"
+  },
+  {
+    "id": "00668",
+    "name": "國泰美國道瓊",
+    "currentPrice": "56.60"
+  },
+  {
+    "id": "00668K",
+    "name": "國泰美國道瓊+U",
+    "currentPrice": "18.04"
+  },
+  {
+    "id": "00669R",
+    "name": "國泰美國道瓊反1",
+    "currentPrice": "5.59"
+  },
+  {
+    "id": "00670L",
+    "name": "富邦NASDAQ正2",
+    "currentPrice": "167.05"
+  },
+  {
+    "id": "00671R",
+    "name": "富邦NASDAQ反1",
+    "currentPrice": "2.80"
+  },
+  {
+    "id": "00673R",
+    "name": "期元大S&P原油反1",
+    "currentPrice": "26.90"
+  },
+  {
+    "id": "00674R",
+    "name": "期元大S&P黃金反1",
+    "currentPrice": "5.03"
+  },
+  {
+    "id": "00675L",
+    "name": "富邦臺灣加權正2",
+    "currentPrice": "179.20"
+  },
+  {
+    "id": "00676R",
+    "name": "富邦臺灣加權反1",
+    "currentPrice": "8.10"
+  },
+  {
+    "id": "00678",
+    "name": "群益那斯達克生技",
+    "currentPrice": "36.41"
+  },
+  {
+    "id": "00680L",
+    "name": "元大美債20正2",
+    "currentPrice": "7.28"
+  },
+  {
+    "id": "00681R",
+    "name": "元大美債20反1",
+    "currentPrice": "20.69"
+  },
+  {
+    "id": "00682U",
+    "name": "期元大美元指數",
+    "currentPrice": "19.93"
+  },
+  {
+    "id": "00683L",
+    "name": "期元大美元指正2",
+    "currentPrice": "20.25"
+  },
+  {
+    "id": "00684R",
+    "name": "期元大美元指反1",
+    "currentPrice": "15.80"
+  },
+  {
+    "id": "00685L",
+    "name": "群益臺灣加權正2",
+    "currentPrice": "160.55"
+  },
+  {
+    "id": "00686R",
+    "name": "群益臺灣加權反1",
+    "currentPrice": "1.45"
+  },
+  {
+    "id": "00688L",
+    "name": "國泰20年美債正2",
+    "currentPrice": "7.27"
+  },
+  {
+    "id": "00689R",
+    "name": "國泰20年美債反1",
+    "currentPrice": "21.51"
+  },
+  {
+    "id": "00690",
+    "name": "兆豐藍籌30",
+    "currentPrice": "51.05"
+  },
+  {
+    "id": "00692",
+    "name": "富邦公司治理",
+    "currentPrice": "64.35"
+  },
+  {
+    "id": "00693U",
+    "name": "期街口S&P黃豆",
+    "currentPrice": "20.26"
+  },
+  {
+    "id": "00700",
+    "name": "富邦恒生國企",
+    "currentPrice": "18.76"
+  },
+  {
+    "id": "00701",
+    "name": "國泰股利精選30",
+    "currentPrice": "29.51"
+  },
+  {
+    "id": "00702",
+    "name": "國泰標普低波高息",
+    "currentPrice": "23.33"
+  },
+  {
+    "id": "00703",
+    "name": "台新MSCI中國",
+    "currentPrice": "22.32"
+  },
+  {
+    "id": "00706L",
+    "name": "期元大S&P日圓正2",
+    "currentPrice": "20.92"
+  },
+  {
+    "id": "00707R",
+    "name": "期元大S&P日圓反1",
+    "currentPrice": "30.75"
+  },
+  {
+    "id": "00708L",
+    "name": "期元大S&P黃金正2",
+    "currentPrice": "121.95"
+  },
+  {
+    "id": "00709",
+    "name": "富邦歐洲",
+    "currentPrice": "38.67"
+  },
+  {
+    "id": "00710B",
+    "name": "復華彭博非投等債",
+    "currentPrice": "19.04"
+  },
+  {
+    "id": "00711B",
+    "name": "復華彭博新興債",
+    "currentPrice": "16.29"
+  },
+  {
+    "id": "00712",
+    "name": "復華富時不動產",
+    "currentPrice": "9.65"
+  },
+  {
+    "id": "00713",
+    "name": "元大台灣高息低波",
+    "currentPrice": "52.10"
+  },
+  {
+    "id": "00714",
+    "name": "群益道瓊美國地產",
+    "currentPrice": "20.27"
+  },
+  {
+    "id": "00715L",
+    "name": "期街口布蘭特正2",
+    "currentPrice": "22.07"
+  },
+  {
+    "id": "00717",
+    "name": "富邦美國特別股",
+    "currentPrice": "15.35"
+  },
+  {
+    "id": "00728",
+    "name": "第一金工業30",
+    "currentPrice": "43.00"
+  },
+  {
+    "id": "00730",
+    "name": "富邦臺灣優質高息",
+    "currentPrice": "23.18"
+  },
+  {
+    "id": "00731",
+    "name": "復華富時高息低波",
+    "currentPrice": "73.60"
+  },
+  {
+    "id": "00733",
+    "name": "富邦臺灣中小",
+    "currentPrice": "50.40"
+  },
+  {
+    "id": "00735",
+    "name": "國泰臺韓科技",
+    "currentPrice": "61.70"
+  },
+  {
+    "id": "00736",
+    "name": "國泰新興市場",
+    "currentPrice": "29.22"
+  },
+  {
+    "id": "00737",
+    "name": "國泰AI機器人",
+    "currentPrice": "37.14"
+  },
+  {
+    "id": "00738U",
+    "name": "期元大道瓊白銀",
+    "currentPrice": "89.05"
+  },
+  {
+    "id": "00739",
+    "name": "元大MSCI A股",
+    "currentPrice": "27.38"
+  },
+  {
+    "id": "00752",
+    "name": "中信中國50",
+    "currentPrice": "27.09"
+  },
+  {
+    "id": "00753L",
+    "name": "中信中國50正2",
+    "currentPrice": "13.14"
+  },
+  {
+    "id": "00757",
+    "name": "統一FANG+",
+    "currentPrice": "116.25"
+  },
+  {
+    "id": "00762",
+    "name": "元大全球AI",
+    "currentPrice": "86.55"
+  },
+  {
+    "id": "00763U",
+    "name": "期街口道瓊銅",
+    "currentPrice": "32.30"
+  },
+  {
+    "id": "00770",
+    "name": "國泰北美科技",
+    "currentPrice": "54.60"
+  },
+  {
+    "id": "00771",
+    "name": "元大US高息特別股",
+    "currentPrice": "16.22"
+  },
+  {
+    "id": "00775B",
+    "name": "新光投等債15+",
+    "currentPrice": "33.03"
+  },
+  {
+    "id": "00783",
+    "name": "富邦中証500",
+    "currentPrice": "28.90"
+  },
+  {
+    "id": "00830",
+    "name": "國泰費城半導體",
+    "currentPrice": "55.75"
+  },
+  {
+    "id": "00850",
+    "name": "元大臺灣ESG永續",
+    "currentPrice": "61.35"
+  },
+  {
+    "id": "00851",
+    "name": "台新全球AI",
+    "currentPrice": "59.30"
+  },
+  {
+    "id": "00852L",
+    "name": "國泰美國道瓊正2",
+    "currentPrice": "31.83"
+  },
+  {
+    "id": "00861",
+    "name": "元大全球未來通訊",
+    "currentPrice": "60.50"
+  },
+  {
+    "id": "00865B",
+    "name": "國泰US短期公債",
+    "currentPrice": "47.27"
+  },
+  {
+    "id": "00875",
+    "name": "國泰網路資安",
+    "currentPrice": "38.92"
+  },
+  {
+    "id": "00876",
+    "name": "元大全球5G",
+    "currentPrice": "59.00"
+  },
+  {
+    "id": "00878",
+    "name": "國泰永續高股息",
+    "currentPrice": "23.49"
+  },
+  {
+    "id": "00881",
+    "name": "國泰台灣科技龍頭",
+    "currentPrice": "34.52"
+  },
+  {
+    "id": "00882",
+    "name": "中信中國高股息",
+    "currentPrice": "15.27"
+  },
+  {
+    "id": "00885",
+    "name": "富邦越南",
+    "currentPrice": "18.32"
+  },
+  {
+    "id": "00891",
+    "name": "中信關鍵半導體",
+    "currentPrice": "23.97"
+  },
+  {
+    "id": "00892",
+    "name": "富邦台灣半導體",
+    "currentPrice": "25.50"
+  },
+  {
+    "id": "00893",
+    "name": "國泰智能電動車",
+    "currentPrice": "34.62"
+  },
+  {
+    "id": "00894",
+    "name": "中信小資高價30",
+    "currentPrice": "30.86"
+  },
+  {
+    "id": "00895",
+    "name": "富邦未來車",
+    "currentPrice": "41.27"
+  },
+  {
+    "id": "00896",
+    "name": "中信綠能及電動車",
+    "currentPrice": "21.26"
+  },
+  {
+    "id": "00897",
+    "name": "富邦基因免疫生技",
+    "currentPrice": "9.82"
+  },
+  {
+    "id": "00898",
+    "name": "國泰基因免疫革命",
+    "currentPrice": "8.49"
+  },
+  {
+    "id": "00899",
+    "name": "FT潔淨能源",
+    "currentPrice": "22.76"
+  },
+  {
+    "id": "00900",
+    "name": "富邦特選高股息30",
+    "currentPrice": "14.59"
+  },
+  {
+    "id": "00901",
+    "name": "永豐智能車供應鏈",
+    "currentPrice": "28.67"
+  },
+  {
+    "id": "00902",
+    "name": "中信電池及儲能",
+    "currentPrice": "14.35"
+  },
+  {
+    "id": "00903",
+    "name": "富邦元宇宙",
+    "currentPrice": "17.76"
+  },
+  {
+    "id": "00904",
+    "name": "新光臺灣半導體30",
+    "currentPrice": "27.85"
+  },
+  {
+    "id": "00905",
+    "name": "FT臺灣Smart",
+    "currentPrice": "18.94"
+  },
+  {
+    "id": "00907",
+    "name": "永豐優息存股",
+    "currentPrice": "15.63"
+  },
+  {
+    "id": "00908",
+    "name": "富邦入息REITs+",
+    "currentPrice": "14.18"
+  },
+  {
+    "id": "00909",
+    "name": "國泰數位支付服務",
+    "currentPrice": "43.19"
+  },
+  {
+    "id": "00910",
+    "name": "第一金太空衛星",
+    "currentPrice": "54.85"
+  },
+  {
+    "id": "00911",
+    "name": "兆豐洲際半導體",
+    "currentPrice": "37.04"
+  },
+  {
+    "id": "00912",
+    "name": "中信臺灣智慧50",
+    "currentPrice": "23.07"
+  },
+  {
+    "id": "00913",
+    "name": "兆豐台灣晶圓製造",
+    "currentPrice": "31.00"
+  },
+  {
+    "id": "00915",
+    "name": "凱基優選高股息30",
+    "currentPrice": "24.35"
+  },
+  {
+    "id": "00916",
+    "name": "國泰全球品牌50",
+    "currentPrice": "27.17"
+  },
+  {
+    "id": "00917",
+    "name": "中信特選金融",
+    "currentPrice": "22.09"
+  },
+  {
+    "id": "00918",
+    "name": "大華優利高填息30",
+    "currentPrice": "23.61"
+  },
+  {
+    "id": "00919",
+    "name": "群益台灣精選高息",
+    "currentPrice": "24.26"
+  },
+  {
+    "id": "00920",
+    "name": "富邦ESG綠色電力",
+    "currentPrice": "20.18"
+  },
+  {
+    "id": "00921",
+    "name": "兆豐龍頭等權重",
+    "currentPrice": "18.49"
+  },
+  {
+    "id": "00922",
+    "name": "國泰台灣領袖50",
+    "currentPrice": "28.80"
+  },
+  {
+    "id": "00923",
+    "name": "群益台ESG低碳50",
+    "currentPrice": "29.19"
+  },
+  {
+    "id": "00924",
+    "name": "復華S&P500成長",
+    "currentPrice": "29.45"
+  },
+  {
+    "id": "00926",
+    "name": "凱基全球菁英55",
+    "currentPrice": "24.14"
+  },
+  {
+    "id": "00927",
+    "name": "群益半導體收益",
+    "currentPrice": "26.04"
+  },
+  {
+    "id": "00929",
+    "name": "復華台灣科技優息",
+    "currentPrice": "20.35"
+  },
+  {
+    "id": "00930",
+    "name": "永豐ESG低碳高息",
+    "currentPrice": "18.52"
+  },
+  {
+    "id": "00932",
+    "name": "兆豐永續高息等權",
+    "currentPrice": "15.32"
+  },
+  {
+    "id": "00934",
+    "name": "中信成長高股息",
+    "currentPrice": "22.80"
+  },
+  {
+    "id": "00935",
+    "name": "野村臺灣新科技50",
+    "currentPrice": "36.14"
+  },
+  {
+    "id": "00936",
+    "name": "台新永續高息中小",
+    "currentPrice": "17.75"
+  },
+  {
+    "id": "00938",
+    "name": "凱基優選30",
+    "currentPrice": "18.58"
+  },
+  {
+    "id": "00939",
+    "name": "統一台灣高息動能",
+    "currentPrice": "16.01"
+  },
+  {
+    "id": "00940",
+    "name": "元大台灣價值高息",
+    "currentPrice": "9.87"
+  },
+  {
+    "id": "00941",
+    "name": "中信上游半導體",
+    "currentPrice": "20.65"
+  },
+  {
+    "id": "00943",
+    "name": "兆豐電子高息等權",
+    "currentPrice": "15.23"
+  },
+  {
+    "id": "00944",
+    "name": "野村趨勢動能高息",
+    "currentPrice": "15.36"
+  },
+  {
+    "id": "00945B",
+    "name": "凱基美國非投等債",
+    "currentPrice": "14.55"
+  },
+  {
+    "id": "00946",
+    "name": "群益科技高息成長",
+    "currentPrice": "10.81"
+  },
+  {
+    "id": "00947",
+    "name": "台新臺灣IC設計",
+    "currentPrice": "23.67"
+  },
+  {
+    "id": "00949",
+    "name": "復華日本龍頭",
+    "currentPrice": "18.96"
+  },
+  {
+    "id": "00951",
+    "name": "台新日本半導體",
+    "currentPrice": "13.90"
+  },
+  {
+    "id": "00952",
+    "name": "凱基台灣AI50",
+    "currentPrice": "12.96"
+  },
+  {
+    "id": "00953B",
+    "name": "群益優選非投等債",
+    "currentPrice": "9.77"
+  },
+  {
+    "id": "00954",
+    "name": "中信日本半導體",
+    "currentPrice": "14.91"
+  },
+  {
+    "id": "00956",
+    "name": "中信日經高股息",
+    "currentPrice": "11.90"
+  },
+  {
+    "id": "00960",
+    "name": "野村全球航運龍頭",
+    "currentPrice": "14.97"
+  },
+  {
+    "id": "00961",
+    "name": "FT臺灣永續高息",
+    "currentPrice": "10.31"
+  },
+  {
+    "id": "00962",
+    "name": "台新AI優息動能",
+    "currentPrice": "11.44"
+  },
+  {
+    "id": "00963",
+    "name": "中信全球高股息",
+    "currentPrice": "11.93"
+  },
+  {
+    "id": "00964",
+    "name": "中信亞太高股息",
+    "currentPrice": "12.73"
+  },
+  {
+    "id": "00965",
+    "name": "元大航太防衛科技",
+    "currentPrice": "25.31"
+  },
+  {
+    "id": "00971",
+    "name": "野村美國研發龍頭",
+    "currentPrice": "16.13"
+  },
+  {
+    "id": "00972",
+    "name": "野村日本動能高息",
+    "currentPrice": "18.91"
+  },
+  {
+    "id": "009800",
+    "name": "中信NASDAQ",
+    "currentPrice": "11.30"
+  },
+  {
+    "id": "009801",
+    "name": "中信美國創新科技",
+    "currentPrice": "11.10"
+  },
+  {
+    "id": "009802",
+    "name": "富邦旗艦50",
+    "currentPrice": "12.56"
+  },
+  {
+    "id": "009803",
+    "name": "保德信市值動能50",
+    "currentPrice": "14.68"
+  },
+  {
+    "id": "009804",
+    "name": "聯邦台精彩50",
+    "currentPrice": "16.26"
+  },
+  {
+    "id": "009805",
+    "name": "新光美國電力基建",
+    "currentPrice": "13.17"
+  },
+  {
+    "id": "009808",
+    "name": "華南永昌優選50",
+    "currentPrice": "21.96"
+  },
+  {
+    "id": "009809",
+    "name": "富邦淨零ESG50",
+    "currentPrice": "12.11"
+  },
+  {
+    "id": "00980A",
+    "name": "主動野村臺灣優選",
+    "currentPrice": "16.35"
+  },
+  {
+    "id": "009810",
+    "name": "保德信全球藍籌",
+    "currentPrice": "18.86"
+  },
+  {
+    "id": "009811",
+    "name": "統一美國50",
+    "currentPrice": "11.74"
+  },
+  {
+    "id": "009812",
+    "name": "野村日本東證",
+    "currentPrice": "11.31"
+  },
+  {
+    "id": "009813",
+    "name": "貝萊德標普卓越50",
+    "currentPrice": "10.53"
+  },
+  {
+    "id": "00981A",
+    "name": "主動統一台股增長",
+    "currentPrice": "18.15"
+  },
+  {
+    "id": "00981T",
+    "name": "平衡凱基雙核收息",
+    "currentPrice": "11.06"
+  },
+  {
+    "id": "00982A",
+    "name": "主動群益台灣強棒",
+    "currentPrice": "15.50"
+  },
+  {
+    "id": "00982D",
+    "name": "主動富邦動態入息",
+    "currentPrice": "10.15"
+  },
+  {
+    "id": "00982T",
+    "name": "平衡兆豐台美動能",
+    "currentPrice": "11.28"
+  },
+  {
+    "id": "00983A",
+    "name": "主動中信ARK創新",
+    "currentPrice": "12.11"
+  },
+  {
+    "id": "00983D",
+    "name": "主動富邦複合收益",
+    "currentPrice": "10.25"
+  },
+  {
+    "id": "00984A",
+    "name": "主動安聯台灣高息",
+    "currentPrice": "12.17"
+  },
+  {
+    "id": "00985A",
+    "name": "主動野村台灣50",
+    "currentPrice": "14.99"
+  },
+  {
+    "id": "00985B",
+    "name": "群益ESG投等債0-5",
+    "currentPrice": "10.31"
+  },
+  {
+    "id": "00986A",
+    "name": "主動台新龍頭成長",
+    "currentPrice": "11.83"
+  },
+  {
+    "id": "00987A",
+    "name": "主動台新優勢成長",
+    "currentPrice": "10.17"
+  },
+  {
+    "id": "00988A",
+    "name": "主動統一全球創新",
+    "currentPrice": "11.32"
+  },
+  {
+    "id": "00989A",
+    "name": "主動摩根美國科技",
+    "currentPrice": "15.25"
+  },
+  {
+    "id": "00990A",
+    "name": "主動元大AI新經濟",
+    "currentPrice": "10.93"
+  },
+  {
+    "id": "00991A",
+    "name": "主動復華未來50",
+    "currentPrice": "11.60"
+  },
+  {
+    "id": "00992A",
+    "name": "主動群益科技創新",
+    "currentPrice": "11.59"
+  },
+  {
+    "id": "00994A",
+    "name": "主動第一金台股優",
+    "currentPrice": "10.78"
+  },
+  {
+    "id": "00995A",
+    "name": "主動中信台灣卓越",
+    "currentPrice": "10.47"
+  },
+  {
+    "id": "01001T",
+    "name": "土銀富邦R1",
+    "currentPrice": "11.80"
+  },
+  {
+    "id": "01002T",
+    "name": "土銀國泰R1",
+    "currentPrice": "14.55"
+  },
+  {
+    "id": "01004T",
+    "name": "土銀富邦R2",
+    "currentPrice": "10.85"
+  },
+  {
+    "id": "01007T",
+    "name": "兆豐國泰R2",
+    "currentPrice": "13.70"
+  },
+  {
+    "id": "01009T",
+    "name": "王道圓滿R1",
+    "currentPrice": "6.15"
+  },
+  {
+    "id": "01010T",
+    "name": "京城樂富R1",
+    "currentPrice": "10.04"
+  },
+  {
+    "id": "020000",
+    "name": "富邦特選蘋果N",
+    "currentPrice": ""
+  },
+  {
+    "id": "020011",
+    "name": "統一微波高息20N",
+    "currentPrice": ""
+  },
+  {
+    "id": "020012",
+    "name": "富邦行動通訊N",
+    "currentPrice": ""
+  },
+  {
+    "id": "02001L",
+    "name": "富邦蘋果正二N",
+    "currentPrice": "62.85"
+  },
+  {
+    "id": "02001R",
+    "name": "富邦蘋果反一N",
+    "currentPrice": "0.76"
+  },
+  {
+    "id": "020020",
+    "name": "元大台股領航N",
+    "currentPrice": "17.50"
+  },
+  {
+    "id": "020028",
+    "name": "元大特選電動車N",
+    "currentPrice": "14.20"
+  },
+  {
+    "id": "020029",
+    "name": "元大ESG高股息N",
+    "currentPrice": "10.88"
+  },
+  {
+    "id": "020030",
+    "name": "統一智慧電動車N",
+    "currentPrice": "10.14"
+  },
+  {
+    "id": "020031",
+    "name": "統一IC設計臺灣N",
+    "currentPrice": "6.90"
+  },
+  {
+    "id": "020032",
+    "name": "元大綠能N",
+    "currentPrice": ""
+  },
+  {
+    "id": "020034",
+    "name": "元大IC設計N",
+    "currentPrice": "8.57"
+  },
+  {
+    "id": "020036",
+    "name": "元大金融配息N",
+    "currentPrice": ""
+  },
+  {
+    "id": "020037",
+    "name": "元大金融高股息N",
+    "currentPrice": "8.52"
+  },
+  {
+    "id": "020038",
+    "name": "元大ESG配息N",
+    "currentPrice": "8.43"
+  },
+  {
+    "id": "020039",
+    "name": "元大加權N",
+    "currentPrice": "10.24"
+  },
+  {
+    "id": "1101",
+    "name": "台泥",
+    "currentPrice": "26.05"
+  },
+  {
+    "id": "1101B",
+    "name": "台泥乙特",
+    "currentPrice": ""
+  },
+  {
+    "id": "1102",
+    "name": "亞泥",
+    "currentPrice": "35.60"
+  },
+  {
+    "id": "1103",
+    "name": "嘉泥",
+    "currentPrice": "14.15"
+  },
+  {
+    "id": "1104",
+    "name": "環泥",
+    "currentPrice": "29.95"
+  },
+  {
+    "id": "1108",
+    "name": "幸福",
+    "currentPrice": "15.10"
+  },
+  {
+    "id": "1109",
+    "name": "信大",
+    "currentPrice": "15.45"
+  },
+  {
+    "id": "1110",
+    "name": "東泥",
+    "currentPrice": "16.25"
+  },
+  {
+    "id": "1201",
+    "name": "味全",
+    "currentPrice": "14.50"
+  },
+  {
+    "id": "1203",
+    "name": "味王",
+    "currentPrice": "39.85"
+  },
+  {
+    "id": "1210",
+    "name": "大成",
+    "currentPrice": "51.70"
+  },
+  {
+    "id": "1213",
+    "name": "大飲",
+    "currentPrice": "10.25"
+  },
+  {
+    "id": "1215",
+    "name": "卜蜂",
+    "currentPrice": "149.50"
+  },
+  {
+    "id": "1216",
+    "name": "統一",
+    "currentPrice": "73.00"
+  },
+  {
+    "id": "1217",
+    "name": "愛之味",
+    "currentPrice": "10.70"
+  },
+  {
+    "id": "1218",
+    "name": "泰山",
+    "currentPrice": "18.60"
+  },
+  {
+    "id": "1219",
+    "name": "福壽",
+    "currentPrice": "13.45"
+  },
+  {
+    "id": "1220",
+    "name": "台榮",
+    "currentPrice": "12.75"
+  },
+  {
+    "id": "1225",
+    "name": "福懋油",
+    "currentPrice": "28.55"
+  },
+  {
+    "id": "1227",
+    "name": "佳格",
+    "currentPrice": "29.50"
+  },
+  {
+    "id": "1229",
+    "name": "聯華",
+    "currentPrice": "46.80"
+  },
+  {
+    "id": "1231",
+    "name": "聯華食",
+    "currentPrice": "95.20"
+  },
+  {
+    "id": "1232",
+    "name": "大統益",
+    "currentPrice": "145.50"
+  },
+  {
+    "id": "1233",
+    "name": "天仁",
+    "currentPrice": "32.25"
+  },
+  {
+    "id": "1234",
+    "name": "黑松",
+    "currentPrice": "37.05"
+  },
+  {
+    "id": "1235",
+    "name": "興泰",
+    "currentPrice": "41.30"
+  },
+  {
+    "id": "1236",
+    "name": "宏亞",
+    "currentPrice": "25.05"
+  },
+  {
+    "id": "1256",
+    "name": "鮮活果汁-KY",
+    "currentPrice": "158.00"
+  },
+  {
+    "id": "1301",
+    "name": "台塑",
+    "currentPrice": "51.00"
+  },
+  {
+    "id": "1303",
+    "name": "南亞",
+    "currentPrice": "79.60"
+  },
+  {
+    "id": "1304",
+    "name": "台聚",
+    "currentPrice": "12.30"
+  },
+  {
+    "id": "1305",
+    "name": "華夏",
+    "currentPrice": "12.45"
+  },
+  {
+    "id": "1307",
+    "name": "三芳",
+    "currentPrice": "32.60"
+  },
+  {
+    "id": "1308",
+    "name": "亞聚",
+    "currentPrice": "14.10"
+  },
+  {
+    "id": "1309",
+    "name": "台達化",
+    "currentPrice": "12.50"
+  },
+  {
+    "id": "1310",
+    "name": "台苯",
+    "currentPrice": "9.07"
+  },
+  {
+    "id": "1312",
+    "name": "國喬",
+    "currentPrice": "13.35"
+  },
+  {
+    "id": "1312A",
+    "name": "國喬特",
+    "currentPrice": "23.10"
+  },
+  {
+    "id": "1313",
+    "name": "聯成",
+    "currentPrice": "11.35"
+  },
+  {
+    "id": "1314",
+    "name": "中石化",
+    "currentPrice": "8.26"
+  },
+  {
+    "id": "1315",
+    "name": "達新",
+    "currentPrice": "64.60"
+  },
+  {
+    "id": "1316",
+    "name": "上曜",
+    "currentPrice": "14.15"
+  },
+  {
+    "id": "1319",
+    "name": "東陽",
+    "currentPrice": "115.00"
+  },
+  {
+    "id": "1321",
+    "name": "大洋",
+    "currentPrice": "33.50"
+  },
+  {
+    "id": "1323",
+    "name": "永裕",
+    "currentPrice": "19.00"
+  },
+  {
+    "id": "1324",
+    "name": "地球",
+    "currentPrice": "11.00"
+  },
+  {
+    "id": "1325",
+    "name": "恆大",
+    "currentPrice": "32.55"
+  },
+  {
+    "id": "1326",
+    "name": "台化",
+    "currentPrice": "40.55"
+  },
+  {
+    "id": "1337",
+    "name": "再生-KY",
+    "currentPrice": "6.16"
+  },
+  {
+    "id": "1338",
+    "name": "廣華-KY",
+    "currentPrice": "20.25"
+  },
+  {
+    "id": "1339",
+    "name": "昭輝",
+    "currentPrice": "43.90"
+  },
+  {
+    "id": "1340",
+    "name": "勝悅-KY",
+    "currentPrice": "7.02"
+  },
+  {
+    "id": "1341",
+    "name": "富林-KY",
+    "currentPrice": "58.30"
+  },
+  {
+    "id": "1342",
+    "name": "八貫",
+    "currentPrice": "95.20"
+  },
+  {
+    "id": "1402",
+    "name": "遠東新",
+    "currentPrice": "28.30"
+  },
+  {
+    "id": "1409",
+    "name": "新纖",
+    "currentPrice": "15.30"
+  },
+  {
+    "id": "1410",
+    "name": "南染",
+    "currentPrice": "33.85"
+  },
+  {
+    "id": "1413",
+    "name": "宏洲",
+    "currentPrice": "9.92"
+  },
+  {
+    "id": "1414",
+    "name": "東和",
+    "currentPrice": "19.45"
+  },
+  {
+    "id": "1416",
+    "name": "廣豐",
+    "currentPrice": "11.70"
+  },
+  {
+    "id": "1417",
+    "name": "嘉裕",
+    "currentPrice": "8.85"
+  },
+  {
+    "id": "1418",
+    "name": "東華",
+    "currentPrice": "20.05"
+  },
+  {
+    "id": "1419",
+    "name": "新紡",
+    "currentPrice": "78.90"
+  },
+  {
+    "id": "1423",
+    "name": "利華",
+    "currentPrice": "38.10"
+  },
+  {
+    "id": "1432",
+    "name": "大魯閣",
+    "currentPrice": "18.60"
+  },
+  {
+    "id": "1434",
+    "name": "福懋",
+    "currentPrice": "17.40"
+  },
+  {
+    "id": "1435",
+    "name": "中福",
+    "currentPrice": "21.80"
+  },
+  {
+    "id": "1436",
+    "name": "華友聯",
+    "currentPrice": "61.70"
+  },
+  {
+    "id": "1437",
+    "name": "勤益控",
+    "currentPrice": "32.95"
+  },
+  {
+    "id": "1438",
+    "name": "三地開發",
+    "currentPrice": "32.70"
+  },
+  {
+    "id": "1439",
+    "name": "雋揚",
+    "currentPrice": "29.85"
+  },
+  {
+    "id": "1440",
+    "name": "南紡",
+    "currentPrice": "13.85"
+  },
+  {
+    "id": "1441",
+    "name": "大東",
+    "currentPrice": "10.25"
+  },
+  {
+    "id": "1442",
+    "name": "名軒",
+    "currentPrice": "28.90"
+  },
+  {
+    "id": "1443",
+    "name": "立益物流",
+    "currentPrice": "27.50"
+  },
+  {
+    "id": "1444",
+    "name": "力麗",
+    "currentPrice": "7.06"
+  },
+  {
+    "id": "1445",
+    "name": "大宇",
+    "currentPrice": "14.40"
+  },
+  {
+    "id": "1446",
+    "name": "宏和",
+    "currentPrice": "17.45"
+  },
+  {
+    "id": "1447",
+    "name": "力鵬",
+    "currentPrice": "6.29"
+  },
+  {
+    "id": "1449",
+    "name": "佳和",
+    "currentPrice": "11.70"
+  },
+  {
+    "id": "1451",
+    "name": "年興",
+    "currentPrice": "18.10"
+  },
+  {
+    "id": "1452",
+    "name": "宏益",
+    "currentPrice": "12.10"
+  },
+  {
+    "id": "1453",
+    "name": "大將",
+    "currentPrice": "13.30"
+  },
+  {
+    "id": "1454",
+    "name": "台富",
+    "currentPrice": "13.05"
+  },
+  {
+    "id": "1455",
+    "name": "集盛",
+    "currentPrice": "10.30"
+  },
+  {
+    "id": "1456",
+    "name": "怡華",
+    "currentPrice": "13.10"
+  },
+  {
+    "id": "1457",
+    "name": "宜進",
+    "currentPrice": "15.55"
+  },
+  {
+    "id": "1459",
+    "name": "聯發",
+    "currentPrice": "11.95"
+  },
+  {
+    "id": "1460",
+    "name": "宏遠",
+    "currentPrice": "6.66"
+  },
+  {
+    "id": "1463",
+    "name": "強盛新",
+    "currentPrice": "17.30"
+  },
+  {
+    "id": "1464",
+    "name": "得力",
+    "currentPrice": "11.65"
+  },
+  {
+    "id": "1465",
+    "name": "偉全",
+    "currentPrice": "12.60"
+  },
+  {
+    "id": "1466",
+    "name": "聚隆",
+    "currentPrice": "15.00"
+  },
+  {
+    "id": "1467",
+    "name": "南緯",
+    "currentPrice": "7.87"
+  },
+  {
+    "id": "1468",
+    "name": "昶和",
+    "currentPrice": "13.30"
+  },
+  {
+    "id": "1470",
+    "name": "大統新創",
+    "currentPrice": "22.95"
+  },
+  {
+    "id": "1471",
+    "name": "首利",
+    "currentPrice": "14.65"
+  },
+  {
+    "id": "1472",
+    "name": "三洋實業",
+    "currentPrice": "87.20"
+  },
+  {
+    "id": "1473",
+    "name": "台南",
+    "currentPrice": "26.75"
+  },
+  {
+    "id": "1474",
+    "name": "弘裕",
+    "currentPrice": "10.45"
+  },
+  {
+    "id": "1475",
+    "name": "業旺",
+    "currentPrice": "32.55"
+  },
+  {
+    "id": "1476",
+    "name": "儒鴻",
+    "currentPrice": "411.00"
+  },
+  {
+    "id": "1477",
+    "name": "聚陽",
+    "currentPrice": "320.00"
+  },
+  {
+    "id": "1503",
+    "name": "士電",
+    "currentPrice": "224.00"
+  },
+  {
+    "id": "1504",
+    "name": "東元",
+    "currentPrice": "85.40"
+  },
+  {
+    "id": "1506",
+    "name": "正道",
+    "currentPrice": "12.75"
+  },
+  {
+    "id": "1512",
+    "name": "瑞利",
+    "currentPrice": "8.37"
+  },
+  {
+    "id": "1513",
+    "name": "中興電",
+    "currentPrice": "177.00"
+  },
+  {
+    "id": "1514",
+    "name": "亞力",
+    "currentPrice": "133.00"
+  },
+  {
+    "id": "1515",
+    "name": "力山",
+    "currentPrice": "27.45"
+  },
+  {
+    "id": "1516",
+    "name": "川飛",
+    "currentPrice": "22.60"
+  },
+  {
+    "id": "1517",
+    "name": "利奇",
+    "currentPrice": "12.50"
+  },
+  {
+    "id": "1519",
+    "name": "華城",
+    "currentPrice": "1015.00"
+  },
+  {
+    "id": "1521",
+    "name": "大億",
+    "currentPrice": "28.00"
+  },
+  {
+    "id": "1522",
+    "name": "堤維西",
+    "currentPrice": "51.60"
+  },
+  {
+    "id": "1522A",
+    "name": "堤維西甲特",
+    "currentPrice": "49.10"
+  },
+  {
+    "id": "1524",
+    "name": "耿鼎",
+    "currentPrice": "35.75"
+  },
+  {
+    "id": "1525",
+    "name": "江申",
+    "currentPrice": "63.70"
+  },
+  {
+    "id": "1526",
+    "name": "日馳",
+    "currentPrice": "22.00"
+  },
+  {
+    "id": "1527",
+    "name": "鑽全",
+    "currentPrice": "35.75"
+  },
+  {
+    "id": "1528",
+    "name": "恩德",
+    "currentPrice": "28.15"
+  },
+  {
+    "id": "1529",
+    "name": "樂事綠能",
+    "currentPrice": "25.30"
+  },
+  {
+    "id": "1530",
+    "name": "亞崴",
+    "currentPrice": "29.15"
+  },
+  {
+    "id": "1531",
+    "name": "高林股",
+    "currentPrice": "12.35"
+  },
+  {
+    "id": "1532",
+    "name": "勤美",
+    "currentPrice": "25.05"
+  },
+  {
+    "id": "1533",
+    "name": "車王電",
+    "currentPrice": "32.10"
+  },
+  {
+    "id": "1535",
+    "name": "中宇",
+    "currentPrice": "52.40"
+  },
+  {
+    "id": "1536",
+    "name": "和大",
+    "currentPrice": "64.70"
+  },
+  {
+    "id": "1537",
+    "name": "廣隆",
+    "currentPrice": "124.00"
+  },
+  {
+    "id": "1538",
+    "name": "正峰",
+    "currentPrice": ""
+  },
+  {
+    "id": "1539",
+    "name": "巨庭",
+    "currentPrice": "19.50"
+  },
+  {
+    "id": "1540",
+    "name": "喬福",
+    "currentPrice": "25.90"
+  },
+  {
+    "id": "1541",
+    "name": "錩泰",
+    "currentPrice": "26.05"
+  },
+  {
+    "id": "1558",
+    "name": "伸興",
+    "currentPrice": "97.10"
+  },
+  {
+    "id": "1560",
+    "name": "中砂",
+    "currentPrice": "431.50"
+  },
+  {
+    "id": "1563",
+    "name": "巧新",
+    "currentPrice": "47.95"
+  },
+  {
+    "id": "1568",
+    "name": "倉佑",
+    "currentPrice": "24.30"
+  },
+  {
+    "id": "1582",
+    "name": "信錦",
+    "currentPrice": "72.50"
+  },
+  {
+    "id": "1583",
+    "name": "程泰",
+    "currentPrice": "48.50"
+  },
+  {
+    "id": "1587",
+    "name": "吉茂",
+    "currentPrice": "49.75"
+  },
+  {
+    "id": "1589",
+    "name": "永冠-KY",
+    "currentPrice": "17.60"
+  },
+  {
+    "id": "1590",
+    "name": "亞德客-KY",
+    "currentPrice": "1025.00"
+  },
+  {
+    "id": "1597",
+    "name": "直得",
+    "currentPrice": "83.00"
+  },
+  {
+    "id": "1598",
+    "name": "岱宇",
+    "currentPrice": "20.25"
+  },
+  {
+    "id": "1603",
+    "name": "華電",
+    "currentPrice": "42.45"
+  },
+  {
+    "id": "1604",
+    "name": "聲寶",
+    "currentPrice": "24.05"
+  },
+  {
+    "id": "1605",
+    "name": "華新",
+    "currentPrice": "40.60"
+  },
+  {
+    "id": "1608",
+    "name": "華榮",
+    "currentPrice": "39.60"
+  },
+  {
+    "id": "1609",
+    "name": "大亞",
+    "currentPrice": "43.50"
+  },
+  {
+    "id": "1611",
+    "name": "中電",
+    "currentPrice": "13.85"
+  },
+  {
+    "id": "1612",
+    "name": "宏泰",
+    "currentPrice": "37.65"
+  },
+  {
+    "id": "1614",
+    "name": "三洋電",
+    "currentPrice": "33.95"
+  },
+  {
+    "id": "1615",
+    "name": "大山",
+    "currentPrice": "49.85"
+  },
+  {
+    "id": "1616",
+    "name": "億泰",
+    "currentPrice": "29.85"
+  },
+  {
+    "id": "1617",
+    "name": "榮星",
+    "currentPrice": "17.20"
+  },
+  {
+    "id": "1618",
+    "name": "合機",
+    "currentPrice": "47.35"
+  },
+  {
+    "id": "1623",
+    "name": "大東電",
+    "currentPrice": "273.00"
+  },
+  {
+    "id": "1626",
+    "name": "艾美特-KY",
+    "currentPrice": "10.95"
+  },
+  {
+    "id": "1702",
+    "name": "南僑",
+    "currentPrice": "37.85"
+  },
+  {
+    "id": "1707",
+    "name": "葡萄王",
+    "currentPrice": "122.50"
+  },
+  {
+    "id": "1708",
+    "name": "東鹼",
+    "currentPrice": "33.55"
+  },
+  {
+    "id": "1709",
+    "name": "和益",
+    "currentPrice": "17.20"
+  },
+  {
+    "id": "1710",
+    "name": "東聯",
+    "currentPrice": "13.85"
+  },
+  {
+    "id": "1711",
+    "name": "永光",
+    "currentPrice": "21.80"
+  },
+  {
+    "id": "1712",
+    "name": "興農",
+    "currentPrice": "46.10"
+  },
+  {
+    "id": "1713",
+    "name": "國化",
+    "currentPrice": "49.20"
+  },
+  {
+    "id": "1714",
+    "name": "和桐",
+    "currentPrice": "9.20"
+  },
+  {
+    "id": "1717",
+    "name": "長興",
+    "currentPrice": "61.20"
+  },
+  {
+    "id": "1718",
+    "name": "中纖",
+    "currentPrice": "7.33"
+  },
+  {
+    "id": "1720",
+    "name": "生達",
+    "currentPrice": "62.40"
+  },
+  {
+    "id": "1721",
+    "name": "三晃",
+    "currentPrice": "19.55"
+  },
+  {
+    "id": "1722",
+    "name": "台肥",
+    "currentPrice": "47.20"
+  },
+  {
+    "id": "1723",
+    "name": "中碳",
+    "currentPrice": "72.70"
+  },
+  {
+    "id": "1725",
+    "name": "元禎",
+    "currentPrice": "28.55"
+  },
+  {
+    "id": "1726",
+    "name": "永記",
+    "currentPrice": "75.90"
+  },
+  {
+    "id": "1727",
+    "name": "中華化",
+    "currentPrice": "46.30"
+  },
+  {
+    "id": "1730",
+    "name": "花仙子",
+    "currentPrice": "53.30"
+  },
+  {
+    "id": "1731",
+    "name": "美吾華",
+    "currentPrice": "22.05"
+  },
+  {
+    "id": "1732",
+    "name": "毛寶",
+    "currentPrice": "30.40"
+  },
+  {
+    "id": "1733",
+    "name": "五鼎",
+    "currentPrice": "29.70"
+  },
+  {
+    "id": "1734",
+    "name": "杏輝",
+    "currentPrice": "31.15"
+  },
+  {
+    "id": "1735",
+    "name": "日勝化",
+    "currentPrice": "16.60"
+  },
+  {
+    "id": "1736",
+    "name": "喬山",
+    "currentPrice": "151.00"
+  },
+  {
+    "id": "1737",
+    "name": "臺鹽",
+    "currentPrice": "31.70"
+  },
+  {
+    "id": "1752",
+    "name": "南光",
+    "currentPrice": "36.75"
+  },
+  {
+    "id": "1760",
+    "name": "寶齡富錦",
+    "currentPrice": "67.30"
+  },
+  {
+    "id": "1762",
+    "name": "中化生",
+    "currentPrice": "27.50"
+  },
+  {
+    "id": "1773",
+    "name": "勝一",
+    "currentPrice": "149.50"
+  },
+  {
+    "id": "1776",
+    "name": "展宇",
+    "currentPrice": "15.55"
+  },
+  {
+    "id": "1783",
+    "name": "和康生",
+    "currentPrice": "47.30"
+  },
+  {
+    "id": "1786",
+    "name": "科妍",
+    "currentPrice": "79.60"
+  },
+  {
+    "id": "1789",
+    "name": "神隆",
+    "currentPrice": "27.50"
+  },
+  {
+    "id": "1795",
+    "name": "美時",
+    "currentPrice": "345.00"
+  },
+  {
+    "id": "1802",
+    "name": "台玻",
+    "currentPrice": "51.40"
+  },
+  {
+    "id": "1805",
+    "name": "寶徠",
+    "currentPrice": "12.00"
+  },
+  {
+    "id": "1806",
+    "name": "冠軍",
+    "currentPrice": "9.03"
+  },
+  {
+    "id": "1808",
+    "name": "潤隆",
+    "currentPrice": "31.20"
+  },
+  {
+    "id": "1809",
+    "name": "中釉",
+    "currentPrice": "26.70"
+  },
+  {
+    "id": "1810",
+    "name": "和成",
+    "currentPrice": "19.45"
+  },
+  {
+    "id": "1817",
+    "name": "凱撒衛",
+    "currentPrice": "38.95"
+  },
+  {
+    "id": "1903",
+    "name": "士紙",
+    "currentPrice": "58.50"
+  },
+  {
+    "id": "1904",
+    "name": "正隆",
+    "currentPrice": "17.75"
+  },
+  {
+    "id": "1905",
+    "name": "華紙",
+    "currentPrice": "12.20"
+  },
+  {
+    "id": "1906",
+    "name": "寶隆",
+    "currentPrice": "11.95"
+  },
+  {
+    "id": "1907",
+    "name": "永豐餘",
+    "currentPrice": "25.10"
+  },
+  {
+    "id": "1909",
+    "name": "榮成",
+    "currentPrice": "10.00"
+  },
+  {
+    "id": "2002",
+    "name": "中鋼",
+    "currentPrice": "19.35"
+  },
+  {
+    "id": "2002A",
+    "name": "中鋼特",
+    "currentPrice": "38.90"
+  },
+  {
+    "id": "2006",
+    "name": "東和鋼鐵",
+    "currentPrice": "70.30"
+  },
+  {
+    "id": "2007",
+    "name": "燁興",
+    "currentPrice": "8.03"
+  },
+  {
+    "id": "2008",
+    "name": "高興昌",
+    "currentPrice": "29.35"
+  },
+  {
+    "id": "2009",
+    "name": "第一銅",
+    "currentPrice": "50.10"
+  },
+  {
+    "id": "2010",
+    "name": "春源",
+    "currentPrice": "20.90"
+  },
+  {
+    "id": "2012",
+    "name": "春雨",
+    "currentPrice": "16.90"
+  },
+  {
+    "id": "2013",
+    "name": "中鋼構",
+    "currentPrice": "41.80"
+  },
+  {
+    "id": "2014",
+    "name": "中鴻",
+    "currentPrice": "16.75"
+  },
+  {
+    "id": "2015",
+    "name": "豐興",
+    "currentPrice": "64.20"
+  },
+  {
+    "id": "2017",
+    "name": "官田鋼",
+    "currentPrice": "8.78"
+  },
+  {
+    "id": "2020",
+    "name": "美亞",
+    "currentPrice": "23.55"
+  },
+  {
+    "id": "2022",
+    "name": "聚亨",
+    "currentPrice": "8.88"
+  },
+  {
+    "id": "2023",
+    "name": "燁輝",
+    "currentPrice": "14.75"
+  },
+  {
+    "id": "2024",
+    "name": "志聯",
+    "currentPrice": "15.55"
+  },
+  {
+    "id": "2025",
+    "name": "千興",
+    "currentPrice": "12.85"
+  },
+  {
+    "id": "2027",
+    "name": "大成鋼",
+    "currentPrice": "37.85"
+  },
+  {
+    "id": "2028",
+    "name": "威致",
+    "currentPrice": "18.20"
+  },
+  {
+    "id": "2029",
+    "name": "盛餘",
+    "currentPrice": "21.20"
+  },
+  {
+    "id": "2030",
+    "name": "彰源",
+    "currentPrice": "16.00"
+  },
+  {
+    "id": "2031",
+    "name": "新光鋼",
+    "currentPrice": "38.60"
+  },
+  {
+    "id": "2032",
+    "name": "新鋼",
+    "currentPrice": "16.35"
+  },
+  {
+    "id": "2033",
+    "name": "佳大",
+    "currentPrice": "16.10"
+  },
+  {
+    "id": "2034",
+    "name": "允強",
+    "currentPrice": "21.35"
+  },
+  {
+    "id": "2038",
+    "name": "海光",
+    "currentPrice": "14.85"
+  },
+  {
+    "id": "2049",
+    "name": "上銀",
+    "currentPrice": "256.50"
+  },
+  {
+    "id": "2059",
+    "name": "川湖",
+    "currentPrice": "3490.00"
+  },
+  {
+    "id": "2062",
+    "name": "橋椿",
+    "currentPrice": "22.40"
+  },
+  {
+    "id": "2069",
+    "name": "運錩",
+    "currentPrice": "19.70"
+  },
+  {
+    "id": "2101",
+    "name": "南港",
+    "currentPrice": "36.45"
+  },
+  {
+    "id": "2102",
+    "name": "泰豐",
+    "currentPrice": "20.05"
+  },
+  {
+    "id": "2103",
+    "name": "台橡",
+    "currentPrice": "15.50"
+  },
+  {
+    "id": "2104",
+    "name": "國際中橡",
+    "currentPrice": "12.30"
+  },
+  {
+    "id": "2105",
+    "name": "正新",
+    "currentPrice": "31.30"
+  },
+  {
+    "id": "2106",
+    "name": "建大",
+    "currentPrice": "20.50"
+  },
+  {
+    "id": "2107",
+    "name": "厚生",
+    "currentPrice": "25.40"
+  },
+  {
+    "id": "2108",
+    "name": "南帝",
+    "currentPrice": "24.10"
+  },
+  {
+    "id": "2109",
+    "name": "華豐",
+    "currentPrice": "15.00"
+  },
+  {
+    "id": "2114",
+    "name": "鑫永銓",
+    "currentPrice": "89.60"
+  },
+  {
+    "id": "2115",
+    "name": "六暉-KY",
+    "currentPrice": "25.40"
+  },
+  {
+    "id": "2201",
+    "name": "裕隆",
+    "currentPrice": "31.55"
+  },
+  {
+    "id": "2204",
+    "name": "中華",
+    "currentPrice": "56.10"
+  },
+  {
+    "id": "2206",
+    "name": "三陽工業",
+    "currentPrice": "59.20"
+  },
+  {
+    "id": "2207",
+    "name": "和泰車",
+    "currentPrice": "542.00"
+  },
+  {
+    "id": "2208",
+    "name": "台船",
+    "currentPrice": "22.00"
+  },
+  {
+    "id": "2211",
+    "name": "長榮鋼",
+    "currentPrice": "100.50"
+  },
+  {
+    "id": "2227",
+    "name": "裕日車",
+    "currentPrice": "54.00"
+  },
+  {
+    "id": "2228",
+    "name": "劍麟",
+    "currentPrice": "101.50"
+  },
+  {
+    "id": "2231",
+    "name": "為升",
+    "currentPrice": "97.30"
+  },
+  {
+    "id": "2233",
+    "name": "宇隆",
+    "currentPrice": "233.50"
+  },
+  {
+    "id": "2236",
+    "name": "百達-KY",
+    "currentPrice": "114.50"
+  },
+  {
+    "id": "2239",
+    "name": "英利-KY",
+    "currentPrice": "29.50"
+  },
+  {
+    "id": "2241",
+    "name": "艾姆勒",
+    "currentPrice": "33.55"
+  },
+  {
+    "id": "2243",
+    "name": "宏旭-KY",
+    "currentPrice": "11.70"
+  },
+  {
+    "id": "2247",
+    "name": "汎德永業",
+    "currentPrice": "275.50"
+  },
+  {
+    "id": "2248",
+    "name": "華勝-KY",
+    "currentPrice": "48.85"
+  },
+  {
+    "id": "2250",
+    "name": "IKKA-KY",
+    "currentPrice": "75.30"
+  },
+  {
+    "id": "2254",
+    "name": "巨鎧精密-創",
+    "currentPrice": "59.70"
+  },
+  {
+    "id": "2258",
+    "name": "鴻華先進-創",
+    "currentPrice": "38.60"
+  },
+  {
+    "id": "2301",
+    "name": "光寶科",
+    "currentPrice": "169.50"
+  },
+  {
+    "id": "2302",
+    "name": "麗正",
+    "currentPrice": "21.20"
+  },
+  {
+    "id": "2303",
+    "name": "聯電",
+    "currentPrice": "76.20"
+  },
+  {
+    "id": "2305",
+    "name": "全友",
+    "currentPrice": "13.75"
+  },
+  {
+    "id": "2308",
+    "name": "台達電",
+    "currentPrice": "1250.00"
+  },
+  {
+    "id": "2312",
+    "name": "金寶",
+    "currentPrice": "26.15"
+  },
+  {
+    "id": "2313",
+    "name": "華通",
+    "currentPrice": "169.00"
+  },
+  {
+    "id": "2314",
+    "name": "台揚",
+    "currentPrice": "21.85"
+  },
+  {
+    "id": "2316",
+    "name": "楠梓電",
+    "currentPrice": "98.50"
+  },
+  {
+    "id": "2317",
+    "name": "鴻海",
+    "currentPrice": "225.50"
+  },
+  {
+    "id": "2321",
+    "name": "東訊",
+    "currentPrice": "16.80"
+  },
+  {
+    "id": "2323",
+    "name": "中環",
+    "currentPrice": "10.65"
+  },
+  {
+    "id": "2324",
+    "name": "仁寶",
+    "currentPrice": "32.30"
+  },
+  {
+    "id": "2327",
+    "name": "國巨*",
+    "currentPrice": "295.00"
+  },
+  {
+    "id": "2328",
+    "name": "廣宇",
+    "currentPrice": "52.70"
+  },
+  {
+    "id": "2329",
+    "name": "華泰",
+    "currentPrice": "62.70"
+  },
+  {
+    "id": "2330",
+    "name": "台積電",
+    "currentPrice": "1780.00"
+  },
+  {
+    "id": "2331",
+    "name": "精英",
+    "currentPrice": "29.65"
+  },
+  {
+    "id": "2332",
+    "name": "友訊",
+    "currentPrice": "16.40"
+  },
+  {
+    "id": "2337",
+    "name": "旺宏",
+    "currentPrice": "76.20"
+  },
+  {
+    "id": "2338",
+    "name": "光罩",
+    "currentPrice": "41.85"
+  },
+  {
+    "id": "2340",
+    "name": "台亞",
+    "currentPrice": "27.50"
+  },
+  {
+    "id": "2342",
+    "name": "茂矽",
+    "currentPrice": "34.45"
+  },
+  {
+    "id": "2344",
+    "name": "華邦電",
+    "currentPrice": "115.50"
+  },
+  {
+    "id": "2345",
+    "name": "智邦",
+    "currentPrice": "1155.00"
+  },
+  {
+    "id": "2347",
+    "name": "聯強",
+    "currentPrice": "67.00"
+  },
+  {
+    "id": "2348",
+    "name": "海悅",
+    "currentPrice": "77.60"
+  },
+  {
+    "id": "2348A",
+    "name": "海悅甲特",
+    "currentPrice": "36.75"
+  },
+  {
+    "id": "2349",
+    "name": "錸德",
+    "currentPrice": "14.20"
+  },
+  {
+    "id": "2351",
+    "name": "順德",
+    "currentPrice": "89.60"
+  },
+  {
+    "id": "2352",
+    "name": "佳世達",
+    "currentPrice": "25.95"
+  },
+  {
+    "id": "2353",
+    "name": "宏碁",
+    "currentPrice": "25.65"
+  },
+  {
+    "id": "2354",
+    "name": "鴻準",
+    "currentPrice": "59.50"
+  },
+  {
+    "id": "2355",
+    "name": "敬鵬",
+    "currentPrice": "37.65"
+  },
+  {
+    "id": "2356",
+    "name": "英業達",
+    "currentPrice": "45.50"
+  },
+  {
+    "id": "2357",
+    "name": "華碩",
+    "currentPrice": "504.00"
+  },
+  {
+    "id": "2359",
+    "name": "所羅門",
+    "currentPrice": "136.00"
+  },
+  {
+    "id": "2360",
+    "name": "致茂",
+    "currentPrice": "1035.00"
+  },
+  {
+    "id": "2362",
+    "name": "藍天",
+    "currentPrice": "38.75"
+  },
+  {
+    "id": "2363",
+    "name": "矽統",
+    "currentPrice": "60.50"
+  },
+  {
+    "id": "2364",
+    "name": "倫飛",
+    "currentPrice": "64.60"
+  },
+  {
+    "id": "2365",
+    "name": "昆盈",
+    "currentPrice": "39.30"
+  },
+  {
+    "id": "2367",
+    "name": "燿華",
+    "currentPrice": "50.10"
+  },
+  {
+    "id": "2368",
+    "name": "金像電",
+    "currentPrice": "686.00"
+  },
+  {
+    "id": "2369",
+    "name": "菱生",
+    "currentPrice": "27.90"
+  },
+  {
+    "id": "2371",
+    "name": "大同",
+    "currentPrice": "39.20"
+  },
+  {
+    "id": "2373",
+    "name": "震旦行",
+    "currentPrice": "55.00"
+  },
+  {
+    "id": "2374",
+    "name": "佳能",
+    "currentPrice": "89.30"
+  },
+  {
+    "id": "2375",
+    "name": "凱美",
+    "currentPrice": "100.00"
+  },
+  {
+    "id": "2376",
+    "name": "技嘉",
+    "currentPrice": "241.00"
+  },
+  {
+    "id": "2377",
+    "name": "微星",
+    "currentPrice": "97.10"
+  },
+  {
+    "id": "2379",
+    "name": "瑞昱",
+    "currentPrice": "530.00"
+  },
+  {
+    "id": "2380",
+    "name": "虹光",
+    "currentPrice": "4.99"
+  },
+  {
+    "id": "2382",
+    "name": "廣達",
+    "currentPrice": "287.50"
+  },
+  {
+    "id": "2383",
+    "name": "台光電",
+    "currentPrice": "1820.00"
+  },
+  {
+    "id": "2385",
+    "name": "群光",
+    "currentPrice": "118.00"
+  },
+  {
+    "id": "2387",
+    "name": "精元",
+    "currentPrice": "38.80"
+  },
+  {
+    "id": "2388",
+    "name": "威盛",
+    "currentPrice": "55.20"
+  },
+  {
+    "id": "2390",
+    "name": "云辰",
+    "currentPrice": "11.15"
+  },
+  {
+    "id": "2392",
+    "name": "正崴",
+    "currentPrice": "40.45"
+  },
+  {
+    "id": "2393",
+    "name": "億光",
+    "currentPrice": "56.30"
+  },
+  {
+    "id": "2395",
+    "name": "研華",
+    "currentPrice": "290.50"
+  },
+  {
+    "id": "2397",
+    "name": "友通",
+    "currentPrice": "61.40"
+  },
+  {
+    "id": "2399",
+    "name": "映泰",
+    "currentPrice": "26.25"
+  },
+  {
+    "id": "2401",
+    "name": "凌陽",
+    "currentPrice": "23.15"
+  },
+  {
+    "id": "2402",
+    "name": "毅嘉",
+    "currentPrice": "56.10"
+  },
+  {
+    "id": "2404",
+    "name": "漢唐",
+    "currentPrice": "940.00"
+  },
+  {
+    "id": "2405",
+    "name": "輔信",
+    "currentPrice": "17.30"
+  },
+  {
+    "id": "2406",
+    "name": "國碩",
+    "currentPrice": "30.00"
+  },
+  {
+    "id": "2408",
+    "name": "南亞科",
+    "currentPrice": "277.00"
+  },
+  {
+    "id": "2409",
+    "name": "友達",
+    "currentPrice": "14.45"
+  },
+  {
+    "id": "2412",
+    "name": "中華電",
+    "currentPrice": "133.00"
+  },
+  {
+    "id": "2413",
+    "name": "環科",
+    "currentPrice": "45.15"
+  },
+  {
+    "id": "2414",
+    "name": "精技",
+    "currentPrice": "41.00"
+  },
+  {
+    "id": "2415",
+    "name": "錩新",
+    "currentPrice": "27.20"
+  },
+  {
+    "id": "2417",
+    "name": "圓剛",
+    "currentPrice": "41.80"
+  },
+  {
+    "id": "2419",
+    "name": "仲琦",
+    "currentPrice": "34.15"
+  },
+  {
+    "id": "2420",
+    "name": "新巨",
+    "currentPrice": "52.60"
+  },
+  {
+    "id": "2421",
+    "name": "建準",
+    "currentPrice": "151.00"
+  },
+  {
+    "id": "2423",
+    "name": "固緯",
+    "currentPrice": "52.30"
+  },
+  {
+    "id": "2424",
+    "name": "隴華",
+    "currentPrice": "36.20"
+  },
+  {
+    "id": "2425",
+    "name": "承啟",
+    "currentPrice": "30.40"
+  },
+  {
+    "id": "2426",
+    "name": "鼎元",
+    "currentPrice": "18.95"
+  },
+  {
+    "id": "2427",
+    "name": "三商電",
+    "currentPrice": "26.20"
+  },
+  {
+    "id": "2428",
+    "name": "興勤",
+    "currentPrice": "175.00"
+  },
+  {
+    "id": "2429",
+    "name": "銘旺科",
+    "currentPrice": "66.60"
+  },
+  {
+    "id": "2430",
+    "name": "燦坤",
+    "currentPrice": "22.65"
+  },
+  {
+    "id": "2431",
+    "name": "聯昌",
+    "currentPrice": "17.65"
+  },
+  {
+    "id": "2432",
+    "name": "倚天酷碁-創",
+    "currentPrice": "24.90"
+  },
+  {
+    "id": "2433",
+    "name": "互盛電",
+    "currentPrice": "46.65"
+  },
+  {
+    "id": "2434",
+    "name": "統懋",
+    "currentPrice": "29.55"
+  },
+  {
+    "id": "2436",
+    "name": "偉詮電",
+    "currentPrice": "52.80"
+  },
+  {
+    "id": "2438",
+    "name": "翔耀",
+    "currentPrice": "22.95"
+  },
+  {
+    "id": "2439",
+    "name": "美律",
+    "currentPrice": "103.50"
+  },
+  {
+    "id": "2440",
+    "name": "太空梭",
+    "currentPrice": "16.75"
+  },
+  {
+    "id": "2441",
+    "name": "超豐",
+    "currentPrice": "103.00"
+  },
+  {
+    "id": "2442",
+    "name": "新美齊",
+    "currentPrice": "22.20"
+  },
+  {
+    "id": "2444",
+    "name": "兆勁",
+    "currentPrice": "13.35"
+  },
+  {
+    "id": "2449",
+    "name": "京元電子",
+    "currentPrice": "300.00"
+  },
+  {
+    "id": "2450",
+    "name": "神腦",
+    "currentPrice": "29.00"
+  },
+  {
+    "id": "2451",
+    "name": "創見",
+    "currentPrice": "241.00"
+  },
+  {
+    "id": "2453",
+    "name": "凌群",
+    "currentPrice": "58.30"
+  },
+  {
+    "id": "2454",
+    "name": "聯發科",
+    "currentPrice": "1775.00"
+  },
+  {
+    "id": "2455",
+    "name": "全新",
+    "currentPrice": "171.50"
+  },
+  {
+    "id": "2457",
+    "name": "飛宏",
+    "currentPrice": "32.20"
+  },
+  {
+    "id": "2458",
+    "name": "義隆",
+    "currentPrice": "118.50"
+  },
+  {
+    "id": "2459",
+    "name": "敦吉",
+    "currentPrice": "67.80"
+  },
+  {
+    "id": "2460",
+    "name": "建通",
+    "currentPrice": "23.20"
+  },
+  {
+    "id": "2461",
+    "name": "光群雷",
+    "currentPrice": "16.90"
+  },
+  {
+    "id": "2462",
+    "name": "良得電",
+    "currentPrice": "26.55"
+  },
+  {
+    "id": "2464",
+    "name": "盟立",
+    "currentPrice": "68.80"
+  },
+  {
+    "id": "2465",
+    "name": "麗臺",
+    "currentPrice": "56.30"
+  },
+  {
+    "id": "2466",
+    "name": "冠西電",
+    "currentPrice": "60.00"
+  },
+  {
+    "id": "2467",
+    "name": "志聖",
+    "currentPrice": "237.00"
+  },
+  {
+    "id": "2468",
+    "name": "華經",
+    "currentPrice": "40.85"
+  },
+  {
+    "id": "2471",
+    "name": "資通",
+    "currentPrice": "52.40"
+  },
+  {
+    "id": "2472",
+    "name": "立隆電",
+    "currentPrice": "117.50"
+  },
+  {
+    "id": "2474",
+    "name": "可成",
+    "currentPrice": "204.00"
+  },
+  {
+    "id": "2476",
+    "name": "鉅祥",
+    "currentPrice": "90.70"
+  },
+  {
+    "id": "2477",
+    "name": "美隆電",
+    "currentPrice": "26.00"
+  },
+  {
+    "id": "2478",
+    "name": "大毅",
+    "currentPrice": "74.00"
+  },
+  {
+    "id": "2480",
+    "name": "敦陽科",
+    "currentPrice": "139.50"
+  },
+  {
+    "id": "2481",
+    "name": "強茂",
+    "currentPrice": "89.30"
+  },
+  {
+    "id": "2482",
+    "name": "連宇",
+    "currentPrice": "18.40"
+  },
+  {
+    "id": "2483",
+    "name": "百容",
+    "currentPrice": "20.45"
+  },
+  {
+    "id": "2484",
+    "name": "希華",
+    "currentPrice": "29.60"
+  },
+  {
+    "id": "2485",
+    "name": "兆赫",
+    "currentPrice": "37.45"
+  },
+  {
+    "id": "2486",
+    "name": "一詮",
+    "currentPrice": "127.50"
+  },
+  {
+    "id": "2488",
+    "name": "漢平",
+    "currentPrice": "46.70"
+  },
+  {
+    "id": "2489",
+    "name": "瑞軒",
+    "currentPrice": "23.55"
+  },
+  {
+    "id": "2491",
+    "name": "吉祥全",
+    "currentPrice": "18.90"
+  },
+  {
+    "id": "2492",
+    "name": "華新科",
+    "currentPrice": "152.50"
+  },
+  {
+    "id": "2493",
+    "name": "揚博",
+    "currentPrice": "111.50"
+  },
+  {
+    "id": "2495",
+    "name": "普安",
+    "currentPrice": "35.25"
+  },
+  {
+    "id": "2496",
+    "name": "卓越",
+    "currentPrice": "70.30"
+  },
+  {
+    "id": "2497",
+    "name": "怡利電",
+    "currentPrice": "52.00"
+  },
+  {
+    "id": "2498",
+    "name": "宏達電",
+    "currentPrice": "46.40"
+  },
+  {
+    "id": "2501",
+    "name": "國建",
+    "currentPrice": "22.50"
+  },
+  {
+    "id": "2504",
+    "name": "國產",
+    "currentPrice": "35.75"
+  },
+  {
+    "id": "2505",
+    "name": "國揚",
+    "currentPrice": "19.55"
+  },
+  {
+    "id": "2506",
+    "name": "太設",
+    "currentPrice": "8.93"
+  },
+  {
+    "id": "2509",
+    "name": "全坤建",
+    "currentPrice": "14.95"
+  },
+  {
+    "id": "2511",
+    "name": "太子",
+    "currentPrice": "8.42"
+  },
+  {
+    "id": "2514",
+    "name": "龍邦",
+    "currentPrice": "15.10"
+  },
+  {
+    "id": "2515",
+    "name": "中工",
+    "currentPrice": "13.60"
+  },
+  {
+    "id": "2516",
+    "name": "新建",
+    "currentPrice": "14.55"
+  },
+  {
+    "id": "2520",
+    "name": "冠德",
+    "currentPrice": "31.50"
+  },
+  {
+    "id": "2524",
+    "name": "京城",
+    "currentPrice": "42.30"
+  },
+  {
+    "id": "2527",
+    "name": "宏璟",
+    "currentPrice": "29.50"
+  },
+  {
+    "id": "2528",
+    "name": "皇普",
+    "currentPrice": "28.50"
+  },
+  {
+    "id": "2530",
+    "name": "華建",
+    "currentPrice": "27.00"
+  },
+  {
+    "id": "2534",
+    "name": "宏盛",
+    "currentPrice": "20.20"
+  },
+  {
+    "id": "2535",
+    "name": "達欣工",
+    "currentPrice": "69.20"
+  },
+  {
+    "id": "2536",
+    "name": "宏普",
+    "currentPrice": "23.15"
+  },
+  {
+    "id": "2537",
+    "name": "聯上發",
+    "currentPrice": "10.70"
+  },
+  {
+    "id": "2538",
+    "name": "基泰",
+    "currentPrice": "10.80"
+  },
+  {
+    "id": "2539",
+    "name": "櫻花建",
+    "currentPrice": "47.75"
+  },
+  {
+    "id": "2540",
+    "name": "愛山林",
+    "currentPrice": "47.30"
+  },
+  {
+    "id": "2542",
+    "name": "興富發",
+    "currentPrice": "37.70"
+  },
+  {
+    "id": "2543",
+    "name": "皇昌",
+    "currentPrice": "65.10"
+  },
+  {
+    "id": "2545",
+    "name": "皇翔",
+    "currentPrice": "37.60"
+  },
+  {
+    "id": "2546",
+    "name": "根基",
+    "currentPrice": "87.20"
+  },
+  {
+    "id": "2547",
+    "name": "日勝生",
+    "currentPrice": "10.95"
+  },
+  {
+    "id": "2548",
+    "name": "華固",
+    "currentPrice": "107.50"
+  },
+  {
+    "id": "2597",
+    "name": "潤弘",
+    "currentPrice": "171.50"
+  },
+  {
+    "id": "2601",
+    "name": "益航",
+    "currentPrice": "5.72"
+  },
+  {
+    "id": "2603",
+    "name": "長榮",
+    "currentPrice": "187.00"
+  },
+  {
+    "id": "2605",
+    "name": "新興",
+    "currentPrice": "29.15"
+  },
+  {
+    "id": "2606",
+    "name": "裕民",
+    "currentPrice": "62.90"
+  },
+  {
+    "id": "2607",
+    "name": "榮運",
+    "currentPrice": "57.00"
+  },
+  {
+    "id": "2608",
+    "name": "嘉里大榮",
+    "currentPrice": "32.95"
+  },
+  {
+    "id": "2609",
+    "name": "陽明",
+    "currentPrice": "53.90"
+  },
+  {
+    "id": "2610",
+    "name": "華航",
+    "currentPrice": "22.90"
+  },
+  {
+    "id": "2611",
+    "name": "志信",
+    "currentPrice": "15.00"
+  },
+  {
+    "id": "2612",
+    "name": "中航",
+    "currentPrice": "60.90"
+  },
+  {
+    "id": "2613",
+    "name": "中櫃",
+    "currentPrice": "24.20"
+  },
+  {
+    "id": "2614",
+    "name": "東森",
+    "currentPrice": "21.15"
+  },
+  {
+    "id": "2615",
+    "name": "萬海",
+    "currentPrice": "74.00"
+  },
+  {
+    "id": "2616",
+    "name": "山隆",
+    "currentPrice": "13.90"
+  },
+  {
+    "id": "2617",
+    "name": "台航",
+    "currentPrice": "30.80"
+  },
+  {
+    "id": "2618",
+    "name": "長榮航",
+    "currentPrice": "38.30"
+  },
+  {
+    "id": "2630",
+    "name": "亞航",
+    "currentPrice": "53.40"
+  },
+  {
+    "id": "2633",
+    "name": "台灣高鐵",
+    "currentPrice": "27.15"
+  },
+  {
+    "id": "2634",
+    "name": "漢翔",
+    "currentPrice": "54.90"
+  },
+  {
+    "id": "2636",
+    "name": "台驊控股",
+    "currentPrice": "66.40"
+  },
+  {
+    "id": "2637",
+    "name": "慧洋-KY",
+    "currentPrice": "70.90"
+  },
+  {
+    "id": "2642",
+    "name": "宅配通",
+    "currentPrice": "26.30"
+  },
+  {
+    "id": "2645",
+    "name": "長榮航太",
+    "currentPrice": "168.00"
+  },
+  {
+    "id": "2646",
+    "name": "星宇航空",
+    "currentPrice": "23.10"
+  },
+  {
+    "id": "2701",
+    "name": "萬企",
+    "currentPrice": "11.00"
+  },
+  {
+    "id": "2702",
+    "name": "華園",
+    "currentPrice": "11.95"
+  },
+  {
+    "id": "2704",
+    "name": "國賓",
+    "currentPrice": "44.05"
+  },
+  {
+    "id": "2705",
+    "name": "六福",
+    "currentPrice": "16.50"
+  },
+  {
+    "id": "2706",
+    "name": "第一店",
+    "currentPrice": "12.85"
+  },
+  {
+    "id": "2707",
+    "name": "晶華",
+    "currentPrice": "190.00"
+  },
+  {
+    "id": "2712",
+    "name": "遠雄來",
+    "currentPrice": "17.60"
+  },
+  {
+    "id": "2722",
+    "name": "夏都",
+    "currentPrice": "25.10"
+  },
+  {
+    "id": "2723",
+    "name": "美食-KY",
+    "currentPrice": "75.10"
+  },
+  {
+    "id": "2727",
+    "name": "王品",
+    "currentPrice": "218.00"
+  },
+  {
+    "id": "2731",
+    "name": "雄獅",
+    "currentPrice": "172.50"
+  },
+  {
+    "id": "2739",
+    "name": "寒舍",
+    "currentPrice": "34.25"
+  },
+  {
+    "id": "2748",
+    "name": "雲品",
+    "currentPrice": "41.25"
+  },
+  {
+    "id": "2753",
+    "name": "八方雲集",
+    "currentPrice": "179.00"
+  },
+  {
+    "id": "2762",
+    "name": "世界健身-KY",
+    "currentPrice": "73.50"
+  },
+  {
+    "id": "2801",
+    "name": "彰銀",
+    "currentPrice": "20.40"
+  },
+  {
+    "id": "2812",
+    "name": "台中銀",
+    "currentPrice": "20.30"
+  },
+  {
+    "id": "2816",
+    "name": "旺旺保",
+    "currentPrice": "29.00"
+  },
+  {
+    "id": "2820",
+    "name": "華票",
+    "currentPrice": "16.30"
+  },
+  {
+    "id": "2832",
+    "name": "台產",
+    "currentPrice": "49.60"
+  },
+  {
+    "id": "2834",
+    "name": "臺企銀",
+    "currentPrice": "15.50"
+  },
+  {
+    "id": "2836",
+    "name": "高雄銀",
+    "currentPrice": "12.10"
+  },
+  {
+    "id": "2836A",
+    "name": "高雄銀甲特",
+    "currentPrice": "23.80"
+  },
+  {
+    "id": "2838",
+    "name": "聯邦銀",
+    "currentPrice": "18.60"
+  },
+  {
+    "id": "2838A",
+    "name": "聯邦銀甲特",
+    "currentPrice": "54.50"
+  },
+  {
+    "id": "2845",
+    "name": "遠東銀",
+    "currentPrice": "12.65"
+  },
+  {
+    "id": "2849",
+    "name": "安泰銀",
+    "currentPrice": "13.45"
+  },
+  {
+    "id": "2850",
+    "name": "新產",
+    "currentPrice": "115.00"
+  },
+  {
+    "id": "2851",
+    "name": "中再保",
+    "currentPrice": "26.95"
+  },
+  {
+    "id": "2852",
+    "name": "第一保",
+    "currentPrice": "27.45"
+  },
+  {
+    "id": "2855",
+    "name": "統一證",
+    "currentPrice": "29.10"
+  },
+  {
+    "id": "2867",
+    "name": "三商壽",
+    "currentPrice": "7.99"
+  },
+  {
+    "id": "2880",
+    "name": "華南金",
+    "currentPrice": "33.05"
+  },
+  {
+    "id": "2881",
+    "name": "富邦金",
+    "currentPrice": "92.40"
+  },
+  {
+    "id": "2881A",
+    "name": "富邦特",
+    "currentPrice": "63.30"
+  },
+  {
+    "id": "2881B",
+    "name": "富邦金乙特",
+    "currentPrice": "61.70"
+  },
+  {
+    "id": "2881C",
+    "name": "富邦金丙特",
+    "currentPrice": "52.20"
+  },
+  {
+    "id": "2882",
+    "name": "國泰金",
+    "currentPrice": "75.90"
+  },
+  {
+    "id": "2882A",
+    "name": "國泰特",
+    "currentPrice": "60.80"
+  },
+  {
+    "id": "2882B",
+    "name": "國泰金乙特",
+    "currentPrice": "60.10"
+  },
+  {
+    "id": "2883",
+    "name": "凱基金",
+    "currentPrice": "18.15"
+  },
+  {
+    "id": "2883B",
+    "name": "凱基金乙特",
+    "currentPrice": "7.88"
+  },
+  {
+    "id": "2884",
+    "name": "玉山金",
+    "currentPrice": "33.60"
+  },
+  {
+    "id": "2885",
+    "name": "元大金",
+    "currentPrice": "42.30"
+  },
+  {
+    "id": "2886",
+    "name": "兆豐金",
+    "currentPrice": "39.45"
+  },
+  {
+    "id": "2887",
+    "name": "台新新光金",
+    "currentPrice": "23.20"
+  },
+  {
+    "id": "2887E",
+    "name": "台新新光戊特一",
+    "currentPrice": "49.95"
+  },
+  {
+    "id": "2887F",
+    "name": "台新新光戊特二",
+    "currentPrice": "47.30"
+  },
+  {
+    "id": "2887G",
+    "name": "台新新光庚特一",
+    "currentPrice": "39.80"
+  },
+  {
+    "id": "2887H",
+    "name": "台新新光庚特二",
+    "currentPrice": "39.55"
+  },
+  {
+    "id": "2887I",
+    "name": "台新新光辛特",
+    "currentPrice": "9.31"
+  },
+  {
+    "id": "2887Z1",
+    "name": "台新新光己特",
+    "currentPrice": "16.55"
+  },
+  {
+    "id": "2889",
+    "name": "國票金",
+    "currentPrice": "16.45"
+  },
+  {
+    "id": "2890",
+    "name": "永豐金",
+    "currentPrice": "29.10"
+  },
+  {
+    "id": "2891",
+    "name": "中信金",
+    "currentPrice": "50.80"
+  },
+  {
+    "id": "2891B",
+    "name": "中信金乙特",
+    "currentPrice": "64.00"
+  },
+  {
+    "id": "2891C",
+    "name": "中信金丙特",
+    "currentPrice": "60.30"
+  },
+  {
+    "id": "2892",
+    "name": "第一金",
+    "currentPrice": "29.05"
+  },
+  {
+    "id": "2897",
+    "name": "王道銀行",
+    "currentPrice": "9.14"
+  },
+  {
+    "id": "2897B",
+    "name": "王道銀乙特",
+    "currentPrice": "11.80"
+  },
+  {
+    "id": "2901",
+    "name": "欣欣",
+    "currentPrice": "24.90"
+  },
+  {
+    "id": "2903",
+    "name": "遠百",
+    "currentPrice": "22.10"
+  },
+  {
+    "id": "2904",
+    "name": "匯僑",
+    "currentPrice": "17.10"
+  },
+  {
+    "id": "2905",
+    "name": "三商",
+    "currentPrice": "15.60"
+  },
+  {
+    "id": "2906",
+    "name": "高林",
+    "currentPrice": "12.55"
+  },
+  {
+    "id": "2908",
+    "name": "特力",
+    "currentPrice": "20.30"
+  },
+  {
+    "id": "2910",
+    "name": "統領",
+    "currentPrice": "20.90"
+  },
+  {
+    "id": "2911",
+    "name": "麗嬰房",
+    "currentPrice": "5.05"
+  },
+  {
+    "id": "2912",
+    "name": "統一超",
+    "currentPrice": "211.00"
+  },
+  {
+    "id": "2913",
+    "name": "農林",
+    "currentPrice": "13.35"
+  },
+  {
+    "id": "2915",
+    "name": "潤泰全",
+    "currentPrice": "51.50"
+  },
+  {
+    "id": "2923",
+    "name": "鼎固-KY",
+    "currentPrice": "20.45"
+  },
+  {
+    "id": "2929",
+    "name": "淘帝-KY",
+    "currentPrice": "8.10"
+  },
+  {
+    "id": "2939",
+    "name": "永邑-KY",
+    "currentPrice": "21.20"
+  },
+  {
+    "id": "2945",
+    "name": "三商家購",
+    "currentPrice": "44.30"
+  },
+  {
+    "id": "3002",
+    "name": "歐格",
+    "currentPrice": "22.55"
+  },
+  {
+    "id": "3003",
+    "name": "健和興",
+    "currentPrice": "49.50"
+  },
+  {
+    "id": "3004",
+    "name": "豐達科",
+    "currentPrice": "112.50"
+  },
+  {
+    "id": "3005",
+    "name": "神基",
+    "currentPrice": "113.00"
+  },
+  {
+    "id": "3006",
+    "name": "晶豪科",
+    "currentPrice": "151.00"
+  },
+  {
+    "id": "3008",
+    "name": "大立光",
+    "currentPrice": "2435.00"
+  },
+  {
+    "id": "3010",
+    "name": "華立",
+    "currentPrice": "122.00"
+  },
+  {
+    "id": "3011",
+    "name": "今皓",
+    "currentPrice": "14.55"
+  },
+  {
+    "id": "3013",
+    "name": "晟銘電",
+    "currentPrice": "119.50"
+  },
+  {
+    "id": "3014",
+    "name": "聯陽",
+    "currentPrice": "122.00"
+  },
+  {
+    "id": "3015",
+    "name": "全漢",
+    "currentPrice": "54.20"
+  },
+  {
+    "id": "3016",
+    "name": "嘉晶",
+    "currentPrice": "71.80"
+  },
+  {
+    "id": "3017",
+    "name": "奇鋐",
+    "currentPrice": "1420.00"
+  },
+  {
+    "id": "3018",
+    "name": "隆銘綠能",
+    "currentPrice": "11.95"
+  },
+  {
+    "id": "3019",
+    "name": "亞光",
+    "currentPrice": "152.00"
+  },
+  {
+    "id": "3021",
+    "name": "鴻名",
+    "currentPrice": "18.20"
+  },
+  {
+    "id": "3022",
+    "name": "威強電",
+    "currentPrice": "65.80"
+  },
+  {
+    "id": "3023",
+    "name": "信邦",
+    "currentPrice": "230.00"
+  },
+  {
+    "id": "3024",
+    "name": "憶聲",
+    "currentPrice": "11.00"
+  },
+  {
+    "id": "3025",
+    "name": "星通",
+    "currentPrice": "74.70"
+  },
+  {
+    "id": "3026",
+    "name": "禾伸堂",
+    "currentPrice": "108.00"
+  },
+  {
+    "id": "3027",
+    "name": "盛達",
+    "currentPrice": "25.60"
+  },
+  {
+    "id": "3028",
+    "name": "增你強",
+    "currentPrice": "41.60"
+  },
+  {
+    "id": "3029",
+    "name": "零壹",
+    "currentPrice": "115.50"
+  },
+  {
+    "id": "3030",
+    "name": "德律",
+    "currentPrice": "188.00"
+  },
+  {
+    "id": "3031",
+    "name": "佰鴻",
+    "currentPrice": "21.20"
+  },
+  {
+    "id": "3032",
+    "name": "偉訓",
+    "currentPrice": "73.60"
+  },
+  {
+    "id": "3033",
+    "name": "威健",
+    "currentPrice": "30.75"
+  },
+  {
+    "id": "3034",
+    "name": "聯詠",
+    "currentPrice": "395.00"
+  },
+  {
+    "id": "3035",
+    "name": "智原",
+    "currentPrice": "178.50"
+  },
+  {
+    "id": "3036",
+    "name": "文曄",
+    "currentPrice": "157.50"
+  },
+  {
+    "id": "3036A",
+    "name": "文曄甲特",
+    "currentPrice": "51.70"
+  },
+  {
+    "id": "3037",
+    "name": "欣興",
+    "currentPrice": "354.00"
+  },
+  {
+    "id": "3038",
+    "name": "全台",
+    "currentPrice": "24.30"
+  },
+  {
+    "id": "3040",
+    "name": "遠見",
+    "currentPrice": "47.00"
+  },
+  {
+    "id": "3041",
+    "name": "揚智",
+    "currentPrice": "27.95"
+  },
+  {
+    "id": "3042",
+    "name": "晶技",
+    "currentPrice": "87.90"
+  },
+  {
+    "id": "3043",
+    "name": "科風",
+    "currentPrice": "23.60"
+  },
+  {
+    "id": "3044",
+    "name": "健鼎",
+    "currentPrice": "384.00"
+  },
+  {
+    "id": "3045",
+    "name": "台灣大",
+    "currentPrice": "106.50"
+  },
+  {
+    "id": "3046",
+    "name": "建碁",
+    "currentPrice": "53.60"
+  },
+  {
+    "id": "3047",
+    "name": "訊舟",
+    "currentPrice": "19.25"
+  },
+  {
+    "id": "3048",
+    "name": "益登",
+    "currentPrice": "40.55"
+  },
+  {
+    "id": "3049",
+    "name": "精金",
+    "currentPrice": "9.09"
+  },
+  {
+    "id": "3050",
+    "name": "鈺德",
+    "currentPrice": "14.10"
+  },
+  {
+    "id": "3051",
+    "name": "力特",
+    "currentPrice": "26.00"
+  },
+  {
+    "id": "3052",
+    "name": "夆典",
+    "currentPrice": "11.65"
+  },
+  {
+    "id": "3054",
+    "name": "立萬利",
+    "currentPrice": "31.60"
+  },
+  {
+    "id": "3055",
+    "name": "蔚華科",
+    "currentPrice": "71.80"
+  },
+  {
+    "id": "3056",
+    "name": "富華新",
+    "currentPrice": "17.25"
+  },
+  {
+    "id": "3057",
+    "name": "喬鼎",
+    "currentPrice": "17.75"
+  },
+  {
+    "id": "3058",
+    "name": "立德",
+    "currentPrice": "10.35"
+  },
+  {
+    "id": "3059",
+    "name": "華晶科",
+    "currentPrice": "41.40"
+  },
+  {
+    "id": "3060",
+    "name": "銘異",
+    "currentPrice": "31.85"
+  },
+  {
+    "id": "3062",
+    "name": "建漢",
+    "currentPrice": "26.85"
+  },
+  {
+    "id": "3090",
+    "name": "日電貿",
+    "currentPrice": "99.00"
+  },
+  {
+    "id": "3092",
+    "name": "鴻碩",
+    "currentPrice": "27.30"
+  },
+  {
+    "id": "3094",
+    "name": "聯傑",
+    "currentPrice": "28.40"
+  },
+  {
+    "id": "3130",
+    "name": "一零四",
+    "currentPrice": "222.00"
+  },
+  {
+    "id": "3135",
+    "name": "凌航",
+    "currentPrice": "121.00"
+  },
+  {
+    "id": "3138",
+    "name": "耀登",
+    "currentPrice": "178.50"
+  },
+  {
+    "id": "3149",
+    "name": "正達",
+    "currentPrice": "54.80"
+  },
+  {
+    "id": "3150",
+    "name": "鈺寶-創",
+    "currentPrice": "19.40"
+  },
+  {
+    "id": "3164",
+    "name": "景岳",
+    "currentPrice": "18.20"
+  },
+  {
+    "id": "3167",
+    "name": "大量",
+    "currentPrice": "233.00"
+  },
+  {
+    "id": "3168",
+    "name": "眾福科",
+    "currentPrice": "41.50"
+  },
+  {
+    "id": "3189",
+    "name": "景碩",
+    "currentPrice": "228.50"
+  },
+  {
+    "id": "3209",
+    "name": "全科",
+    "currentPrice": "33.50"
+  },
+  {
+    "id": "3229",
+    "name": "晟鈦",
+    "currentPrice": "23.05"
+  },
+  {
+    "id": "3231",
+    "name": "緯創",
+    "currentPrice": "134.50"
+  },
+  {
+    "id": "3257",
+    "name": "虹冠電",
+    "currentPrice": "69.30"
+  },
+  {
+    "id": "3266",
+    "name": "昇陽",
+    "currentPrice": "13.75"
+  },
+  {
+    "id": "3296",
+    "name": "勝德",
+    "currentPrice": "25.40"
+  },
+  {
+    "id": "3305",
+    "name": "昇貿",
+    "currentPrice": "118.50"
+  },
+  {
+    "id": "3308",
+    "name": "聯德",
+    "currentPrice": "23.45"
+  },
+  {
+    "id": "3311",
+    "name": "閎暉",
+    "currentPrice": "33.60"
+  },
+  {
+    "id": "3312",
+    "name": "弘憶股",
+    "currentPrice": "42.75"
+  },
+  {
+    "id": "3321",
+    "name": "同泰",
+    "currentPrice": "18.60"
+  },
+  {
+    "id": "3338",
+    "name": "泰碩",
+    "currentPrice": "52.70"
+  },
+  {
+    "id": "3346",
+    "name": "麗清",
+    "currentPrice": "22.70"
+  },
+  {
+    "id": "3356",
+    "name": "奇偶",
+    "currentPrice": "49.90"
+  },
+  {
+    "id": "3376",
+    "name": "新日興",
+    "currentPrice": "222.50"
+  },
+  {
+    "id": "3380",
+    "name": "明泰",
+    "currentPrice": "35.10"
+  },
+  {
+    "id": "3406",
+    "name": "玉晶光",
+    "currentPrice": "465.50"
+  },
+  {
+    "id": "3413",
+    "name": "京鼎",
+    "currentPrice": "301.00"
+  },
+  {
+    "id": "3416",
+    "name": "融程電",
+    "currentPrice": "150.00"
+  },
+  {
+    "id": "3419",
+    "name": "譁裕",
+    "currentPrice": "14.35"
+  },
+  {
+    "id": "3432",
+    "name": "台端",
+    "currentPrice": "18.50"
+  },
+  {
+    "id": "3437",
+    "name": "榮創",
+    "currentPrice": "15.20"
+  },
+  {
+    "id": "3443",
+    "name": "創意",
+    "currentPrice": "2585.00"
+  },
+  {
+    "id": "3447",
+    "name": "展達",
+    "currentPrice": "46.45"
+  },
+  {
+    "id": "3450",
+    "name": "聯鈞",
+    "currentPrice": "252.00"
+  },
+  {
+    "id": "3454",
+    "name": "晶睿",
+    "currentPrice": "99.10"
+  },
+  {
+    "id": "3481",
+    "name": "群創",
+    "currentPrice": "23.05"
+  },
+  {
+    "id": "3494",
+    "name": "誠研",
+    "currentPrice": "9.55"
+  },
+  {
+    "id": "3501",
+    "name": "維熹",
+    "currentPrice": "54.50"
+  },
+  {
+    "id": "3504",
+    "name": "揚明光",
+    "currentPrice": "56.40"
+  },
+  {
+    "id": "3515",
+    "name": "華擎",
+    "currentPrice": "225.00"
+  },
+  {
+    "id": "3518",
+    "name": "柏騰",
+    "currentPrice": "22.40"
+  },
+  {
+    "id": "3528",
+    "name": "安馳",
+    "currentPrice": "70.20"
+  },
+  {
+    "id": "3530",
+    "name": "晶相光",
+    "currentPrice": "72.10"
+  },
+  {
+    "id": "3532",
+    "name": "台勝科",
+    "currentPrice": "152.50"
+  },
+  {
+    "id": "3533",
+    "name": "嘉澤",
+    "currentPrice": "1500.00"
+  },
+  {
+    "id": "3535",
+    "name": "晶彩科",
+    "currentPrice": "103.50"
+  },
+  {
+    "id": "3543",
+    "name": "州巧",
+    "currentPrice": "48.00"
+  },
+  {
+    "id": "3545",
+    "name": "敦泰",
+    "currentPrice": "56.40"
+  },
+  {
+    "id": "3550",
+    "name": "聯穎",
+    "currentPrice": "15.70"
+  },
+  {
+    "id": "3557",
+    "name": "嘉威",
+    "currentPrice": "35.85"
+  },
+  {
+    "id": "3563",
+    "name": "牧德",
+    "currentPrice": "497.00"
+  },
+  {
+    "id": "3576",
+    "name": "聯合再生",
+    "currentPrice": "11.10"
+  },
+  {
+    "id": "3583",
+    "name": "辛耘",
+    "currentPrice": "328.00"
+  },
+  {
+    "id": "3588",
+    "name": "通嘉",
+    "currentPrice": "57.20"
+  },
+  {
+    "id": "3591",
+    "name": "艾笛森",
+    "currentPrice": "20.40"
+  },
+  {
+    "id": "3592",
+    "name": "瑞鼎",
+    "currentPrice": "237.00"
+  },
+  {
+    "id": "3593",
+    "name": "力銘",
+    "currentPrice": "11.95"
+  },
+  {
+    "id": "3596",
+    "name": "智易",
+    "currentPrice": "177.50"
+  },
+  {
+    "id": "3605",
+    "name": "宏致",
+    "currentPrice": "67.70"
+  },
+  {
+    "id": "3607",
+    "name": "谷崧",
+    "currentPrice": "15.00"
+  },
+  {
+    "id": "3617",
+    "name": "碩天",
+    "currentPrice": "191.00"
+  },
+  {
+    "id": "3622",
+    "name": "洋華",
+    "currentPrice": "67.50"
+  },
+  {
+    "id": "3645",
+    "name": "達邁",
+    "currentPrice": "71.60"
+  },
+  {
+    "id": "3652",
+    "name": "精聯",
+    "currentPrice": "28.75"
+  },
+  {
+    "id": "3653",
+    "name": "健策",
+    "currentPrice": "2795.00"
+  },
+  {
+    "id": "3661",
+    "name": "世芯-KY",
+    "currentPrice": "3430.00"
+  },
+  {
+    "id": "3665",
+    "name": "貿聯-KY",
+    "currentPrice": "1420.00"
+  },
+  {
+    "id": "3669",
+    "name": "圓展",
+    "currentPrice": "39.40"
+  },
+  {
+    "id": "3673",
+    "name": "TPK-KY",
+    "currentPrice": "41.75"
+  },
+  {
+    "id": "3679",
+    "name": "新至陞",
+    "currentPrice": "116.00"
+  },
+  {
+    "id": "3686",
+    "name": "達能",
+    "currentPrice": "19.40"
+  },
+  {
+    "id": "3694",
+    "name": "海華",
+    "currentPrice": "64.90"
+  },
+  {
+    "id": "3701",
+    "name": "大眾控",
+    "currentPrice": "51.60"
+  },
+  {
+    "id": "3702",
+    "name": "大聯大",
+    "currentPrice": "64.10"
+  },
+  {
+    "id": "3703",
+    "name": "欣陸",
+    "currentPrice": "23.05"
+  },
+  {
+    "id": "3704",
+    "name": "合勤控",
+    "currentPrice": "39.15"
+  },
+  {
+    "id": "3705",
+    "name": "永信",
+    "currentPrice": "56.90"
+  },
+  {
+    "id": "3706",
+    "name": "神達",
+    "currentPrice": "81.30"
+  },
+  {
+    "id": "3708",
+    "name": "上緯投控",
+    "currentPrice": "121.50"
+  },
+  {
+    "id": "3711",
+    "name": "日月光投控",
+    "currentPrice": "306.50"
+  },
+  {
+    "id": "3712",
+    "name": "永崴投控",
+    "currentPrice": "27.00"
+  },
+  {
+    "id": "3714",
+    "name": "富采",
+    "currentPrice": "37.50"
+  },
+  {
+    "id": "3715",
+    "name": "定穎投控",
+    "currentPrice": "149.00"
+  },
+  {
+    "id": "3716",
+    "name": "中化控股",
+    "currentPrice": "34.10"
+  },
+  {
+    "id": "3717",
+    "name": "聯嘉投控",
+    "currentPrice": "18.30"
+  },
+  {
+    "id": "4104",
+    "name": "佳醫",
+    "currentPrice": "79.50"
+  },
+  {
+    "id": "4106",
+    "name": "雃博",
+    "currentPrice": "23.65"
+  },
+  {
+    "id": "4108",
+    "name": "懷特",
+    "currentPrice": "15.25"
+  },
+  {
+    "id": "4119",
+    "name": "旭富",
+    "currentPrice": "53.70"
+  },
+  {
+    "id": "4133",
+    "name": "亞諾法",
+    "currentPrice": "26.40"
+  },
+  {
+    "id": "4137",
+    "name": "麗豐-KY",
+    "currentPrice": "107.50"
+  },
+  {
+    "id": "4142",
+    "name": "國光生",
+    "currentPrice": "20.05"
+  },
+  {
+    "id": "4148",
+    "name": "全宇生技-KY",
+    "currentPrice": "38.30"
+  },
+  {
+    "id": "4155",
+    "name": "訊映",
+    "currentPrice": "14.75"
+  },
+  {
+    "id": "4164",
+    "name": "承業醫",
+    "currentPrice": "35.25"
+  },
+  {
+    "id": "4190",
+    "name": "佐登-KY",
+    "currentPrice": "29.60"
+  },
+  {
+    "id": "4306",
+    "name": "炎洲",
+    "currentPrice": "13.90"
+  },
+  {
+    "id": "4414",
+    "name": "如興",
+    "currentPrice": "10.55"
+  },
+  {
+    "id": "4426",
+    "name": "利勤",
+    "currentPrice": "9.62"
+  },
+  {
+    "id": "4438",
+    "name": "廣越",
+    "currentPrice": "70.90"
+  },
+  {
+    "id": "4439",
+    "name": "冠星-KY",
+    "currentPrice": "102.00"
+  },
+  {
+    "id": "4440",
+    "name": "宜新實業",
+    "currentPrice": "17.55"
+  },
+  {
+    "id": "4441",
+    "name": "振大環球",
+    "currentPrice": "264.50"
+  },
+  {
+    "id": "4526",
+    "name": "東台",
+    "currentPrice": "36.05"
+  },
+  {
+    "id": "4532",
+    "name": "瑞智",
+    "currentPrice": "25.85"
+  },
+  {
+    "id": "4536",
+    "name": "拓凱",
+    "currentPrice": "164.00"
+  },
+  {
+    "id": "4540",
+    "name": "全球傳動",
+    "currentPrice": "49.15"
+  },
+  {
+    "id": "4545",
+    "name": "銘鈺",
+    "currentPrice": "35.85"
+  },
+  {
+    "id": "4551",
+    "name": "智伸科",
+    "currentPrice": "122.00"
+  },
+  {
+    "id": "4552",
+    "name": "力達-KY",
+    "currentPrice": "24.25"
+  },
+  {
+    "id": "4555",
+    "name": "氣立",
+    "currentPrice": "40.50"
+  },
+  {
+    "id": "4557",
+    "name": "永新-KY",
+    "currentPrice": "71.30"
+  },
+  {
+    "id": "4560",
+    "name": "強信-KY",
+    "currentPrice": "32.10"
+  },
+  {
+    "id": "4562",
+    "name": "穎漢",
+    "currentPrice": "40.95"
+  },
+  {
+    "id": "4564",
+    "name": "元翎",
+    "currentPrice": "16.65"
+  },
+  {
+    "id": "4566",
+    "name": "時碩工業",
+    "currentPrice": "62.00"
+  },
+  {
+    "id": "4569",
+    "name": "六方科-KY",
+    "currentPrice": "149.00"
+  },
+  {
+    "id": "4571",
+    "name": "鈞興-KY",
+    "currentPrice": "184.50"
+  },
+  {
+    "id": "4572",
+    "name": "駐龍",
+    "currentPrice": "149.50"
+  },
+  {
+    "id": "4576",
+    "name": "大銀微系統",
+    "currentPrice": "124.00"
+  },
+  {
+    "id": "4581",
+    "name": "光隆精密-KY",
+    "currentPrice": "51.50"
+  },
+  {
+    "id": "4583",
+    "name": "台灣精銳",
+    "currentPrice": "813.00"
+  },
+  {
+    "id": "4585",
+    "name": "達明",
+    "currentPrice": "360.50"
+  },
+  {
+    "id": "4588",
+    "name": "玖鼎電力",
+    "currentPrice": "68.80"
+  },
+  {
+    "id": "4720",
+    "name": "德淵",
+    "currentPrice": "16.75"
+  },
+  {
+    "id": "4722",
+    "name": "國精化",
+    "currentPrice": "162.50"
+  },
+  {
+    "id": "4736",
+    "name": "泰博",
+    "currentPrice": "135.00"
+  },
+  {
+    "id": "4737",
+    "name": "華廣",
+    "currentPrice": "54.00"
+  },
+  {
+    "id": "4739",
+    "name": "康普",
+    "currentPrice": "72.90"
+  },
+  {
+    "id": "4746",
+    "name": "台耀",
+    "currentPrice": "61.10"
+  },
+  {
+    "id": "4755",
+    "name": "三福化",
+    "currentPrice": "124.50"
+  },
+  {
+    "id": "4763",
+    "name": "材料*-KY",
+    "currentPrice": "50.30"
+  },
+  {
+    "id": "4764",
+    "name": "雙鍵",
+    "currentPrice": "120.00"
+  },
+  {
+    "id": "4766",
+    "name": "南寶",
+    "currentPrice": "323.00"
+  },
+  {
+    "id": "4770",
+    "name": "上品",
+    "currentPrice": "240.00"
+  },
+  {
+    "id": "4771",
+    "name": "望隼",
+    "currentPrice": "179.50"
+  },
+  {
+    "id": "4807",
+    "name": "日成-KY",
+    "currentPrice": "18.00"
+  },
+  {
+    "id": "4904",
+    "name": "遠傳",
+    "currentPrice": "89.40"
+  },
+  {
+    "id": "4906",
+    "name": "正文",
+    "currentPrice": "28.00"
+  },
+  {
+    "id": "4912",
+    "name": "聯德控股-KY",
+    "currentPrice": "98.10"
+  },
+  {
+    "id": "4915",
+    "name": "致伸",
+    "currentPrice": "79.50"
+  },
+  {
+    "id": "4916",
+    "name": "事欣科",
+    "currentPrice": "69.70"
+  },
+  {
+    "id": "4919",
+    "name": "新唐",
+    "currentPrice": "60.30"
+  },
+  {
+    "id": "4927",
+    "name": "泰鼎-KY",
+    "currentPrice": "33.40"
+  },
+  {
+    "id": "4930",
+    "name": "燦星網",
+    "currentPrice": "22.00"
+  },
+  {
+    "id": "4934",
+    "name": "太極",
+    "currentPrice": "16.90"
+  },
+  {
+    "id": "4935",
+    "name": "茂林-KY",
+    "currentPrice": "40.15"
+  },
+  {
+    "id": "4938",
+    "name": "和碩",
+    "currentPrice": "70.30"
+  },
+  {
+    "id": "4942",
+    "name": "嘉彰",
+    "currentPrice": "37.90"
+  },
+  {
+    "id": "4943",
+    "name": "康控-KY",
+    "currentPrice": "12.20"
+  },
+  {
+    "id": "4949",
+    "name": "有成精密",
+    "currentPrice": "48.60"
+  },
+  {
+    "id": "4952",
+    "name": "凌通",
+    "currentPrice": "38.70"
+  },
+  {
+    "id": "4956",
+    "name": "光鋐",
+    "currentPrice": "20.70"
+  },
+  {
+    "id": "4958",
+    "name": "臻鼎-KY",
+    "currentPrice": "165.00"
+  },
+  {
+    "id": "4960",
+    "name": "誠美材",
+    "currentPrice": "13.80"
+  },
+  {
+    "id": "4961",
+    "name": "天鈺",
+    "currentPrice": "153.00"
+  },
+  {
+    "id": "4967",
+    "name": "十銓",
+    "currentPrice": "248.00"
+  },
+  {
+    "id": "4968",
+    "name": "立積",
+    "currentPrice": "125.50"
+  },
+  {
+    "id": "4976",
+    "name": "佳凌",
+    "currentPrice": "32.75"
+  },
+  {
+    "id": "4977",
+    "name": "眾達-KY",
+    "currentPrice": "125.50"
+  },
+  {
+    "id": "4989",
+    "name": "榮科",
+    "currentPrice": "63.00"
+  },
+  {
+    "id": "4994",
+    "name": "傳奇",
+    "currentPrice": "105.00"
+  },
+  {
+    "id": "4999",
+    "name": "鑫禾",
+    "currentPrice": "23.95"
+  },
+  {
+    "id": "5007",
+    "name": "三星",
+    "currentPrice": "57.70"
+  },
+  {
+    "id": "5203",
+    "name": "訊連",
+    "currentPrice": "86.50"
+  },
+  {
+    "id": "5215",
+    "name": "科嘉-KY",
+    "currentPrice": "38.25"
+  },
+  {
+    "id": "5222",
+    "name": "全訊",
+    "currentPrice": "143.00"
+  },
+  {
+    "id": "5225",
+    "name": "東科-KY",
+    "currentPrice": "104.00"
+  },
+  {
+    "id": "5234",
+    "name": "達興材料",
+    "currentPrice": "330.50"
+  },
+  {
+    "id": "5243",
+    "name": "乙盛-KY",
+    "currentPrice": "88.70"
+  },
+  {
+    "id": "5244",
+    "name": "弘凱",
+    "currentPrice": "39.25"
+  },
+  {
+    "id": "5258",
+    "name": "虹堡",
+    "currentPrice": "60.40"
+  },
+  {
+    "id": "5269",
+    "name": "祥碩",
+    "currentPrice": "1400.00"
+  },
+  {
+    "id": "5283",
+    "name": "禾聯碩",
+    "currentPrice": "61.00"
+  },
+  {
+    "id": "5284",
+    "name": "jpp-KY",
+    "currentPrice": "273.50"
+  },
+  {
+    "id": "5285",
+    "name": "界霖",
+    "currentPrice": "55.90"
+  },
+  {
+    "id": "5288",
+    "name": "豐祥-KY",
+    "currentPrice": "145.50"
+  },
+  {
+    "id": "5292",
+    "name": "華懋",
+    "currentPrice": "203.00"
+  },
+  {
+    "id": "5306",
+    "name": "桂盟",
+    "currentPrice": "93.70"
+  },
+  {
+    "id": "5388",
+    "name": "中磊",
+    "currentPrice": "83.40"
+  },
+  {
+    "id": "5434",
+    "name": "崇越",
+    "currentPrice": "331.50"
+  },
+  {
+    "id": "5469",
+    "name": "瀚宇博",
+    "currentPrice": "101.50"
+  },
+  {
+    "id": "5471",
+    "name": "松翰",
+    "currentPrice": "36.50"
+  },
+  {
+    "id": "5484",
+    "name": "慧友",
+    "currentPrice": "43.25"
+  },
+  {
+    "id": "5515",
+    "name": "建國",
+    "currentPrice": "32.65"
+  },
+  {
+    "id": "5519",
+    "name": "隆大",
+    "currentPrice": "31.40"
+  },
+  {
+    "id": "5521",
+    "name": "工信",
+    "currentPrice": "22.00"
+  },
+  {
+    "id": "5522",
+    "name": "遠雄",
+    "currentPrice": "65.80"
+  },
+  {
+    "id": "5525",
+    "name": "順天",
+    "currentPrice": "25.75"
+  },
+  {
+    "id": "5531",
+    "name": "鄉林",
+    "currentPrice": "9.01"
+  },
+  {
+    "id": "5533",
+    "name": "皇鼎",
+    "currentPrice": "14.30"
+  },
+  {
+    "id": "5534",
+    "name": "長虹",
+    "currentPrice": "78.50"
+  },
+  {
+    "id": "5538",
+    "name": "東明-KY",
+    "currentPrice": "32.75"
+  },
+  {
+    "id": "5546",
+    "name": "永固-KY",
+    "currentPrice": "22.25"
+  },
+  {
+    "id": "5607",
+    "name": "遠雄港",
+    "currentPrice": "47.50"
+  },
+  {
+    "id": "5608",
+    "name": "四維航",
+    "currentPrice": "17.70"
+  },
+  {
+    "id": "5706",
+    "name": "鳳凰",
+    "currentPrice": "49.85"
+  },
+  {
+    "id": "5871",
+    "name": "中租-KY",
+    "currentPrice": "106.00"
+  },
+  {
+    "id": "5871A",
+    "name": "中租-KY甲特",
+    "currentPrice": "101.00"
+  },
+  {
+    "id": "5876",
+    "name": "上海商銀",
+    "currentPrice": "39.55"
+  },
+  {
+    "id": "5880",
+    "name": "合庫金",
+    "currentPrice": "23.70"
+  },
+  {
+    "id": "5906",
+    "name": "台南-KY",
+    "currentPrice": "51.70"
+  },
+  {
+    "id": "5907",
+    "name": "大洋-KY",
+    "currentPrice": "6.05"
+  },
+  {
+    "id": "6005",
+    "name": "群益證",
+    "currentPrice": "29.00"
+  },
+  {
+    "id": "6024",
+    "name": "群益期",
+    "currentPrice": "51.80"
+  },
+  {
+    "id": "6108",
+    "name": "競國",
+    "currentPrice": "15.60"
+  },
+  {
+    "id": "6112",
+    "name": "邁達特",
+    "currentPrice": "47.65"
+  },
+  {
+    "id": "6115",
+    "name": "鎰勝",
+    "currentPrice": "47.10"
+  },
+  {
+    "id": "6116",
+    "name": "彩晶",
+    "currentPrice": "8.89"
+  },
+  {
+    "id": "6117",
+    "name": "迎廣",
+    "currentPrice": "80.40"
+  },
+  {
+    "id": "6120",
+    "name": "達運",
+    "currentPrice": "13.20"
+  },
+  {
+    "id": "6128",
+    "name": "上福",
+    "currentPrice": "24.50"
+  },
+  {
+    "id": "6133",
+    "name": "金橋",
+    "currentPrice": "28.05"
+  },
+  {
+    "id": "6136",
+    "name": "富爾特",
+    "currentPrice": "24.05"
+  },
+  {
+    "id": "6139",
+    "name": "亞翔",
+    "currentPrice": "545.00"
+  },
+  {
+    "id": "6141",
+    "name": "柏承",
+    "currentPrice": "11.70"
+  },
+  {
+    "id": "6142",
+    "name": "友勁",
+    "currentPrice": "10.00"
+  },
+  {
+    "id": "6152",
+    "name": "百一",
+    "currentPrice": "13.55"
+  },
+  {
+    "id": "6153",
+    "name": "嘉聯益",
+    "currentPrice": "16.90"
+  },
+  {
+    "id": "6155",
+    "name": "鈞寶",
+    "currentPrice": "57.80"
+  },
+  {
+    "id": "6164",
+    "name": "華興",
+    "currentPrice": "12.75"
+  },
+  {
+    "id": "6165",
+    "name": "浪凡",
+    "currentPrice": "43.05"
+  },
+  {
+    "id": "6166",
+    "name": "凌華",
+    "currentPrice": "64.30"
+  },
+  {
+    "id": "6168",
+    "name": "宏齊",
+    "currentPrice": "23.90"
+  },
+  {
+    "id": "6176",
+    "name": "瑞儀",
+    "currentPrice": "125.50"
+  },
+  {
+    "id": "6177",
+    "name": "達麗",
+    "currentPrice": "47.95"
+  },
+  {
+    "id": "6183",
+    "name": "關貿",
+    "currentPrice": "95.50"
+  },
+  {
+    "id": "6184",
+    "name": "大豐電",
+    "currentPrice": "48.55"
+  },
+  {
+    "id": "6189",
+    "name": "豐藝",
+    "currentPrice": "45.00"
+  },
+  {
+    "id": "6191",
+    "name": "精成科",
+    "currentPrice": "114.50"
+  },
+  {
+    "id": "6192",
+    "name": "巨路",
+    "currentPrice": "123.50"
+  },
+  {
+    "id": "6196",
+    "name": "帆宣",
+    "currentPrice": "293.00"
+  },
+  {
+    "id": "6197",
+    "name": "佳必琪",
+    "currentPrice": "145.00"
+  },
+  {
+    "id": "6201",
+    "name": "亞弘電",
+    "currentPrice": "54.90"
+  },
+  {
+    "id": "6202",
+    "name": "盛群",
+    "currentPrice": "48.10"
+  },
+  {
+    "id": "6205",
+    "name": "詮欣",
+    "currentPrice": "55.20"
+  },
+  {
+    "id": "6206",
+    "name": "飛捷",
+    "currentPrice": "93.90"
+  },
+  {
+    "id": "6209",
+    "name": "今國光",
+    "currentPrice": "78.80"
+  },
+  {
+    "id": "6213",
+    "name": "聯茂",
+    "currentPrice": "121.00"
+  },
+  {
+    "id": "6214",
+    "name": "精誠",
+    "currentPrice": "122.00"
+  },
+  {
+    "id": "6215",
+    "name": "和椿",
+    "currentPrice": "121.00"
+  },
+  {
+    "id": "6216",
+    "name": "居易",
+    "currentPrice": "28.45"
+  },
+  {
+    "id": "6224",
+    "name": "聚鼎",
+    "currentPrice": "42.00"
+  },
+  {
+    "id": "6225",
+    "name": "天瀚",
+    "currentPrice": "17.50"
+  },
+  {
+    "id": "6226",
+    "name": "光鼎",
+    "currentPrice": "9.35"
+  },
+  {
+    "id": "6230",
+    "name": "尼得科超眾",
+    "currentPrice": "123.50"
+  },
+  {
+    "id": "6235",
+    "name": "華孚",
+    "currentPrice": "61.00"
+  },
+  {
+    "id": "6239",
+    "name": "力成",
+    "currentPrice": "263.50"
+  },
+  {
+    "id": "6243",
+    "name": "迅杰",
+    "currentPrice": "35.40"
+  },
+  {
+    "id": "6257",
+    "name": "矽格",
+    "currentPrice": "134.00"
+  },
+  {
+    "id": "6269",
+    "name": "台郡",
+    "currentPrice": "60.90"
+  },
+  {
+    "id": "6271",
+    "name": "同欣電",
+    "currentPrice": "156.50"
+  },
+  {
+    "id": "6272",
+    "name": "驊陞",
+    "currentPrice": "41.80"
+  },
+  {
+    "id": "6277",
+    "name": "宏正",
+    "currentPrice": "61.70"
+  },
+  {
+    "id": "6278",
+    "name": "台表科",
+    "currentPrice": "94.90"
+  },
+  {
+    "id": "6281",
+    "name": "全國電",
+    "currentPrice": "62.10"
+  },
+  {
+    "id": "6282",
+    "name": "康舒",
+    "currentPrice": "53.80"
+  },
+  {
+    "id": "6283",
+    "name": "淳安",
+    "currentPrice": "24.10"
+  },
+  {
+    "id": "6285",
+    "name": "啟碁",
+    "currentPrice": "160.00"
+  },
+  {
+    "id": "6405",
+    "name": "悅城",
+    "currentPrice": "30.85"
+  },
+  {
+    "id": "6409",
+    "name": "旭隼",
+    "currentPrice": "952.00"
+  },
+  {
+    "id": "6412",
+    "name": "群電",
+    "currentPrice": "83.60"
+  },
+  {
+    "id": "6414",
+    "name": "樺漢",
+    "currentPrice": "292.00"
+  },
+  {
+    "id": "6415",
+    "name": "矽力*-KY",
+    "currentPrice": "287.50"
+  },
+  {
+    "id": "6416",
+    "name": "瑞祺電通",
+    "currentPrice": "85.80"
+  },
+  {
+    "id": "6426",
+    "name": "統新",
+    "currentPrice": "92.60"
+  },
+  {
+    "id": "6431",
+    "name": "光麗-KY",
+    "currentPrice": "28.15"
+  },
+  {
+    "id": "6438",
+    "name": "迅得",
+    "currentPrice": "155.00"
+  },
+  {
+    "id": "6442",
+    "name": "光聖",
+    "currentPrice": "1430.00"
+  },
+  {
+    "id": "6443",
+    "name": "元晶",
+    "currentPrice": "41.65"
+  },
+  {
+    "id": "6446",
+    "name": "藥華藥",
+    "currentPrice": "722.00"
+  },
+  {
+    "id": "6449",
+    "name": "鈺邦",
+    "currentPrice": "182.50"
+  },
+  {
+    "id": "6451",
+    "name": "訊芯-KY",
+    "currentPrice": "148.50"
+  },
+  {
+    "id": "6456",
+    "name": "GIS-KY",
+    "currentPrice": "41.70"
+  },
+  {
+    "id": "6464",
+    "name": "台數科",
+    "currentPrice": "75.20"
+  },
+  {
+    "id": "6472",
+    "name": "保瑞",
+    "currentPrice": "583.00"
+  },
+  {
+    "id": "6477",
+    "name": "安集",
+    "currentPrice": "36.70"
+  },
+  {
+    "id": "6491",
+    "name": "晶碩",
+    "currentPrice": "287.00"
+  },
+  {
+    "id": "6504",
+    "name": "南六",
+    "currentPrice": "44.60"
+  },
+  {
+    "id": "6505",
+    "name": "台塑化",
+    "currentPrice": "51.60"
+  },
+  {
+    "id": "6515",
+    "name": "穎崴",
+    "currentPrice": "4275.00"
+  },
+  {
+    "id": "6525",
+    "name": "捷敏-KY",
+    "currentPrice": "80.70"
+  },
+  {
+    "id": "6526",
+    "name": "達發",
+    "currentPrice": "464.00"
+  },
+  {
+    "id": "6531",
+    "name": "愛普*",
+    "currentPrice": "438.00"
+  },
+  {
+    "id": "6533",
+    "name": "晶心科",
+    "currentPrice": "247.00"
+  },
+  {
+    "id": "6534",
+    "name": "正瀚-創",
+    "currentPrice": "86.80"
+  },
+  {
+    "id": "6541",
+    "name": "泰福-KY",
+    "currentPrice": "54.10"
+  },
+  {
+    "id": "6550",
+    "name": "北極星藥業-KY",
+    "currentPrice": "31.55"
+  },
+  {
+    "id": "6552",
+    "name": "易華電",
+    "currentPrice": "27.45"
+  },
+  {
+    "id": "6558",
+    "name": "興能高",
+    "currentPrice": "37.55"
+  },
+  {
+    "id": "6573",
+    "name": "虹揚-KY",
+    "currentPrice": "15.55"
+  },
+  {
+    "id": "6579",
+    "name": "研揚",
+    "currentPrice": "111.50"
+  },
+  {
+    "id": "6581",
+    "name": "鋼聯",
+    "currentPrice": "106.50"
+  },
+  {
+    "id": "6582",
+    "name": "申豐",
+    "currentPrice": "35.10"
+  },
+  {
+    "id": "6585",
+    "name": "鼎基",
+    "currentPrice": "93.40"
+  },
+  {
+    "id": "6589",
+    "name": "台康生技",
+    "currentPrice": "65.30"
+  },
+  {
+    "id": "6591",
+    "name": "動力-KY",
+    "currentPrice": "70.00"
+  },
+  {
+    "id": "6592",
+    "name": "和潤企業",
+    "currentPrice": "61.90"
+  },
+  {
+    "id": "6592A",
+    "name": "和潤企業甲特",
+    "currentPrice": ""
+  },
+  {
+    "id": "6592B",
+    "name": "和潤企業乙特",
+    "currentPrice": "97.50"
+  },
+  {
+    "id": "6598",
+    "name": "ABC-KY",
+    "currentPrice": "24.15"
+  },
+  {
+    "id": "6605",
+    "name": "帝寶",
+    "currentPrice": "160.00"
+  },
+  {
+    "id": "6606",
+    "name": "建德工業",
+    "currentPrice": "26.05"
+  },
+  {
+    "id": "6614",
+    "name": "資拓宏宇",
+    "currentPrice": "48.35"
+  },
+  {
+    "id": "6625",
+    "name": "必應",
+    "currentPrice": "87.00"
+  },
+  {
+    "id": "6641",
+    "name": "基士德-KY",
+    "currentPrice": "25.45"
+  },
+  {
+    "id": "6645",
+    "name": "金萬林-創",
+    "currentPrice": "18.10"
+  },
+  {
+    "id": "6655",
+    "name": "科定",
+    "currentPrice": "120.50"
+  },
+  {
+    "id": "6657",
+    "name": "華安",
+    "currentPrice": "58.60"
+  },
+  {
+    "id": "6658",
+    "name": "聯策",
+    "currentPrice": "56.00"
+  },
+  {
+    "id": "6666",
+    "name": "羅麗芬-KY",
+    "currentPrice": "46.00"
+  },
+  {
+    "id": "6668",
+    "name": "中揚光",
+    "currentPrice": "38.70"
+  },
+  {
+    "id": "6669",
+    "name": "緯穎",
+    "currentPrice": "3700.00"
+  },
+  {
+    "id": "6670",
+    "name": "復盛應用",
+    "currentPrice": "271.50"
+  },
+  {
+    "id": "6671",
+    "name": "三能-KY",
+    "currentPrice": "37.20"
+  },
+  {
+    "id": "6672",
+    "name": "騰輝電子-KY",
+    "currentPrice": "97.80"
+  },
+  {
+    "id": "6674",
+    "name": "鋐寶科技",
+    "currentPrice": "20.70"
+  },
+  {
+    "id": "6689",
+    "name": "伊雲谷",
+    "currentPrice": "63.50"
+  },
+  {
+    "id": "6691",
+    "name": "洋基工程",
+    "currentPrice": "602.00"
+  },
+  {
+    "id": "6695",
+    "name": "芯鼎",
+    "currentPrice": "44.85"
+  },
+  {
+    "id": "6698",
+    "name": "旭暉應材",
+    "currentPrice": "36.15"
+  },
+  {
+    "id": "6706",
+    "name": "惠特",
+    "currentPrice": "110.50"
+  },
+  {
+    "id": "6715",
+    "name": "嘉基",
+    "currentPrice": "109.00"
+  },
+  {
+    "id": "6719",
+    "name": "力智",
+    "currentPrice": "209.00"
+  },
+  {
+    "id": "6722",
+    "name": "輝創",
+    "currentPrice": "43.55"
+  },
+  {
+    "id": "6742",
+    "name": "澤米",
+    "currentPrice": "45.75"
+  },
+  {
+    "id": "6743",
+    "name": "安普新",
+    "currentPrice": "27.85"
+  },
+  {
+    "id": "6753",
+    "name": "龍德造船",
+    "currentPrice": "148.50"
+  },
+  {
+    "id": "6754",
+    "name": "匯僑設計",
+    "currentPrice": "45.35"
+  },
+  {
+    "id": "6756",
+    "name": "威鋒電子",
+    "currentPrice": "84.30"
+  },
+  {
+    "id": "6757",
+    "name": "台灣虎航",
+    "currentPrice": "68.50"
+  },
+  {
+    "id": "6768",
+    "name": "志強-KY",
+    "currentPrice": "105.00"
+  },
+  {
+    "id": "6770",
+    "name": "力積電",
+    "currentPrice": "59.50"
+  },
+  {
+    "id": "6771",
+    "name": "平和環保-創",
+    "currentPrice": "44.55"
+  },
+  {
+    "id": "6776",
+    "name": "展碁國際",
+    "currentPrice": "59.50"
+  },
+  {
+    "id": "6781",
+    "name": "AES-KY",
+    "currentPrice": "1185.00"
+  },
+  {
+    "id": "6782",
+    "name": "視陽",
+    "currentPrice": "176.00"
+  },
+  {
+    "id": "6789",
+    "name": "采鈺",
+    "currentPrice": "290.00"
+  },
+  {
+    "id": "6790",
+    "name": "永豐實",
+    "currentPrice": "38.20"
+  },
+  {
+    "id": "6792",
+    "name": "詠業",
+    "currentPrice": "58.30"
+  },
+  {
+    "id": "6794",
+    "name": "向榮生技",
+    "currentPrice": "87.60"
+  },
+  {
+    "id": "6796",
+    "name": "晉弘",
+    "currentPrice": "89.20"
+  },
+  {
+    "id": "6799",
+    "name": "來頡",
+    "currentPrice": "89.90"
+  },
+  {
+    "id": "6805",
+    "name": "富世達",
+    "currentPrice": "1420.00"
+  },
+  {
+    "id": "6806",
+    "name": "森崴能源",
+    "currentPrice": "51.60"
+  },
+  {
+    "id": "6807",
+    "name": "峰源-KY",
+    "currentPrice": "45.55"
+  },
+  {
+    "id": "6830",
+    "name": "汎銓",
+    "currentPrice": "179.00"
+  },
+  {
+    "id": "6831",
+    "name": "邁科",
+    "currentPrice": "249.00"
+  },
+  {
+    "id": "6834",
+    "name": "天二科技",
+    "currentPrice": "33.95"
+  },
+  {
+    "id": "6835",
+    "name": "圓裕",
+    "currentPrice": "38.70"
+  },
+  {
+    "id": "6838",
+    "name": "台新藥",
+    "currentPrice": "30.05"
+  },
+  {
+    "id": "6854",
+    "name": "錼創科技-KY創",
+    "currentPrice": "120.00"
+  },
+  {
+    "id": "6861",
+    "name": "睿生光電",
+    "currentPrice": "64.60"
+  },
+  {
+    "id": "6862",
+    "name": "三集瑞-KY",
+    "currentPrice": "200.00"
+  },
+  {
+    "id": "6863",
+    "name": "永道-KY",
+    "currentPrice": "113.50"
+  },
+  {
+    "id": "6869",
+    "name": "雲豹能源",
+    "currentPrice": "116.00"
+  },
+  {
+    "id": "6873",
+    "name": "泓德能源",
+    "currentPrice": "116.00"
+  },
+  {
+    "id": "6885",
+    "name": "全福生技",
+    "currentPrice": "27.90"
+  },
+  {
+    "id": "6887",
+    "name": "寶綠特-KY",
+    "currentPrice": "61.30"
+  },
+  {
+    "id": "6890",
+    "name": "來億-KY",
+    "currentPrice": "242.00"
+  },
+  {
+    "id": "6901",
+    "name": "鑽石投資",
+    "currentPrice": "18.65"
+  },
+  {
+    "id": "6902",
+    "name": "GOGOLOOK",
+    "currentPrice": "79.70"
+  },
+  {
+    "id": "6906",
+    "name": "現觀科",
+    "currentPrice": "80.80"
+  },
+  {
+    "id": "6909",
+    "name": "創控",
+    "currentPrice": "44.65"
+  },
+  {
+    "id": "6914",
+    "name": "阜爾運通",
+    "currentPrice": "143.00"
+  },
+  {
+    "id": "6916",
+    "name": "華凌",
+    "currentPrice": "18.70"
+  },
+  {
+    "id": "6918",
+    "name": "愛派司",
+    "currentPrice": "80.60"
+  },
+  {
+    "id": "6919",
+    "name": "康霈*",
+    "currentPrice": "166.00"
+  },
+  {
+    "id": "6921",
+    "name": "嘉雨思-創",
+    "currentPrice": "79.70"
+  },
+  {
+    "id": "6923",
+    "name": "中台",
+    "currentPrice": "97.00"
+  },
+  {
+    "id": "6924",
+    "name": "榮惠-KY創",
+    "currentPrice": "65.00"
+  },
+  {
+    "id": "6928",
+    "name": "攸泰科技",
+    "currentPrice": "54.60"
+  },
+  {
+    "id": "6931",
+    "name": "青松健康",
+    "currentPrice": "56.10"
+  },
+  {
+    "id": "6933",
+    "name": "AMAX-KY",
+    "currentPrice": "143.50"
+  },
+  {
+    "id": "6936",
+    "name": "永鴻生技",
+    "currentPrice": "35.90"
+  },
+  {
+    "id": "6937",
+    "name": "天虹",
+    "currentPrice": "221.00"
+  },
+  {
+    "id": "6944",
+    "name": "兆聯實業",
+    "currentPrice": "720.00"
+  },
+  {
+    "id": "6949",
+    "name": "沛爾生醫-創",
+    "currentPrice": "513.00"
+  },
+  {
+    "id": "6951",
+    "name": "青新-創",
+    "currentPrice": "76.70"
+  },
+  {
+    "id": "6952",
+    "name": "大武山",
+    "currentPrice": "43.10"
+  },
+  {
+    "id": "6955",
+    "name": "邦睿生技-創",
+    "currentPrice": "161.50"
+  },
+  {
+    "id": "6957",
+    "name": "裕慶-KY",
+    "currentPrice": "183.50"
+  },
+  {
+    "id": "6958",
+    "name": "日盛台駿",
+    "currentPrice": "15.15"
+  },
+  {
+    "id": "6958A",
+    "name": "日盛台駿甲特",
+    "currentPrice": "19.15"
+  },
+  {
+    "id": "6962",
+    "name": "奕力-KY",
+    "currentPrice": "39.80"
+  },
+  {
+    "id": "6965",
+    "name": "中傑-KY",
+    "currentPrice": "86.00"
+  },
+  {
+    "id": "6969",
+    "name": "成信實業*-創",
+    "currentPrice": "34.50"
+  },
+  {
+    "id": "6988",
+    "name": "威力暘-創",
+    "currentPrice": "19.20"
+  },
+  {
+    "id": "6994",
+    "name": "富威電力",
+    "currentPrice": "93.50"
+  },
+  {
+    "id": "7610",
+    "name": "聯友金屬-創",
+    "currentPrice": "192.50"
+  },
+  {
+    "id": "7631",
+    "name": "聚賢研發-創",
+    "currentPrice": "122.50"
+  },
+  {
+    "id": "7705",
+    "name": "三商餐飲",
+    "currentPrice": "39.85"
+  },
+  {
+    "id": "7711",
+    "name": "永擎",
+    "currentPrice": "237.00"
+  },
+  {
+    "id": "7721",
+    "name": "微程式",
+    "currentPrice": "47.95"
+  },
+  {
+    "id": "7722",
+    "name": "LINEPAY",
+    "currentPrice": "477.00"
+  },
+  {
+    "id": "7730",
+    "name": "暉盛-創",
+    "currentPrice": "100.00"
+  },
+  {
+    "id": "7732",
+    "name": "金興精密",
+    "currentPrice": "37.95"
+  },
+  {
+    "id": "7736",
+    "name": "虎山",
+    "currentPrice": "89.50"
+  },
+  {
+    "id": "7740",
+    "name": "熙特爾-創",
+    "currentPrice": "160.00"
+  },
+  {
+    "id": "7749",
+    "name": "意騰-KY",
+    "currentPrice": "420.50"
+  },
+  {
+    "id": "7750",
+    "name": "新代",
+    "currentPrice": "976.00"
+  },
+  {
+    "id": "7765",
+    "name": "中華資安",
+    "currentPrice": "259.50"
+  },
+  {
+    "id": "7769",
+    "name": "鴻勁",
+    "currentPrice": "3775.00"
+  },
+  {
+    "id": "7780",
+    "name": "大研生醫*",
+    "currentPrice": "26.05"
+  },
+  {
+    "id": "7786",
+    "name": "東方風能",
+    "currentPrice": "160.50"
+  },
+  {
+    "id": "7788",
+    "name": "松川精密",
+    "currentPrice": "181.50"
+  },
+  {
+    "id": "7791",
+    "name": "皇家可口",
+    "currentPrice": "71.00"
+  },
+  {
+    "id": "7795",
+    "name": "長廣",
+    "currentPrice": "384.50"
+  },
+  {
+    "id": "7799",
+    "name": "禾榮科",
+    "currentPrice": "425.00"
+  },
+  {
+    "id": "8011",
+    "name": "台通",
+    "currentPrice": "21.80"
+  },
+  {
+    "id": "8016",
+    "name": "矽創",
+    "currentPrice": "193.50"
+  },
+  {
+    "id": "8021",
+    "name": "尖點",
+    "currentPrice": "231.00"
+  },
+  {
+    "id": "8028",
+    "name": "昇陽半導體",
+    "currentPrice": "177.50"
+  },
+  {
+    "id": "8033",
+    "name": "雷虎",
+    "currentPrice": "155.00"
+  },
+  {
+    "id": "8039",
+    "name": "台虹",
+    "currentPrice": "91.70"
+  },
+  {
+    "id": "8045",
+    "name": "達運光電",
+    "currentPrice": "89.00"
+  },
+  {
+    "id": "8046",
+    "name": "南電",
+    "currentPrice": "395.00"
+  },
+  {
+    "id": "8070",
+    "name": "長華*",
+    "currentPrice": "48.75"
+  },
+  {
+    "id": "8072",
+    "name": "陞泰",
+    "currentPrice": "31.70"
+  },
+  {
+    "id": "8081",
+    "name": "致新",
+    "currentPrice": "249.50"
+  },
+  {
+    "id": "8101",
+    "name": "華冠",
+    "currentPrice": "15.50"
+  },
+  {
+    "id": "8103",
+    "name": "瀚荃",
+    "currentPrice": "96.20"
+  },
+  {
+    "id": "8104",
+    "name": "錸寶",
+    "currentPrice": "36.70"
+  },
+  {
+    "id": "8105",
+    "name": "凌巨",
+    "currentPrice": "13.10"
+  },
+  {
+    "id": "8110",
+    "name": "華東",
+    "currentPrice": "80.40"
+  },
+  {
+    "id": "8112",
+    "name": "至上",
+    "currentPrice": "78.80"
+  },
+  {
+    "id": "8112A",
+    "name": "至上甲特",
+    "currentPrice": "44.70"
+  },
+  {
+    "id": "8114",
+    "name": "振樺電",
+    "currentPrice": "194.50"
+  },
+  {
+    "id": "8131",
+    "name": "福懋科",
+    "currentPrice": "81.10"
+  },
+  {
+    "id": "8150",
+    "name": "南茂",
+    "currentPrice": "66.60"
+  },
+  {
+    "id": "8162",
+    "name": "微矽電子-創",
+    "currentPrice": "38.30"
+  },
+  {
+    "id": "8163",
+    "name": "達方",
+    "currentPrice": "32.00"
+  },
+  {
+    "id": "8201",
+    "name": "無敵",
+    "currentPrice": "14.90"
+  },
+  {
+    "id": "8210",
+    "name": "勤誠",
+    "currentPrice": "965.00"
+  },
+  {
+    "id": "8213",
+    "name": "志超",
+    "currentPrice": "36.30"
+  },
+  {
+    "id": "8215",
+    "name": "明基材",
+    "currentPrice": "20.45"
+  },
+  {
+    "id": "8222",
+    "name": "寶一",
+    "currentPrice": "42.05"
+  },
+  {
+    "id": "8249",
+    "name": "菱光",
+    "currentPrice": "58.20"
+  },
+  {
+    "id": "8261",
+    "name": "富鼎",
+    "currentPrice": "95.00"
+  },
+  {
+    "id": "8271",
+    "name": "宇瞻",
+    "currentPrice": "117.50"
+  },
+  {
+    "id": "8341",
+    "name": "日友",
+    "currentPrice": "78.60"
+  },
+  {
+    "id": "8367",
+    "name": "建新國際",
+    "currentPrice": "43.45"
+  },
+  {
+    "id": "8374",
+    "name": "羅昇",
+    "currentPrice": "94.90"
+  },
+  {
+    "id": "8404",
+    "name": "百和興業-KY",
+    "currentPrice": "23.85"
+  },
+  {
+    "id": "8411",
+    "name": "福貞-KY",
+    "currentPrice": "12.00"
+  },
+  {
+    "id": "8422",
+    "name": "可寧衛*",
+    "currentPrice": "39.85"
+  },
+  {
+    "id": "8429",
+    "name": "金麗-KY",
+    "currentPrice": "7.81"
+  },
+  {
+    "id": "8438",
+    "name": "昶昕",
+    "currentPrice": "67.40"
+  },
+  {
+    "id": "8442",
+    "name": "威宏-KY",
+    "currentPrice": "70.80"
+  },
+  {
+    "id": "8443",
+    "name": "阿瘦",
+    "currentPrice": "11.50"
+  },
+  {
+    "id": "8454",
+    "name": "富邦媒",
+    "currentPrice": "192.50"
+  },
+  {
+    "id": "8462",
+    "name": "柏文",
+    "currentPrice": "146.50"
+  },
+  {
+    "id": "8463",
+    "name": "潤泰材",
+    "currentPrice": "26.60"
+  },
+  {
+    "id": "8464",
+    "name": "億豐",
+    "currentPrice": "424.50"
+  },
+  {
+    "id": "8466",
+    "name": "美吉吉-KY",
+    "currentPrice": "22.55"
+  },
+  {
+    "id": "8467",
+    "name": "波力-KY",
+    "currentPrice": "187.50"
+  },
+  {
+    "id": "8473",
+    "name": "山林水",
+    "currentPrice": "38.90"
+  },
+  {
+    "id": "8476",
+    "name": "台境*",
+    "currentPrice": "20.60"
+  },
+  {
+    "id": "8478",
+    "name": "東哥遊艇",
+    "currentPrice": "189.50"
+  },
+  {
+    "id": "8481",
+    "name": "政伸",
+    "currentPrice": "42.70"
+  },
+  {
+    "id": "8482",
+    "name": "商億-KY",
+    "currentPrice": "48.55"
+  },
+  {
+    "id": "8487",
+    "name": "愛爾達-創",
+    "currentPrice": "80.30"
+  },
+  {
+    "id": "8488",
+    "name": "吉源-KY",
+    "currentPrice": "10.05"
+  },
+  {
+    "id": "8499",
+    "name": "鼎炫-KY",
+    "currentPrice": "314.00"
+  },
+  {
+    "id": "8926",
+    "name": "台汽電",
+    "currentPrice": "44.00"
+  },
+  {
+    "id": "8940",
+    "name": "新天地",
+    "currentPrice": "20.40"
+  },
+  {
+    "id": "8996",
+    "name": "高力",
+    "currentPrice": "722.00"
+  },
+  {
+    "id": "9103",
+    "name": "美德醫療-DR",
+    "currentPrice": "5.14"
+  },
+  {
+    "id": "910322",
+    "name": "康師傅-DR",
+    "currentPrice": "22.95"
+  },
+  {
+    "id": "9105",
+    "name": "泰金寶-DR",
+    "currentPrice": "6.08"
+  },
+  {
+    "id": "910861",
+    "name": "神州-DR",
+    "currentPrice": "5.57"
+  },
+  {
+    "id": "9110",
+    "name": "越南控-DR",
+    "currentPrice": "3.10"
+  },
+  {
+    "id": "911608",
+    "name": "明輝-DR",
+    "currentPrice": "2.90"
+  },
+  {
+    "id": "911622",
+    "name": "泰聚亨-DR",
+    "currentPrice": "3.91"
+  },
+  {
+    "id": "911868",
+    "name": "同方友友-DR",
+    "currentPrice": "1.30"
+  },
+  {
+    "id": "912000",
+    "name": "晨訊科-DR",
+    "currentPrice": "2.89"
+  },
+  {
+    "id": "9136",
+    "name": "巨騰-DR",
+    "currentPrice": "8.16"
+  },
+  {
+    "id": "9802",
+    "name": "鈺齊-KY",
+    "currentPrice": "96.30"
+  },
+  {
+    "id": "9902",
+    "name": "台火",
+    "currentPrice": "17.60"
+  },
+  {
+    "id": "9904",
+    "name": "寶成",
+    "currentPrice": "31.15"
+  },
+  {
+    "id": "9905",
+    "name": "大華",
+    "currentPrice": "20.15"
+  },
+  {
+    "id": "9906",
+    "name": "欣巴巴",
+    "currentPrice": "45.85"
+  },
+  {
+    "id": "9907",
+    "name": "統一實",
+    "currentPrice": "18.45"
+  },
+  {
+    "id": "9908",
+    "name": "大台北",
+    "currentPrice": "29.75"
+  },
+  {
+    "id": "9910",
+    "name": "豐泰",
+    "currentPrice": "96.90"
+  },
+  {
+    "id": "9911",
+    "name": "櫻花",
+    "currentPrice": "84.30"
+  },
+  {
+    "id": "9912",
+    "name": "偉聯",
+    "currentPrice": "12.15"
+  },
+  {
+    "id": "9914",
+    "name": "美利達",
+    "currentPrice": "88.40"
+  },
+  {
+    "id": "9917",
+    "name": "中保科",
+    "currentPrice": "106.00"
+  },
+  {
+    "id": "9918",
+    "name": "欣天然",
+    "currentPrice": "39.65"
+  },
+  {
+    "id": "9919",
+    "name": "康那香",
+    "currentPrice": "17.90"
+  },
+  {
+    "id": "9921",
+    "name": "巨大",
+    "currentPrice": "94.30"
+  },
+  {
+    "id": "9924",
+    "name": "福興",
+    "currentPrice": "49.15"
+  },
+  {
+    "id": "9925",
+    "name": "新保",
+    "currentPrice": "40.80"
+  },
+  {
+    "id": "9926",
+    "name": "新海",
+    "currentPrice": "49.30"
+  },
+  {
+    "id": "9927",
+    "name": "泰銘",
+    "currentPrice": "70.10"
+  },
+  {
+    "id": "9928",
+    "name": "中視",
+    "currentPrice": "18.20"
+  },
+  {
+    "id": "9929",
+    "name": "秋雨",
+    "currentPrice": "10.70"
+  },
+  {
+    "id": "9930",
+    "name": "中聯資源",
+    "currentPrice": "70.50"
+  },
+  {
+    "id": "9931",
+    "name": "欣高",
+    "currentPrice": "34.15"
+  },
+  {
+    "id": "9933",
+    "name": "中鼎",
+    "currentPrice": "32.15"
+  },
+  {
+    "id": "9934",
+    "name": "成霖",
+    "currentPrice": "10.45"
+  },
+  {
+    "id": "9935",
+    "name": "慶豐富",
+    "currentPrice": "20.10"
+  },
+  {
+    "id": "9937",
+    "name": "全國",
+    "currentPrice": "57.50"
+  },
+  {
+    "id": "9938",
+    "name": "百和",
+    "currentPrice": "51.20"
+  },
+  {
+    "id": "9939",
+    "name": "宏全",
+    "currentPrice": "121.00"
+  },
+  {
+    "id": "9940",
+    "name": "信義",
+    "currentPrice": "22.05"
+  },
+  {
+    "id": "9941",
+    "name": "裕融",
+    "currentPrice": "78.40"
+  },
+  {
+    "id": "9941A",
+    "name": "裕融甲特",
+    "currentPrice": "50.30"
+  },
+  {
+    "id": "9942",
+    "name": "茂順",
+    "currentPrice": "112.00"
+  },
+  {
+    "id": "9943",
+    "name": "好樂迪",
+    "currentPrice": "59.80"
+  },
+  {
+    "id": "9944",
+    "name": "新麗",
+    "currentPrice": "17.55"
+  },
+  {
+    "id": "9945",
+    "name": "潤泰新",
+    "currentPrice": "29.25"
+  },
+  {
+    "id": "9946",
+    "name": "三發地產",
+    "currentPrice": "17.20"
+  },
+  {
+    "id": "9955",
+    "name": "佳龍",
+    "currentPrice": "38.05"
+  },
+  {
+    "id": "9958",
+    "name": "世紀鋼",
+    "currentPrice": "134.50"
+  }
+]
