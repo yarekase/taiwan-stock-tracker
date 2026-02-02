@@ -3,42 +3,51 @@ import { useState, useEffect } from 'react';
 import './StockSearch.css';
 
 function StockSearch({ onSelect, stockList}) {
+
+// ==========================================================================
+
   const [query, setQuery] = useState('');
 //   每次在輸入框裡所打字，就會把整個字串儲存起來，預設為空字串
   const [results, setResults] = useState([]);
-//   把篩選後的結果儲存起來
+//   把篩選後的結果儲存到results
+
+// ==========================================================================
 
   // 當使用者輸入時，進行搜尋
   useEffect(() => {
-    // useEffect(() => { ... }, [aquery])只有query有資料時才執行動作
     // 使用.trim()是將前後的無效空格給消除，如果有資料會回傳true執行下列篩選動作
-    // if (query.trim()) {
-      // 這裡我們先用靜態資料模擬，之後會串接 API
     if ((query.trim()).length <2) {
       setResults([]);
       return;}
     
+    // 把搜尋框裡代號開頭相符，或名稱包含在內的股票，放入filtered，並渲染給results
     const filtered = stockList.filter(stock =>
       stock.id.startsWith(query) || stock.name.includes(query)
       ).slice(0,8);
     setResults(filtered);
   }, [query,stockList]); //useEffect的啟動條件
-  // 
-// 
+
+// ==========================================================================
+  
   return (
     <div className="search-container">
-      <div className="search-row">
+
+      {/* ========================================= */}
+      
+      <div className="search-row">      
         <label>股票搜尋：</label>
         <input 
           type="text" 
           placeholder="輸入代碼或名字..." 
           value={query}
-// 把query的內容傳送給value，這是單純顯示在輸入框上的內容，不是下方的.value
+          // 把query的內容傳送給value，這是單純顯示在輸入框上的內容，不是下方的.value
           onChange={(e) => setQuery(e.target.value)}
-// onChange屬性：當有資料變化時觸發此屬性執行此動作
-// 在取得e.target(此處為input本身)的.value的內容時，透過e去執行setQuery(內容)這個動作，最後更新query的值
+          // onChange屬性：當有資料變化時觸發此屬性執行此動作
+          // 在取得e.target(此處為input本身)的.value的內容時，透過e去執行setQuery(內容)這個動作，最後更新query的值
         />
       </div>
+
+      {/* ========================================= */}
 
       {/* 第三行顯示列：搜尋結果清單 */}
       {results.length > 0 && (

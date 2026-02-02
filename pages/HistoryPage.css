@@ -80,3 +80,55 @@
   background-color: #e74c3c;
   color: white;
 }
+
+.filter-section {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-section select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  
+  /* 使用等寬字型確保 ID 與名稱對齊更整齊 */
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  min-width: 200px;
+}
+
+/* 當滑鼠移過或點擊時的效果 */
+.filter-section select:hover {
+  border-color: #007bff;
+}
+
+.filter-section select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+/* 讓預設的選項稍微有點區隔 */
+.filter-section select option {
+  padding: 10px;
+  font-family: inherit; /* 繼承外層的等寬字型 */
+}
+
+.reserve-info {
+  background-color: #f0f4f8;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  border: 1px solid #d1d9e0;
+}
+
+.reserve-info strong {
+  color: #007bff; /* 讓數字變藍色比較顯眼 */
+}

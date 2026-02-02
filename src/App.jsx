@@ -8,9 +8,10 @@ import HistoryPage from '../pages/HistoryPage.jsx';
 import stockData from './stock.json'
 
 function App() {
-  // 1. 狀態管理：目前所在的頁面 (預設為第一頁 'trade')
+  // 1. 狀態管理 ============================================================
+  // 目前所在的頁面 (預設為第一頁 'trade')
   const [activeTab, setActiveTab] = useState('trade');
-
+// ==========================================================================
 
   // 2. 狀態管理：全域交易紀錄record紀錄著所有的交易紀錄
   // useState(()=>{...)只在初次載入時執行一次
@@ -22,6 +23,8 @@ function App() {
     return saved ? JSON.parse(saved) : [];
   });
   
+// ==========================================================================
+
   // 3. 自動存檔
   // 當records有變化，執行localStorage.setItem
   // 把records陣列先用轉為Json字串後，存入localStorage空間，給予一個key值'stock_records'
@@ -29,11 +32,15 @@ function App() {
     localStorage.setItem('stock_records', JSON.stringify(records));
   }, [records]);
 
+ // ========================================================================== 
+
   //  4. 定義新增紀錄的方法handleAddRecord，此方法將交給子組件TradePage處理取得newRecord
   const handleAddRecord = (newRecord) => {
     setRecords(prev=>[...prev,newRecord]);
     alert("已收到李正華小姐的紀錄，祝你發財！");
   };
+
+  // ==========================================================================
 
   //  5. 定義刪除紀錄的方法handleDeleteRecord，，此方法將交給子組件HistroyPage處理取得newRecord
   const handleDeleteRecord = (id) => {
@@ -44,33 +51,49 @@ function App() {
   }
 };
 
+// ==========================================================================
+
   //  6.抓取預先處理好的資料
   // 定義物件資料StockList來儲存台股資訊
   const [stockList] = useState(stockData);
 
+// ==========================================================================
 
   // 切換頁面的渲染邏輯，顯示主頁面是哪一個
   const renderContent = () => {
     switch (activeTab) {
   // 切換activeTab，是trade就是第一頁，是history是第二頁
+
+      // -----------------------------------------------------
       case 'trade':
-  // 把 handleAddRecord 方法(紀錄資料)傳給 TradePage 去處理
-        return <TradePage onAddRecord={handleAddRecord} stockList={stockData}/>;
+        // 把 handleAddRecord 方法(紀錄資料)傳給 TradePage 去處理，並把stockData
+        return <TradePage onAddRecord={handleAddRecord} stockList={stockList}/>;
+      // -----------------------------------------------------
       case 'history':
-      // 這裡要把 App 存的 records 傳下去給第二頁看
-        return <HistoryPage records={records} onDelete={handleDeleteRecord} />;
+        // 這裡要把 App 存的 records 傳下去給第二頁看
+        return <HistoryPage records={records} onDelete={handleDeleteRecord} stockList={stockList}/>;
+      // -----------------------------------------------------
+
       default:
         return null;
     }
   };
+
+// ==========================================================================
 
   return (
     <div className="app-container">
   {/* 先包出一個大邊框，改變裡面的呈現樣貌達成換頁 */}
   {/* 左側邊欄 Sidebar */}
       <nav className="sidebar">
+
+        {/* ====================================================================== */}
+
         <div className="sidebar-title">台股買賣紀錄本</div>
-  {/* 左上角 */}
+        {/* 左上角 */}
+
+        {/* ====================================================================== */}
+
         <button 
           className={`tab-button ${activeTab === 'trade' ? 'active' : ''}`}
                               // 如果activeTab是trade，回傳active，賦予一個屬性，否則回傳空值
@@ -80,14 +103,20 @@ function App() {
         >
           買賣輸入
         </button>
-  {/* 按鈕一 */}
+        {/* 按鈕一 */}
+
+        {/* ====================================================================== */}
+
         <button 
           className={`tab-button ${activeTab === 'history' ? 'active' : ''}`}
           onClick={() => setActiveTab('history')}
         >
           紀錄查詢
         </button>
-  {/* 按鈕二 */}
+        {/* 按鈕二 */}
+
+        {/* ====================================================================== */}
+
       </nav>
 
   {/* 右側主內容區 */}
