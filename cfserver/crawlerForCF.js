@@ -1,6 +1,6 @@
 // 為了在CF上運行所改寫的檔案
 // 從Cloudflare Worker環境傳來的資料庫連結參數。
-async function updateAllStockPrices(stockList) {
+async function updateAllStocks(stockList) {
 
     try {
         // 1.抓取證交所資訊====================================================================================
@@ -46,4 +46,4 @@ async function updateAllStockPrices(stockList) {
     }
 }
 
-module.exports = { updateAllStockPrices };
+module.exports = { updateAllStocks };

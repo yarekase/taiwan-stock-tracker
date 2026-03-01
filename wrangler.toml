@@ -1,0 +1,8 @@
+name = "taiwan-stock-tracker"
+main = "cfserver/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "stock_db"
+database_id = "230b8273-c47e-417b-abcb-8f5e2fc32dfa"
