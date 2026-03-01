@@ -1,6 +1,6 @@
 // 匯入crawlerForCF的函式=============================
 // 對應檔案裡匯出的形式module.exports = { updateAllStocks };
-const {updateAllStocks} = require('./crawlerForCF');
+import { updateAllStocks } from './crawlerForCF.js';
 
 
 export default{
