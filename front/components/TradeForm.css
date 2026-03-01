@@ -1,0 +1,61 @@
+/* src/components/TradeForm.css */
+.trade-form-row {
+  display: flex;
+  align-items: flex-end; /* 讓標籤和按鈕底部對齊 */
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2 2px 4px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.selected-info {
+  justify-content: center;
+  padding-bottom: 10px;
+  color: #3498db;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-buy {
+  background-color: #e74c3c; /* 紅色買入 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-sell {
+  background-color: #27ae60; /* 綠色賣出 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-buy:hover, .btn-sell:hover {
+  opacity: 0.8;
+}
