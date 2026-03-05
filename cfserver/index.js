@@ -81,7 +81,7 @@ export default{
 
             // 取得stocks的方法=========================================
             if (method === "GET" && pathname === "/api/stocks") {
-                const { results } = await db.prepare("SELECT code AS stock_id, name AS stock_name, closing_price AS current_price FROM stocklist").all();
+                const { results } = await db.prepare("SELECT stock_id, stock_name, current_price FROM stocklist").all();
                 return new Response(JSON.stringify(results), { headers: corsHeaders });
             }
 
