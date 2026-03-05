@@ -46,4 +46,4 @@ async function updateAllStocks(stockList) {
     }
 }
 
-export { updateAllStocks };;
+export { updateAllStocks };
