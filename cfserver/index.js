@@ -21,7 +21,7 @@ export default{
         // origin網域來源、method做什麼事情、header帶著什麼東西、content-type讓前端知道這個是json檔要轉成物件
         const corsHeaders ={
             // 前端請求是CF提供的前端網址才可進入
-            "Access-Control-Allow-Origin":"taiwan-stock-tracker.ejimtpck.workers.dev",
+            "Access-Control-Allow-Origin":"https://taiwan-stock-tracker.pages.dev/",
             // 前端可請求的動作為何
             "Access-Control-Allow-Methods":"GET,POST,DELETE,OPTIONS",
             // 允許前端請求帶有Content-Type的標頭
