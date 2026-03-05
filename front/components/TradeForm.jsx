@@ -71,16 +71,17 @@ function TradeForm({ selectedStock, onSubmit }) {
 
     console.log(`提交交易紀錄 [${type === 'buy' ? '買入' : '賣出'}]:`, newRecord);
 
-    try {
-      const result = await postRecord(newRecord);
-      alert(result.message);
-      // 傳回給父組件儲存
-      onSubmit({...newRecord, id: result.recordId}); 
-    }catch (error) {
-      console.error("儲存失敗".error);
-      alert("儲存失敗，請檢查後端");
+    onSubmit(newRecord);
+    // try {
+    //   const result = await postRecord(newRecord);
+    //   alert(result.message);
+    //   // 傳回給父組件儲存
+    //    onSubmit({...newRecord, id: result.recordId});
+    // }catch (error) {
+    //   console.error("儲存失敗".error);
+    //   alert("儲存失敗，請檢查後端");
       
-    };
+    // };
         
   };
 
