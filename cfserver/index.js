@@ -33,7 +33,17 @@ export default{
         // 當前端發出CORS請求時，HTTP請求方法會是OPTIONS，如果是這個，不用做回應(null)，然後允許請求
         if (method ==="OPTIONS") return new Response(null, {headers:corsHeaders});
 
-        // 開始針對動作執行
+        // 針對首頁執行===========================================================
+        if (pathname === "/" || pathname === "") {
+            return new Response("🚀 台灣股票追蹤器 API 伺服器正在高雄穩定運行中！", { 
+                headers: { 
+                    ...corsHeaders, 
+                    "Content-Type": "text/plain; charset=UTF-8" 
+                } 
+            });
+        }
+
+        // 開始針對動作執行=========================================================
         try{
             // 讀取records的方法=========================================
             if (method === "GET" && pathname ==="/api/records") {
