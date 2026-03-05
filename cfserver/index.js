@@ -96,10 +96,10 @@ export default{
             }
 
             // 預留手動觸發爬蟲的路徑=========================================
-            if (pathname === "/run-crawler") {
-                ctx.waitUntil(updateAllStocks(db));
-                return new Response("爬蟲啟動中", { headers: corsHeaders });
-            }
+            // if (pathname === "/run-crawler") {
+            //     ctx.waitUntil(updateAllStocks(db));
+            //     return new Response("爬蟲啟動中", { headers: corsHeaders });
+            // }
 
             // 如果上面幾個通通沒有抓到，回傳沒找到資料，可能api有錯
             return new Response("Not Found", { status: 404, headers: corsHeaders });
