@@ -1,5 +1,5 @@
 // 所有跟後端溝通的程式碼都放在這裡
-const api_url = 'https://taiwan-stock-tracker.ejimtpck.workers.dev/api';
+const api_url = 'https://stock-tracker.ejimtpck.workers.dev/api';
 
 // 讀取台股總紀錄=========================================================
 export const fetchStockList = async () =>{
