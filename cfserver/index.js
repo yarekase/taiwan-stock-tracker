@@ -1,7 +1,7 @@
 // 匯入crawlerForCF的函式=============================
 // 對應檔案裡匯出的形式export { updateAllStocks };;
 import { updateAllStocks } from './crawlerForCF.js';
-
+import { handleSignup, handleVerify } from './auth.js';
 
 export default{
     // 1.進行HTTP請求處理
@@ -45,6 +45,15 @@ export default{
 
         // 開始針對動作執行=========================================================
         try{
+            // 註冊帳號的方法============================================
+            if (method === "POST" && pathname === "/api/signup") {
+                return await handleSignup(request, db, corsHeaders);
+            }
+            // 驗證帳號的方法============================================
+            if (method === "GET" && pathname === "/api/verify") {
+                return await handleVerify(url, db, corsHeaders);
+            }
+
             // 讀取records的方法=========================================
             if (method === "GET" && pathname ==="/api/records") {
                 // 抓取資料，轉換成前端的名稱，用交易日期做排序，DESC是從小到大，ASC是從大到小
@@ -102,6 +111,7 @@ export default{
             // }
 
             // 如果上面幾個通通沒有抓到，回傳沒找到資料，可能api有錯
+
             return new Response("Not Found", { status: 404, headers: corsHeaders });
 
 

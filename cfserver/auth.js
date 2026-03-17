@@ -5,9 +5,9 @@ export async function handleSignup(request, env) {
   const { email, password } = await request.json();
 
   // 1. 檢查密碼格式 (8-15 碼英數字)============================================
+  
   // 先建立regex規則
   const passwordRegex = /^[A-Za-z0-9]{8,15}$/;
-
   // 使用regex規則的text功能檢查密碼是否正確
   if (!passwordRegex.test(password)) {
     return new Response("密碼格式不符", { status: 400 });
@@ -39,11 +39,26 @@ export async function handleSignup(request, env) {
     .run();
     // is_verified預設為0，created_at則會自動產生
 
-  return new Response(JSON.stringify({ message: "註冊成功，請驗證信箱" }), { status: 201 });
+  return new Response(JSON.stringify({ message: "註冊成功，請驗證信箱" }), { status: 201, headers: corsHeaders});
   // 回傳狀態201，要求使用者去接收信箱
 }
 
 // ===================================================================================================================================================
+
+// 驗證功能============================================================================================================================================
+ 
+export async function handleVerify(url, db, corsHeaders) {
+  // 使用url物件的searchParams，去尋找網址上的"token=金鑰"部分，如果沒有token，回傳錯誤
+    const token = url.searchParams.get("token");
+    if (!token) return new Response(JSON.stringify({ error: "缺少權杖" }), { status: 400, headers: corsHeaders });
+  // 找到token的值，但在資料庫找不到，也回傳錯誤
+    const user = await db.prepare("SELECT id FROM users WHERE verification_token = ?").bind(token).first();
+    if (!user) return new Response(JSON.stringify({ error: "無效權杖" }), { status: 400, headers: corsHeaders });
+  // 找到資料庫裡對應的token值，將那名人員的is_verified設定為1，並把token刪除
+    await db.prepare("UPDATE users SET is_verified = 1, verification_token = NULL WHERE id = ?").bind(user.id).run();
+    return new Response(JSON.stringify({ message: "驗證成功" }), { headers: corsHeaders });
+}                                  //附註，當沒有特別寫status時，預設是成功請求，並回應200
+
 
 // 登入功能============================================================================================================================================
 export async function handleLogin(request, env) {
