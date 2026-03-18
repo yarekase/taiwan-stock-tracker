@@ -1,5 +1,15 @@
 import { hashPassword } from './utils/crypto.js';
 
+/** 
+ * 處理註冊handleSignup
+ * 處理驗證handleVerify
+ * 處理登入
+*/
+
+
+
+
+
 // 註冊功能========================================================================================================================================
 export async function handleSignup(request, env) {
   const { email, password } = await request.json();
@@ -26,16 +36,18 @@ export async function handleSignup(request, env) {
   // =========================================================================
 
   // 3. 密碼加密===============================================================
-  const passwordHash = await hashPassword(password); 
+  // 針對不同用戶產生不同的鹽
+  const userSalt = crypto.randomUUID().replace(/-/g, '');  //把原本的36字元去掉4個底線變32字元，同時減少雜湊時可能的問題
+  const passwordHash = await hashPassword(password,userSalt); 
 
   const userId = crypto.randomUUID();
   const token = crypto.randomUUID();
 
   // 4. 存入資料庫
   await env.DB.prepare(
-    "INSERT INTO users (id, email, password, verification_token) VALUES (?, ?, ?, ?)"
+    "INSERT INTO users (id, email, password, verification_token, salts) VALUES (?, ?, ?, ?, ?)"
   )
-    .bind(userId, email, passwordHash, token)
+    .bind(userId, email, passwordHash, token, userSalt)
     .run();
     // is_verified預設為0，created_at則會自動產生
 
@@ -44,6 +56,9 @@ export async function handleSignup(request, env) {
 }
 
 // ===================================================================================================================================================
+
+
+
 
 // 驗證功能============================================================================================================================================
  
@@ -60,14 +75,15 @@ export async function handleVerify(url, db, corsHeaders) {
 }                                  //附註，當沒有特別寫status時，預設是成功請求，並回應200
 
 
+
+
+
 // 登入功能============================================================================================================================================
 export async function handleLogin(request, env) {
   const { email, password } = await request.json();
 
   // 1. 從資料庫抓出該使用者的資料
-  const user = await env.DB.prepare(
-    "SELECT id, password, is_verified FROM users WHERE email = ?"
-  )
+  const user = await env.DB.prepare("SELECT id, password, is_verified, salt FROM users WHERE email = ?")
     .bind(email)
     .first();
 
@@ -84,7 +100,7 @@ export async function handleLogin(request, env) {
 
   // 4. 比對密碼！
   // 關鍵點：用同樣的絞碎機算一次，結果必須一模一樣
-  const currentLoginHash = await hashPassword(password);
+  const currentLoginHash = await hashPassword(password, user.salt);
 
   if (currentLoginHash !== user.password) {
     return new Response("帳號或密碼錯誤", { status: 401 });

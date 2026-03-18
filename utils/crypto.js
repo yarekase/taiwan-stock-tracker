@@ -3,9 +3,11 @@
  * @param {string} password - 使用者輸入的明文密碼
  * @returns {Promise<string>} - 64 位元的十六進位雜湊字串
  */
-export async function hashPassword(password) {
+export async function hashPassword(password, userSalt) {
+  const pepper = "SECRET_PEPPER_IN_ENV"; //準備胡椒
+  const hash = password + userSalt + pepper;
   // 1. 使用TextEncoder()的encode，將字串轉換為位元組
-  const msgUint8 = new TextEncoder().encode(password);
+  const msgUint8 = new TextEncoder().encode(hash);
   
   // 2. 進行加密運算，使用SHA-256演算法
   const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
