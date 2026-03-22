@@ -126,6 +126,7 @@ app.get('/api/stocks', async (c) => {
 
 export default{
     fetch: app.fetch,
+    // app.fetch功能，會讓進來的HTTP請求導向對應的app邏輯裡
 
     async scheduled(event, env, ctx){
         // 由於這裡是純後端運作，沒有前端發送請求，因此不能使用Hono提供的c

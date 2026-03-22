@@ -1,6 +1,7 @@
 import { sign } from 'hono/jwt'; 
 // 使用框架給的JWT工具
 import { hashPassword } from './utils/crypto.js';
+import { sendVerificationEmail } from '../utils/mailService.js';
 
 /** 
  * 處理註冊handleSignup
@@ -41,10 +42,14 @@ export async function handleSignup(c){
   const userId = crypto.randomUUID();
   const token = crypto.randomUUID();
 
-  // 4. 存入資料庫
+  // 4. 存入資料庫===============================================================
   await db.prepare("INSERT INTO users (id, email, password, verification_token, salt) VALUES (?, ?, ?, ?, ?)")
   .bind(userId, email, passwordHash, token, userSalt).run();
     // is_verified預設為0，created_at則會自動產生
+
+  // 使用resend功能寄信
+  c.executionCtx.waitUntil(sendVerificationEmail(email, token, c.env));
+  // 這裡我們要呼喚CF去執行動作，因此用executionCtx或event，讓CF使用原生資源ctx去執行waitUntil
 
   return c.json({ message: "註冊成功，請驗證信箱" },201);
   // 回傳狀態201，要求使用者去接收信箱
@@ -67,13 +72,24 @@ export async function handleVerify(c) {
     const db = c.env.DB;
 
   // 如果沒有token，回傳錯誤
-    if (!token) return c.json({ error: "缺少權杖" },400);
-  // 找到token的值，但在資料庫找不到，也回傳錯誤
+    if (!token) return c.json({ error: "缺少token" },400);
+  
+    // 尋找對應token的使用者
     const user = await db.prepare("SELECT id FROM users WHERE verification_token = ?").bind(token).first();
-    if (!user) return c.json({ error: "無效權杖" },400);
-  // 找到資料庫裡對應的token值，將那名人員的is_verified設定為1，並把token刪除
-    await db.prepare("UPDATE users SET is_verified = 1, verification_token = NULL WHERE id = ?").bind(user.id).run();
-    return c.json({ message: "驗證成功" });  //附註，當沒有特別寫status時，預設是成功請求，並回應200
+    
+    // 找不到使用者，代表token無效
+    if (!user) return c.json({ error: "無效token" },400);
+    
+    // 找到使用者，將那名人員的is_verified設定為1，並把token刪除
+    const result = await db.prepare(`
+      UPDATE users SET is_verified = 1, verification_token = NULL WHERE id = ?`
+      ).bind(user.id).run();
+    
+    if (result.success){
+      return c.json({ message: "驗證成功" });  //附註，當沒有特別寫status時，預設是成功請求，並回應200
+    } else {
+      return c.json({ error: "資料庫更新失敗" },500 );
+    }
 }
 
 /** 
