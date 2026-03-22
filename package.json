@@ -12,11 +12,13 @@
   "dependencies": {
     "dayjs": "^1.11.19",
     "framer-motion": "^12.26.2",
+    "hono": "^4.12.8",
     "motion": "^12.26.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260317.1",
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",

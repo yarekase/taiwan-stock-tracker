@@ -1,18 +1,14 @@
-import { sign } from 'hono/jwt'; 
-// 使用框架給的JWT工具
 import { hashPassword } from './utils/crypto.js';
 
 /** 
  * 處理註冊handleSignup
- * 輸入email跟password
- * 改用hono框架
+ * 處理驗證handleVerify
+ * 處理登入
 */
 
 // 註冊功能========================================================================================================================================
-export async function handleSignup(c){
-  const { email, password } = await c.req.json();  //從請求裡提取出信箱跟密碼，轉成字串
-  const db = c.env.DB;
-  const pepper = c.env.SECRET_PEPPER;
+export async function handleSignup(request, env) {
+  const { email, password } = await request.json();
 
   // 1. 檢查密碼格式 (8-15 碼英數字)============================================
   
@@ -20,97 +16,87 @@ export async function handleSignup(c){
   const passwordRegex = /^[A-Za-z0-9]{8,15}$/;
   // 使用regex規則的text功能檢查密碼是否正確
   if (!passwordRegex.test(password)) {
-    return c.text("密碼格式不符", 400);
+    return new Response("密碼格式不符", { status: 400 });
   }
   // =========================================================================
 
   // 2. 檢查 Email 是否已被註冊================================================
-  const existingUser = await db.prepare("SELECT id FROM users WHERE email = ?")
-  .bind(email).first();
+  const existingUser = await env.DB.prepare("SELECT id FROM users WHERE email = ?")
+    .bind(email)
+    .first();
     // .all()會回傳一個陣列或null，.first()會回傳一個物件或null
     // 使用first()在找到第一筆的時候就會停下來，節省效能
   if (existingUser) {
-    return c.text({error:"此 Email 已被註冊"}, 409);
+    return new Response("此 Email 已被註冊", { status: 409 });
   }
   // =========================================================================
 
   // 3. 密碼加密===============================================================
   // 針對不同用戶產生不同的鹽
   const userSalt = crypto.randomUUID().replace(/-/g, '');  //把原本的36字元去掉4個底線變32字元，同時減少雜湊時可能的問題
+  const pepper = env.SECRET_PEPPER;
   const passwordHash = await hashPassword(password,userSalt,pepper); 
+
   const userId = crypto.randomUUID();
   const token = crypto.randomUUID();
 
   // 4. 存入資料庫
-  await db.prepare("INSERT INTO users (id, email, password, verification_token, salt) VALUES (?, ?, ?, ?, ?)")
-  .bind(userId, email, passwordHash, token, userSalt).run();
+  await env.DB.prepare(
+    "INSERT INTO users (id, email, password, verification_token, salts) VALUES (?, ?, ?, ?, ?)"
+  )
+    .bind(userId, email, passwordHash, token, userSalt)
+    .run();
     // is_verified預設為0，created_at則會自動產生
 
-  return c.json({ message: "註冊成功，請驗證信箱" },201);
+  return new Response(JSON.stringify({ message: "註冊成功，請驗證信箱" }), { status: 201, headers: corsHeaders});
   // 回傳狀態201，要求使用者去接收信箱
 }
 
 // ===================================================================================================================================================
 
-/** 
- * 處理驗證handleVerify
- * 輸入url
- * 改用hono框架
-*/
+
 
 
 // 驗證功能============================================================================================================================================
  
-export async function handleVerify(c) {
-  // 使用Hono框架的query，去尋找url上的"token=金鑰"部分
-    const token = c.req.query("token");
-    const db = c.env.DB;
-
-  // 如果沒有token，回傳錯誤
-    if (!token) return c.json({ error: "缺少權杖" },400);
+export async function handleVerify(url, db, corsHeaders) {
+  // 使用url物件的searchParams，去尋找網址上的"token=金鑰"部分，如果沒有token，回傳錯誤
+    const token = url.searchParams.get("token");
+    if (!token) return new Response(JSON.stringify({ error: "缺少權杖" }), { status: 400, headers: corsHeaders });
   // 找到token的值，但在資料庫找不到，也回傳錯誤
     const user = await db.prepare("SELECT id FROM users WHERE verification_token = ?").bind(token).first();
-    if (!user) return c.json({ error: "無效權杖" },400);
+    if (!user) return new Response(JSON.stringify({ error: "無效權杖" }), { status: 400, headers: corsHeaders });
   // 找到資料庫裡對應的token值，將那名人員的is_verified設定為1，並把token刪除
     await db.prepare("UPDATE users SET is_verified = 1, verification_token = NULL WHERE id = ?").bind(user.id).run();
-    return c.json({ message: "驗證成功" });  //附註，當沒有特別寫status時，預設是成功請求，並回應200
-}
+    return new Response(JSON.stringify({ message: "驗證成功" }), { headers: corsHeaders });
+}                                  //附註，當沒有特別寫status時，預設是成功請求，並回應200
 
-/** 
- * 處理驗證handleLogin
- * 改用hono框架
-*/
+
+
+
 
 // 登入功能============================================================================================================================================
-export async function handleLogin(c) {
-  const { email, password } = await c.req.json();
-  const db = c.env.DB;
-  const pepper = c.env.SECRET_PEPPER;
+export async function handleLogin(request, env) {
+  const { email, password } = await request.json();
 
+  // 1. 從資料庫抓出該使用者的資料
   const user = await env.DB.prepare("SELECT id, password, is_verified, salt FROM users WHERE email = ?")
     .bind(email)
     .first();
 
-  // 檢查使用者是否存在
-  if (!user) return c.text("帳號或密碼錯誤", 401);
+  // 2. 檢查使用者是否存在
+  if (!user) {return new Response("帳號或密碼錯誤", { status: 401 });}
 
-  // 檢查是否已做了帳號驗證
-  if (!user.is_verified) return c.text("請先驗證帳號", 403);
+  // 3. 檢查是否已做了帳號驗證
+  if (!user.is_verified) {return new Response("請先驗證您的帳號", { status: 403 });}
 
-  // 比對密碼
-  const currentLoginHash = await hashPassword(password, user.salt, pepper);
-  if (currentLoginHash !== user.password) return c.text("帳號或密碼錯誤", 401);
+  // 4. 比對密碼
+  const currentLoginHash = await hashPassword(password, user.salt);
+  if (currentLoginHash !== user.password) {return new Response("帳號或密碼錯誤", { status: 401 });}
 
-  // 登入成功，發放憑證 (Session 或 JWT)
-const payload = {
-  userId: user.id,
-  exp: Math.floor(Date.now() / 1000) + (7*24*60*60)
-};
-
-const token = await sign(payload, c.env.JWT_SECRET);
-
-  return c.json({
+  // 5. 登入成功，發放憑證 (Session 或 JWT)
+  return new Response(JSON.stringify({ 
     message: "登入成功",
-    token: token 
-  });
+    userId: user.id 
+  }), { status: 200 });
 }

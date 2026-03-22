@@ -1,130 +1,140 @@
 // 匯入crawlerForCF的函式=============================
 // 對應檔案裡匯出的形式export { updateAllStocks };;
+import { Hono } from 'hono';
+import { cors } from 'hono/cors';
+import { Jwt } from 'hono/utils/jwt';
 import { updateAllStocks } from './crawlerForCF.js';
-import { handleSignup, handleVerify } from './auth.js';
+import { handleSignup, handleVerify, handleLogin } from './auth.js';
+
+// 初始化Hono
+const app = new Hono;
+
+// =====================================================================================
+
+// 處理CORS
+// 使用框架use(中間件Middleware)功能，在處理其他API之前，先處理一些重複的事情
+// 處理的範圍是所有API網址都要，因為這裡要處理的是CORS
+// 這裡使用框架的cors功能，處理瀏覽器發送的預檢請求(Preflight)
+app.use('*', cors({
+    origin: '*',       //等同"Access-Control-Allow-Origin"，*是所有網域都接受，日後改成自己的網域
+    allowMethods: ['GET','POST','DELETE','OPTIONS'],
+    allowHeaders: ['Content-Type', 'Authorization']  // 由於要使用JWT，必須增加Authorization這個Headers
+}));
+
+// =====================================================================================
+
+/* 
+c便是上下文Context，將request,env,ctx三個參數包含在一起
+箭頭函數(c)：當參數只有一個時，()可以省略，當有兩個或沒有參數時，需要使用()
+*/
+
+// 首頁
+app.get('/', (c) => {
+    return c.text('台股紀錄伺服器穩定運行中');  //c.text：回傳純文字，自動包含了標頭
+});
+
+// 認證相關功能(註冊/驗證/登入)
+
+app.post('api/signup', async (c)=> handleSignup);
+app.get('api/verify', async (c)=> handleVerify);
+app.post('api/login', async (c)=> handleLogin);
+
+// =====================================================================================
+
+// JWT保護層，只要經過auth的都會經過這層
+app.use('/api/auth/*', (c,next)=>{
+    // jwt()函式：當執行時，會自動去檢查req headers，尋找到Authorization並且自動拆分出來找到token
+    // 接著將token分成三段（Header, Payload, Signature）
+    // 使用secret: c.env.JWT_SECRET，配合token前兩段，重新計算後比對跟Signature是否吻合
+    // 如果吻合則執行await next()，並且把payload放入c裡面，此時程式碼會暫停等待吻合的next()
+    const authMiddleware = jwt({secret: c.env.JWT_SECRET});
+    return authMiddleware(c,next);
+})
+
+// 受保護的API
+// =====================================================================================
+// 取得紀錄
+app.get('/api/auth/records/*',async (c)=>{
+    const db = c.env.DB;
+    const payload = c.get('jwtPayload');  //從jwt()得到的資料
+    const userId = payload.userId;  //在auth.js裡面的handleLogin存進去的
+
+    const {results} = await db.prepare(`
+        SELECT id, trade_date AS date, stock_id AS stockId, stock_name AS stockName,
+        action AS type, price, quantity
+        FROM records
+        WHERE user_id =?
+        ORDER BY trade_date DESC
+        `).bind(userId).all();
+
+    return c.json(results);
+});
+
+// =====================================================================================
+
+// 新增記錄
+app.post('/api/auth/records',async (c) => {
+    const db = c.env.DB;
+    const payload = c.get('jwtPayload');
+    const userId = payload.userId;
+    const {date, stockId, stockName, type, price, quantity} = await c.req.json();
+
+    const result = await db.prepare(`
+        INSERT INTO records (user_id, trade_date, stock_id, stock_name, action, price, quantity)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        `).bind(userId, date, stockId, stockName, type, price, quantity).run();
+
+    return c.json({message: "紀錄新增完畢", recordId: result.meta.last_row_id},201);
+    // message跟recordId都是json欄位不是物件
+    // D1回傳的result有個meta會保存各種數據，裡面的last_row_id就是最新的表格id欄位
+    // 前端拿到這個id，便可以在不經由資料庫的情況下去渲染畫面
+})
+
+// =====================================================================================
+
+// 刪除記錄
+app.delete('/api/auth/records/:id', async (c)=>{
+    const db = c.env.DB;
+    const payload = c.get('jwtPayload');
+    const userId = payload.userId;
+    const id = c.req.param("id");
+    // url裡面的:id，把/後面的資料放入了id裡，接著透過param讀取id對應的值
+
+    // 為了確保安全性，增加一個AND user_id = ?好檢查更動的表格確實是使用者的
+    const result = await db.prepare("DELETE FROM records WHERE id = ? AND user_id = ?")
+    .bind(id, userId).run();
+
+    // 如果沒有任何更動，可能出錯了
+    if (result.meta.changes === 0){
+        return c.json({error: '找不到紀錄或無權進行動作'},404 );
+    }
+
+    return c.json({message: '刪除成功'});
+});
+
+// =====================================================================================
+
+// 不須保護的API
+// 取得股票清單
+
+app.get('/api/stocks', async (c) => {
+  const { results } = await c.env.DB.prepare(
+    "SELECT stock_id, stock_name, current_price FROM stocklist"
+  ).all();
+  return c.json(results);
+});
 
 export default{
-    // 1.進行HTTP請求處理
-    // 新增CRUD要求
-    // 由於worker不是透過exprss的listen持續監聽，而是事件驅動，因此要寫當使用者發送請求時，讓CF做什麼
-    async fetch(request, env, ctx){
-        
-        // 處理請求的url
-        const url = new URL(request.url);
-        const {pathname} = url;
-        // 處理請求的method
-        const method = request.method;
-        // 連線D1資料庫
-        const db = env.DB;
+    fetch: app.fetch,
 
-        // 處理CORS，取代app.use(cors())的寫法，自行定義標頭，最基本的是需要這幾個：
-        // origin網域來源、method做什麼事情、header帶著什麼東西、content-type讓前端知道這個是json檔要轉成物件
-        const corsHeaders ={
-            // 前端請求是CF提供的前端網址才可進入
-            "Access-Control-Allow-Origin":"*",
-            // 前端可請求的動作為何
-            "Access-Control-Allow-Methods":"GET,POST,DELETE,OPTIONS",
-            // 允許前端請求帶有Content-Type的標頭
-            "Access-Control-Allow-Headers":"Content-Type",
-            // 伺服器回應的內容格式為JSON格式
-            "Content-Type":"application/json; charset=UTF-8"
-        };
-
-        // 當前端發出CORS請求時，HTTP請求方法會是OPTIONS，如果是這個，不用做回應(null)，然後允許請求
-        if (method ==="OPTIONS") return new Response(null, {headers:corsHeaders});
-
-        // 針對首頁執行===========================================================
-        if (pathname === "/" || pathname === "") {
-            return new Response("🚀 台灣股票追蹤器 API 伺服器正在高雄穩定運行中！", { 
-                headers: { 
-                    ...corsHeaders, 
-                    "Content-Type": "text/plain; charset=UTF-8" 
-                } 
-            });
-        }
-
-        // 開始針對動作執行=========================================================
-        try{
-            // 註冊帳號的方法============================================
-            if (method === "POST" && pathname === "/api/signup") {
-                return await handleSignup(request, db, corsHeaders);
-            }
-            // 驗證帳號的方法============================================
-            if (method === "GET" && pathname === "/api/verify") {
-                return await handleVerify(url, db, corsHeaders);
-            }
-
-            // 讀取records的方法=========================================
-            if (method === "GET" && pathname ==="/api/records") {
-                // 抓取資料，轉換成前端的名稱，用交易日期做排序，DESC是從小到大，ASC是從大到小
-                // prepare包含了results跟meta兩個資料，前者是抓到的資料陣列，後者是這次查詢的統計資訊，這裡只需要results
-                // .all()在資料庫中，代表取得多行資料，在CF特別跟run等效
-                const {results} =await db.prepare(`
-                    SELECT id,
-                    trade_date AS date,
-                    stock_id AS stockId,
-                    stock_name AS stockName,
-                    action AS type,
-                    price,
-                    quantity
-                    FROM records ORDER BY trade_date DESC
-                    `).all();
-                return new Response(JSON.stringify(results), { headers: corsHeaders });
-            };
-
-            // 更新records的方法=========================================
-            if (method === "POST" && pathname === "/api/records") {
-                // 從請求裡抓取前端的各個資料
-                const { date, stockId, stockName, price, quantity, type } = await request.json();
-                const result = await db.prepare(`
-                    INSERT INTO records (trade_date, stock_id, stock_name, action, price, quantity)
-                    VALUES (?, ?, ?, ?, ?, ?)
-                `).bind(date, stockId, stockName, type, price, quantity).run();
-                // 先填入站位符號?，把用bind資料填入，注意位置要對應很重要
-                // 最後執行run
-                return new Response(JSON.stringify({ message: '儲存完畢', recordId: result.meta.last_row_id }), { status: 201, headers: corsHeaders });
-            }
-
-            // 刪除各別record的方法=========================================
-            // 這裡的將會針對/api/records/:id做操作，因此pathname設定上改成/api/records/開頭而非===
-            if (method === "DELETE" && pathname.startsWith("/api/records/")) {
-                // 移除"/"符號，變成api,records,id，透過pop取得最後一個資料得到要刪除的id
-                const id = pathname.split("/").pop();
-                const result = await db.prepare("DELETE FROM records WHERE id = ?").bind(id).run();
-
-                // 透過prpare裡的meta紀錄，尋找changes這個有幾行資料變動的數據，如果沒有變動，代表沒找到這個id
-                if (result.meta.changes === 0) return new Response(JSON.stringify({ error: '找不到紀錄' }), { status: 404, headers: corsHeaders });
-                
-                return new Response(JSON.stringify({ message: '刪除成功' }), { headers: corsHeaders });
-            }
-
-            // 取得stocks的方法=========================================
-            if (method === "GET" && pathname === "/api/stocks") {
-                const { results } = await db.prepare("SELECT stock_id, stock_name, current_price FROM stocklist").all();
-                return new Response(JSON.stringify(results), { headers: corsHeaders });
-            }
-
-            // 預留手動觸發爬蟲的路徑=========================================
-            // if (pathname === "/run-crawler") {
-            //     ctx.waitUntil(updateAllStocks(db));
-            //     return new Response("爬蟲啟動中", { headers: corsHeaders });
-            // }
-
-            // 如果上面幾個通通沒有抓到，回傳沒找到資料，可能api有錯
-
-            return new Response("Not Found", { status: 404, headers: corsHeaders });
-
-
-        }catch(error){
-            return new Response(JSON.stringify({error:error.message}),{status:500,headers:corsHeaders});
-        }      
-    },
-
-    // ===============================================================================================
-    // 2.定時任務處理
     async scheduled(event, env, ctx){
-        // evb.DB對應的是wrangler裡的名字
+        // 由於這裡是純後端運作，沒有前端發送請求，因此不能使用Hono提供的c
         const db = env.DB;
         ctx.waitUntil(updateAllStocks(db));
+        // 由於updateAllStocks可能會花一段時間，因此需要用waitUntil去執行
+        // 與await的不同
+        // await把這串函式停下來，放到背景去等待，等其他程式碼結束後才丟回call stack
+        // waitUntill是CF特有的功能，由於爬蟲耗時較長，waitUntill讓函式移開call stack後
+        // 讓worker持續運行，不丟回call stack，因此主程序做完就能立刻結束
     }
 };
