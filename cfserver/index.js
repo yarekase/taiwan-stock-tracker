@@ -2,7 +2,7 @@
 // 對應檔案裡匯出的形式export { updateAllStocks };;
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
-import { Jwt } from 'hono/utils/jwt';
+import { jwt } from 'hono/utils/jwt';
 import { updateAllStocks } from './crawlerForCF.js';
 import { handleSignup, handleVerify, handleLogin } from './auth.js';
 
