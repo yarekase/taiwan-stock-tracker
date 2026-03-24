@@ -72,11 +72,10 @@ app.get('/api/auth/records',async (c)=>{
     const userId = payload.userId;  //在auth.js裡面的handleLogin存進去的
 
     const {results} = await db.prepare(`
-        SELECT id, trade_date AS date, stock_id AS stockId, stock_name AS stockName,
-        action AS type, price, quantity
+        SELECT id, date, stockId, stockName, type, price, quantity
         FROM records
         WHERE user_id =?
-        ORDER BY trade_date DESC
+        ORDER BY date DESC
         `).bind(userId).all();
 
     return c.json(results);
@@ -92,7 +91,7 @@ app.post('/api/auth/records',async (c) => {
     const {date, stockId, stockName, type, price, quantity} = await c.req.json();
 
     const result = await db.prepare(`
-        INSERT INTO records (user_id, trade_date, stock_id, stock_name, action, price, quantity)
+        INSERT INTO records (user_id, date, stockId, stockName, type, price, quantity)
         VALUES (?, ?, ?, ?, ?, ?, ?)
         `).bind(userId, date, stockId, stockName, type, price, quantity).run();
 
