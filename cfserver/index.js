@@ -47,7 +47,10 @@ app.use('/api/auth/*', (c,next)=>{
     // 接著將token分成三段（Header, Payload, Signature）
     // 使用secret: c.env.JWT_SECRET，配合token前兩段，重新計算後比對跟Signature是否吻合
     // 如果吻合則執行await next()，並且把payload放入c裡面，此時程式碼會暫停等待吻合的next()
-    const authMiddleware = jwt({secret: c.env.JWT_SECRET});
+    const authMiddleware = jwt({
+        secret: c.env.JWT_SECRET,
+        alg: 'HS256'
+    });
     return authMiddleware(c,next);
 })
 

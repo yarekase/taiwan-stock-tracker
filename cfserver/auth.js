@@ -123,7 +123,7 @@ const payload = {
   exp: Math.floor(Date.now() / 1000) + (7*24*60*60)
 };
 
-const token = await sign(payload, c.env.JWT_SECRET);
+const token = await sign(payload, c.env.JWT_SECRET, , 'HS256');
 
   return c.json({
     message: "登入成功",
