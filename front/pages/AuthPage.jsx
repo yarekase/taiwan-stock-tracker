@@ -1,11 +1,13 @@
 // src/pages/AuthPage.jsx
 import { useState } from 'react';
 import './AuthPage.css'; // 匯入專用樣式
+import { postLogin, postSignup } from '../src/api';
 
 /**
  * 身分驗證頁面 (登入 & 註冊)
- * @param {function} onAuthSuccess - 認證成功時呼叫的函式 (用來更新 App.jsx 的 Token)
+ * @param {function} onAuthSuccess - 由APP.jsx傳遞下來的方法，認證成功時呼叫的函式
  */
+
 
 function AuthPage({ onAuthSuccess }) {
   // 1. 狀態管理 ============================================================
@@ -13,11 +15,16 @@ function AuthPage({ onAuthSuccess }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState({ type: '', text: '' }); // 用來顯示成功或錯誤訊息
-  const [isLoading, setIsLoading] = useState(false); // 防止重複點擊
+  // 建立一個loading的狀態，讓點擊下去後的按鈕停止再次被運作
+  const [isLoading, setIsLoading] = useState(false);
 
   // 2. 表單提交邏輯 ==========================================================
   const handleSubmit = async (e) => {
-    e.preventDefault(); // 防止網頁重新載入
+    // 由於<form>標籤的特性是執行的瞬間會對瀏覽器進行重新整理
+    // 一旦重新整理，React狀態管理所記憶的值就會全部消失
+    // 為了避免此事法生，需要做preventDefault()動作讓
+    e.preventDefault(); 
+    // 清空訊息並且鎖定按鈕
     setMessage({ type: '', text: '' });
     setIsLoading(true);
 
@@ -29,29 +36,15 @@ function AuthPage({ onAuthSuccess }) {
         return;
     }
 
-    // 根據模式選擇 API 路徑 (這裡請對應你的 Hono 後端網址)
-    const apiUrl = isLogin ? 'http://localhost:8787/api/auth/login' : 'http://localhost:8787/api/auth/signup';
-
     try {
-      const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, password }),
-      });
+    // 根據是否登入來選擇 API 函式
+    const data = isLogin ? await postLogin(email, password) : await postSignup(email, password);
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || '認證失敗');
-      }
-
-      // 成功處理 -----------------------------------------------------------
+      // 判斷登入狀態與否
       if (isLogin) {
-        // 登入成功：拿回 JWT Token
+        // 登入成功：取得token
         setMessage({ type: 'success', text: '登入成功！正在導向主頁...' });
-        // 呼叫 App.jsx 傳下來的函式，將 Token 存入 localStorage 並更新狀態
+        // 顯示訊息，延遲一秒，呼叫 App.jsx 傳下來的函式，將 Token 傳入
         setTimeout(() => onAuthSuccess(data.token), 1000);
       } else {
         // 註冊成功：提示去收信
@@ -59,11 +52,13 @@ function AuthPage({ onAuthSuccess }) {
         // 清空表單，切換到登入模式
         setEmail('');
         setPassword('');
+        // 顯示訊息，延遲三秒，跳轉到登入狀態
         setTimeout(() => setIsLogin(true), 3000);
       }
     } catch (error) {
       console.error('Auth Error:', error);
       setMessage({ type: 'error', text: error.message });
+      // finally是不管try有沒有成功，都會執行的動作，讓loading狀態鎖定解除
     } finally {
       setIsLoading(false);
     }
@@ -75,25 +70,26 @@ function AuthPage({ onAuthSuccess }) {
       <div className="auth-card">
         <div className="auth-header">
           <h1>台股買賣紀錄本</h1>
-          <p>{isLogin ? '歡迎回來，請先登入' : '立即註冊，開始追蹤您的投資'}</p>
+          <p>{isLogin ? '歡迎回來，請先登入' : '請使用信箱進行註冊'}</p>
         </div>
 
-        {/* 顯示訊息區域 */}
+        {/* 如果有訊息需要顯示，則顯示訊息 */}
         {message.text && (
           <div className={`auth-message ${message.type}`}>
             {message.text}
           </div>
         )}
-
+        {/* 帳號密碼表單 */}
         <form onSubmit={handleSubmit} className="auth-form">
           <div className="form-group">
+            {/*htmlFor在被點擊後，滑鼠游標會自動跳入對應id的輸入框*/}
             <label htmlFor="email">電子信箱</label>
             <input
               type="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="yoshua@gmail.com"
+              placeholder="請填寫信箱"
               required
             />
           </div>
@@ -105,7 +101,7 @@ function AuthPage({ onAuthSuccess }) {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="8-15碼英數字"
+              placeholder="8-15碼英文與數字(區分大小寫)"
               required
             />
           </div>

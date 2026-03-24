@@ -9,6 +9,31 @@ export const fetchStockList = async () =>{
     return response.json();
 };
 
+// 註冊 API =========================================================
+export const postSignup = async (email, password) => {
+    const response = await fetch(`${api_url}/auth/signup`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "註冊失敗");
+    return data;
+};
+
+// 登入 API =========================================================
+export const postLogin = async (email, password) => {
+    const response = await fetch(`${api_url}/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "登入失敗");
+    return data; // 這裡會回傳 { token: "..." }
+};
+
+
 // 取得股票資訊=========================================================
 export const fetchStock = async (stockId) =>{
     const response = await fetch(`${api_url}/stock/${stockId}`);
@@ -19,20 +44,27 @@ export const fetchStock = async (stockId) =>{
 
 
 // 讀取股票紀錄=========================================================
-export const fetchRecords = async () => {
-    const response = await fetch(`${api_url}/records`); // 對應後端的 GET /api/records
+export const fetchRecords = async (token) => {
+    const response = await fetch(`${api_url}/records`,{
+        method: 'GET',
+        headers: {'Authorization': `Bearer ${token}` }
+    }); //需要攜帶token才能讀取紀錄
+    
     if(!response.ok) throw new Error("取得紀錄失敗");
     return response.json();
 };
 
 
 // 儲存股票紀錄=========================================================
-export const postRecord = async (record) =>{
+export const postRecord = async (record, token) =>{
     // await fetch(url, options)
     // fetch完成以後，會回傳一個物件給response
     const response = await fetch(`${api_url}/records`,{
         method: 'POST',     //讓後端知道這是要做傳送
-        headers: {'Content-Type':'application/json'},  //讓後端知道裡面是json格式的文字
+        headers: {
+            'Content-Type':'application/json',  //讓後端知道裡面是json格式的文字
+            'Authorization': `Bearer ${token}`
+        },  
         body: JSON.stringify(record),       //把JS物件轉換成字串傳送出去
     });
     // 檢查fetch回傳的物件有沒有問題
@@ -42,11 +74,14 @@ export const postRecord = async (record) =>{
 };
 
 // 刪除股票紀錄=========================================================
-export const deleteRecord = async (id) => {
+export const deleteRecord = async (id, token) => {
     const response = await fetch(`${api_url}/records/${id}`,{
         method: 'DELETE',
+        headers: {'Authorization': `Bearer ${token}` }
     });
 
-    if (!response.ok) throw new Error("刪除資料失敗");
+    if (!response.ok){
+        const errorData = await response.json();
+        throw new Error(errorData.error || "刪除資料失敗，權限不足");}
     return response.json();
 };
