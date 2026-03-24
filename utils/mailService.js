@@ -6,8 +6,8 @@
  */
 export async function sendVerificationEmail(email, token, env) {
   // 之後根據網址修改，或是存在 env 裡
-  const baseUrl = env.APP_DOMAIN || 'https://taiwan-stock-tracker.pages.dev/';
-  const verifyUrl = `${baseUrl}/api/auth/verify?token=${token}`;
+  const baseUrl = env.APP_DOMAIN || 'https://taiwan-stock-tracker.pages.dev';
+  const verifyUrl = `${baseUrl}/api/verify?token=${token}`;
   
   const response = await fetch('https://api.resend.com/emails', {
     method: 'POST',
