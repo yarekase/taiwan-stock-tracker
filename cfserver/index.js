@@ -35,9 +35,9 @@ app.get('/', (c) => {
 
 // 認證相關功能(註冊/驗證/登入)
 
-app.post('api/signup', async (c)=> handleSignup);
-app.get('api/verify', async (c)=> handleVerify);
-app.post('api/login', async (c)=> handleLogin);
+app.post('/api/signup', handleSignup);
+app.get('/api/verify', handleVerify);
+app.post('/api/login', handleLogin);
 
 // =====================================================================================
 
@@ -57,7 +57,7 @@ app.use('/api/auth/*', (c,next)=>{
 // 受保護的API
 // =====================================================================================
 // 取得紀錄
-app.get('/api/auth/records/*',async (c)=>{
+app.get('/api/auth/records',async (c)=>{
     const db = c.env.DB;
     const payload = c.get('jwtPayload');  //從jwt()得到的資料
     const userId = payload.userId;  //在auth.js裡面的handleLogin存進去的

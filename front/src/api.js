@@ -11,7 +11,7 @@ export const fetchStockList = async () =>{
 
 // 註冊 API =========================================================
 export const postSignup = async (email, password) => {
-    const response = await fetch(`${api_url}/auth/signup`, {
+    const response = await fetch(`${api_url}/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -23,7 +23,7 @@ export const postSignup = async (email, password) => {
 
 // 登入 API =========================================================
 export const postLogin = async (email, password) => {
-    const response = await fetch(`${api_url}/auth/login`, {
+    const response = await fetch(`${api_url}/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -45,7 +45,7 @@ export const fetchStock = async (stockId) =>{
 
 // 讀取股票紀錄=========================================================
 export const fetchRecords = async (token) => {
-    const response = await fetch(`${api_url}/records`,{
+    const response = await fetch(`${api_url}/auth/records`,{
         method: 'GET',
         headers: {'Authorization': `Bearer ${token}` }
     }); //需要攜帶token才能讀取紀錄
@@ -59,7 +59,7 @@ export const fetchRecords = async (token) => {
 export const postRecord = async (record, token) =>{
     // await fetch(url, options)
     // fetch完成以後，會回傳一個物件給response
-    const response = await fetch(`${api_url}/records`,{
+    const response = await fetch(`${api_url}/auth/records`,{
         method: 'POST',     //讓後端知道這是要做傳送
         headers: {
             'Content-Type':'application/json',  //讓後端知道裡面是json格式的文字
@@ -75,7 +75,7 @@ export const postRecord = async (record, token) =>{
 
 // 刪除股票紀錄=========================================================
 export const deleteRecord = async (id, token) => {
-    const response = await fetch(`${api_url}/records/${id}`,{
+    const response = await fetch(`${api_url}/auth/records/${id}`,{
         method: 'DELETE',
         headers: {'Authorization': `Bearer ${token}` }
     });
