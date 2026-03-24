@@ -86,7 +86,7 @@ export async function handleVerify(c) {
       ).bind(user.id).run();
     
     if (result.success){
-      return c.json({ message: "驗證成功" });  //附註，當沒有特別寫status時，預設是成功請求，並回應200
+      return c.redirect('https://taiwan-stock-tracker.pages.dev/login');  //跳轉回登入頁面
     } else {
       return c.json({ error: "資料庫更新失敗" },500 );
     }

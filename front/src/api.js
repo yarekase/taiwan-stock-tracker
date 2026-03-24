@@ -34,13 +34,13 @@ export const postLogin = async (email, password) => {
 };
 
 
-// 取得股票資訊=========================================================
-export const fetchStock = async (stockId) =>{
-    const response = await fetch(`${api_url}/stock/${stockId}`);
+// // 取得股票資訊=========================================================
+// export const fetchStock = async (stockId) =>{
+//     const response = await fetch(`${api_url}/stock/${stockId}`);
 
-    if(!response.ok) throw new Error("找不到股票資訊");
-    return response.json();
-};
+//     if(!response.ok) throw new Error("找不到股票資訊");
+//     return response.json();
+// };
 
 
 // 讀取股票紀錄=========================================================

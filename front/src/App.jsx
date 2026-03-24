@@ -59,7 +59,7 @@ function App() {
       } catch (error) {
         console.error("讀取紀錄失敗，請確認後端",error);
         // 若後端回傳401或過期資訊，則清空token 
-        if (error.message.incudes("401")|| error.message.incudes("過期")){
+        if (error.message.includes("401")|| error.message.inlcudes("過期")){
           setToken(null);
           localStorage.removeItem("stock_token");
         }       

@@ -60,6 +60,15 @@ app.use('/api/auth/*', (c,next)=>{
 app.get('/api/auth/records',async (c)=>{
     const db = c.env.DB;
     const payload = c.get('jwtPayload');  //從jwt()得到的資料
+
+// 測試
+    if (!payload || !payload.userId) {
+            console.error("❌ Token 解析失敗或缺少 userId");
+            return c.json({ error: "無效的授權資訊" }, 401);
+        }
+
+
+
     const userId = payload.userId;  //在auth.js裡面的handleLogin存進去的
 
     const {results} = await db.prepare(`
