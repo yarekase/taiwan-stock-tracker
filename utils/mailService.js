@@ -17,7 +17,7 @@ export async function sendVerificationEmail(email, token, env) {
     },
     body: JSON.stringify({
       from: 'onboarding@resend.dev', // 註冊網域後再修改
-      to: email,
+      to: 'ejimtpck@gmail.com',
       subject: '台股追蹤系統 - 驗證您的帳號',
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: auto; border: 1px solid #eee; padding: 20px;">
