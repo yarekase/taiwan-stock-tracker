@@ -21,7 +21,7 @@ export async function handleSignup(c){
   const passwordRegex = /^[A-Za-z0-9]{8,15}$/;
   // 使用regex規則的text功能檢查密碼是否正確
   if (!passwordRegex.test(password)) {
-    return c.text("密碼格式不符", 400);
+    return c.json({error:"密碼格式不符"}, 400);
   }
   // =========================================================================
 
@@ -31,7 +31,7 @@ export async function handleSignup(c){
     // .all()會回傳一個陣列或null，.first()會回傳一個物件或null
     // 使用first()在找到第一筆的時候就會停下來，節省效能
   if (existingUser) {
-    return c.text({error:"此 Email 已被註冊"}, 409);
+    return c.json({error:"此 Email 已被註冊"}, 409);
   }
   // =========================================================================
 
@@ -108,10 +108,10 @@ export async function handleLogin(c) {
     .first();
 
   // 檢查使用者是否存在
-  if (!user) return c.text("帳號或密碼錯誤", 401);
+  if (!user) return c.json({error: "帳號或密碼錯誤"}, 401);
 
   // 檢查是否已做了帳號驗證
-  if (!user.is_verified) return c.text("請先驗證帳號", 403);
+  if (!user.is_verified) return c.json({error: "請先驗證帳號"}, 403);
 
   // 比對密碼
   const currentLoginHash = await hashPassword(password, user.salt, pepper);
