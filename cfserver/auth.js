@@ -103,7 +103,7 @@ export async function handleLogin(c) {
   const db = c.env.DB;
   const pepper = c.env.SECRET_PEPPER;
 
-  const user = await env.DB.prepare("SELECT id, password, is_verified, salt FROM users WHERE email = ?")
+  const user = await db.prepare("SELECT id, password, is_verified, salt FROM users WHERE email = ?")
     .bind(email)
     .first();
 
