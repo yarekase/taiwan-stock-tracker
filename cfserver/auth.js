@@ -1,6 +1,6 @@
 import { sign } from 'hono/jwt'; 
 // 使用框架給的JWT工具
-import { hashPassword } from './utils/crypto.js';
+import { hashPassword } from '../utils/crypto.js';
 import { sendVerificationEmail } from '../utils/mailService.js';
 
 /** 
